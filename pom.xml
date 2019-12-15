@@ -8,6 +8,7 @@
         <module>hateoas-modules</module>
         <module>mvc-security-modules</module>
         <module>hateoas-security-modules</module>
+        <module>app-project</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
