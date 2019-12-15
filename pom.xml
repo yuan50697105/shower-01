@@ -5,6 +5,15 @@
     <packaging>pom</packaging>
     <modules>
         <module>mvc-demo-01</module>
+        <module>mvc-hateoas-demo-01</module>
+        <module>mvc-jdbc-sqlhelper-demo-01</module>
+        <module>mvc-jpa-sqlhelper-demo-01</module>
+        <module>mvc-mybatis-base-pagehelper-demo-01</module>
+        <module>mvc-mybatis-base-sqlhelper-demo-01</module>
+        <module>mvc-mybatis-mapper-pagehelper-demo-01</module>
+        <module>mvc-mybatis-mapper-sqlhelper-demo-01</module>
+        <module>mvc-mybatis-plus-base-demo-01</module>
+        <module>mvc-mybatis-plus-sqlhelper-demo-01</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -23,6 +32,11 @@
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.0.7</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>

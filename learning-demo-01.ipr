@@ -6,16 +6,44 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="mvc-mybatis-mapper-pagehelper-demo-01" />
+        <module name="mvc-mybatis-base-pagehelper-demo-01" />
         <module name="mvc-demo-01" />
+        <module name="mvc-jdbc-sqlhelper-demo-01" />
+        <module name="mvc-hateoas-demo-01" />
+        <module name="mvc-mybatis-mapper-sqlhelper-demo-01" />
+        <module name="mvc-mybatis-plus-sqlhelper-demo-01" />
+        <module name="mvc-mybatis-plus-base-demo-01" />
+        <module name="mvc-jpa-sqlhelper-demo-01" />
+        <module name="mvc-mybatis-base-sqlhelper-demo-01" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="learning-demo-01" target="11" />
       <module name="mvc-demo-01" target="11" />
+      <module name="mvc-hateoas-demo-01" target="11" />
+      <module name="mvc-jdbc-sqlhelper-demo-01" target="11" />
+      <module name="mvc-jpa-sqlhelper-demo-01" target="11" />
+      <module name="mvc-mybatis-base-pagehelper-demo-01" target="11" />
+      <module name="mvc-mybatis-base-sqlhelper-demo-01" target="11" />
+      <module name="mvc-mybatis-mapper-pagehelper-demo-01" target="11" />
+      <module name="mvc-mybatis-mapper-sqlhelper-demo-01" target="11" />
+      <module name="mvc-mybatis-plus-base-demo-01" target="11" />
+      <module name="mvc-mybatis-plus-sqlhelper-demo-01" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/mvc-demo-01/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mvc-hateoas-demo-01/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mvc-jdbc-sqlhelper-demo-01/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mvc-jpa-sqlhelper-demo-01/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mvc-mybatis-base-pagehelper-demo-01/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mvc-mybatis-base-sqlhelper-demo-01/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mvc-mybatis-mapper-pagehelper-demo-01/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mvc-mybatis-mapper-sqlhelper-demo-01/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mvc-mybatis-plus-base-demo-01/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mvc-mybatis-plus-base-demo-01/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mvc-mybatis-plus-sqlhelper-demo-01/src/main/java" charset="UTF-8" />
   </component>
   <component name="InspectionProjectProfileManager">
     <profile version="1.0">
@@ -58,6 +86,15 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="learning-demo-01" options="-parameters" />
       <module name="mvc-demo-01" options="-parameters" />
+      <module name="mvc-hateoas-demo-01" options="-parameters" />
+      <module name="mvc-jdbc-sqlhelper-demo-01" options="-parameters" />
+      <module name="mvc-jpa-sqlhelper-demo-01" options="-parameters" />
+      <module name="mvc-mybatis-base-pagehelper-demo-01" options="-parameters" />
+      <module name="mvc-mybatis-base-sqlhelper-demo-01" options="-parameters" />
+      <module name="mvc-mybatis-mapper-pagehelper-demo-01" options="-parameters" />
+      <module name="mvc-mybatis-mapper-sqlhelper-demo-01" options="-parameters" />
+      <module name="mvc-mybatis-plus-base-demo-01" options="-parameters" />
+      <module name="mvc-mybatis-plus-sqlhelper-demo-01" options="-parameters" />
     </option>
   </component>
   <component name="MavenProjectsManager">
@@ -71,12 +108,35 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/learning-demo-01.iml" filepath="$PROJECT_DIR$/learning-demo-01.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvc-demo-01/mvc-demo-01.iml" filepath="$PROJECT_DIR$/mvc-demo-01/mvc-demo-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvc-hateoas-demo-01/mvc-hateoas-demo-01.iml" filepath="$PROJECT_DIR$/mvc-hateoas-demo-01/mvc-hateoas-demo-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvc-jdbc-sqlhelper-demo-01/mvc-jdbc-sqlhelper-demo-01.iml" filepath="$PROJECT_DIR$/mvc-jdbc-sqlhelper-demo-01/mvc-jdbc-sqlhelper-demo-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvc-jpa-sqlhelper-demo-01/mvc-jpa-sqlhelper-demo-01.iml" filepath="$PROJECT_DIR$/mvc-jpa-sqlhelper-demo-01/mvc-jpa-sqlhelper-demo-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvc-mybatis-base-pagehelper-demo-01/mvc-mybatis-base-pagehelper-demo-01.iml" filepath="$PROJECT_DIR$/mvc-mybatis-base-pagehelper-demo-01/mvc-mybatis-base-pagehelper-demo-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvc-mybatis-base-sqlhelper-demo-01/mvc-mybatis-base-sqlhelper-demo-01.iml" filepath="$PROJECT_DIR$/mvc-mybatis-base-sqlhelper-demo-01/mvc-mybatis-base-sqlhelper-demo-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvc-mybatis-mapper-pagehelper-demo-01/mvc-mybatis-mapper-pagehelper-demo-01.iml" filepath="$PROJECT_DIR$/mvc-mybatis-mapper-pagehelper-demo-01/mvc-mybatis-mapper-pagehelper-demo-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvc-mybatis-mapper-sqlhelper-demo-01/mvc-mybatis-mapper-sqlhelper-demo-01.iml" filepath="$PROJECT_DIR$/mvc-mybatis-mapper-sqlhelper-demo-01/mvc-mybatis-mapper-sqlhelper-demo-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvc-mybatis-plus-base-demo-01/mvc-mybatis-plus-demo-01.iml" filepath="$PROJECT_DIR$/mvc-mybatis-plus-base-demo-01/mvc-mybatis-plus-demo-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvc-mybatis-plus-sqlhelper-demo-01/mvc-mybatis-plus-sqlhelper-demo-01.iml" filepath="$PROJECT_DIR$/mvc-mybatis-plus-sqlhelper-demo-01/mvc-mybatis-plus-sqlhelper-demo-01.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+  </component>
   <component name="libraryTable">
+    <library name="Maven: antlr:antlr:2.7.7">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/antlr/antlr/2.7.7/antlr-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/antlr/antlr/2.7.7/antlr-2.7.7-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/antlr/antlr/2.7.7/antlr-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: ch.qos.logback:logback-classic:1.2.3">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/" />
@@ -97,6 +157,72 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: cn.hutool:hutool-all:5.0.7">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.0.7/hutool-all-5.0.7.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.0.7/hutool-all-5.0.7-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.0.7/hutool-all-5.0.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.baomidou:mybatis-plus-annotation:3.3.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-annotation/3.3.0/mybatis-plus-annotation-3.3.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-annotation/3.3.0/mybatis-plus-annotation-3.3.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-annotation/3.3.0/mybatis-plus-annotation-3.3.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.baomidou:mybatis-plus-boot-starter:3.3.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-boot-starter/3.3.0/mybatis-plus-boot-starter-3.3.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-boot-starter/3.3.0/mybatis-plus-boot-starter-3.3.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-boot-starter/3.3.0/mybatis-plus-boot-starter-3.3.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.baomidou:mybatis-plus-core:3.3.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.3.0/mybatis-plus-core-3.3.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.3.0/mybatis-plus-core-3.3.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.3.0/mybatis-plus-core-3.3.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.baomidou:mybatis-plus-extension:3.3.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.3.0/mybatis-plus-extension-3.3.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.3.0/mybatis-plus-extension-3.3.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.3.0/mybatis-plus-extension-3.3.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.baomidou:mybatis-plus:3.3.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus/3.3.0/mybatis-plus-3.3.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus/3.3.0/mybatis-plus-3.3.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus/3.3.0/mybatis-plus-3.3.0-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.10.1">
@@ -176,6 +302,226 @@
         <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/classmate/1.5.1/classmate-1.5.1-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: com.github.fangjinuo.easyjson:easyjson-core:2.1.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/fangjinuo/easyjson/easyjson-core/2.1.0/easyjson-core-2.1.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/fangjinuo/easyjson/easyjson-core/2.1.0/easyjson-core-2.1.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/fangjinuo/easyjson/easyjson-core/2.1.0/easyjson-core-2.1.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.github.fangjinuo.easyjson:easyjson-jackson:2.1.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/fangjinuo/easyjson/easyjson-jackson/2.1.0/easyjson-jackson-2.1.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/fangjinuo/easyjson/easyjson-jackson/2.1.0/easyjson-jackson-2.1.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/fangjinuo/easyjson/easyjson-jackson/2.1.0/easyjson-jackson-2.1.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.github.fangjinuo.langx:langx-java:1.2.5">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/fangjinuo/langx/langx-java/1.2.5/langx-java-1.2.5.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/fangjinuo/langx/langx-java/1.2.5/langx-java-1.2.5-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/fangjinuo/langx/langx-java/1.2.5/langx-java-1.2.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.github.fangjinuo.sqlhelper:sqlhelper-common:2.4.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/fangjinuo/sqlhelper/sqlhelper-common/2.4.1/sqlhelper-common-2.4.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/fangjinuo/sqlhelper/sqlhelper-common/2.4.1/sqlhelper-common-2.4.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/fangjinuo/sqlhelper/sqlhelper-common/2.4.1/sqlhelper-common-2.4.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.github.fangjinuo.sqlhelper:sqlhelper-dialect:2.4.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/fangjinuo/sqlhelper/sqlhelper-dialect/2.4.1/sqlhelper-dialect-2.4.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/fangjinuo/sqlhelper/sqlhelper-dialect/2.4.1/sqlhelper-dialect-2.4.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/fangjinuo/sqlhelper/sqlhelper-dialect/2.4.1/sqlhelper-dialect-2.4.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.github.fangjinuo.sqlhelper:sqlhelper-mybatis-over-pagehelper:2.4.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/fangjinuo/sqlhelper/sqlhelper-mybatis-over-pagehelper/2.4.1/sqlhelper-mybatis-over-pagehelper-2.4.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/fangjinuo/sqlhelper/sqlhelper-mybatis-over-pagehelper/2.4.1/sqlhelper-mybatis-over-pagehelper-2.4.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/fangjinuo/sqlhelper/sqlhelper-mybatis-over-pagehelper/2.4.1/sqlhelper-mybatis-over-pagehelper-2.4.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.github.fangjinuo.sqlhelper:sqlhelper-mybatis-spring-boot-autoconfigure:2.4.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/fangjinuo/sqlhelper/sqlhelper-mybatis-spring-boot-autoconfigure/2.4.1/sqlhelper-mybatis-spring-boot-autoconfigure-2.4.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/fangjinuo/sqlhelper/sqlhelper-mybatis-spring-boot-autoconfigure/2.4.1/sqlhelper-mybatis-spring-boot-autoconfigure-2.4.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/fangjinuo/sqlhelper/sqlhelper-mybatis-spring-boot-autoconfigure/2.4.1/sqlhelper-mybatis-spring-boot-autoconfigure-2.4.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.github.fangjinuo.sqlhelper:sqlhelper-mybatis-spring-boot-starter:2.4.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/fangjinuo/sqlhelper/sqlhelper-mybatis-spring-boot-starter/2.4.1/sqlhelper-mybatis-spring-boot-starter-2.4.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/fangjinuo/sqlhelper/sqlhelper-mybatis-spring-boot-starter/2.4.1/sqlhelper-mybatis-spring-boot-starter-2.4.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/fangjinuo/sqlhelper/sqlhelper-mybatis-spring-boot-starter/2.4.1/sqlhelper-mybatis-spring-boot-starter-2.4.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.github.fangjinuo.sqlhelper:sqlhelper-mybatis:2.4.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/fangjinuo/sqlhelper/sqlhelper-mybatis/2.4.1/sqlhelper-mybatis-2.4.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/fangjinuo/sqlhelper/sqlhelper-mybatis/2.4.1/sqlhelper-mybatis-2.4.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/fangjinuo/sqlhelper/sqlhelper-mybatis/2.4.1/sqlhelper-mybatis-2.4.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.github.fangjinuo.sqlhelper:sqlhelper-mybatisplus-spring-boot-autoconfigure:2.4.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/fangjinuo/sqlhelper/sqlhelper-mybatisplus-spring-boot-autoconfigure/2.4.1/sqlhelper-mybatisplus-spring-boot-autoconfigure-2.4.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/fangjinuo/sqlhelper/sqlhelper-mybatisplus-spring-boot-autoconfigure/2.4.1/sqlhelper-mybatisplus-spring-boot-autoconfigure-2.4.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/fangjinuo/sqlhelper/sqlhelper-mybatisplus-spring-boot-autoconfigure/2.4.1/sqlhelper-mybatisplus-spring-boot-autoconfigure-2.4.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.github.fangjinuo.sqlhelper:sqlhelper-mybatisplus-spring-boot-starter:2.4.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/fangjinuo/sqlhelper/sqlhelper-mybatisplus-spring-boot-starter/2.4.1/sqlhelper-mybatisplus-spring-boot-starter-2.4.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/fangjinuo/sqlhelper/sqlhelper-mybatisplus-spring-boot-starter/2.4.1/sqlhelper-mybatisplus-spring-boot-starter-2.4.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/fangjinuo/sqlhelper/sqlhelper-mybatisplus-spring-boot-starter/2.4.1/sqlhelper-mybatisplus-spring-boot-starter-2.4.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.github.fangjinuo.sqlhelper:sqlhelper-mybatisplus:2.4.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/fangjinuo/sqlhelper/sqlhelper-mybatisplus/2.4.1/sqlhelper-mybatisplus-2.4.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/fangjinuo/sqlhelper/sqlhelper-mybatisplus/2.4.1/sqlhelper-mybatisplus-2.4.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/fangjinuo/sqlhelper/sqlhelper-mybatisplus/2.4.1/sqlhelper-mybatisplus-2.4.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.github.fangjinuo.sqlhelper:sqlhelper-springjdbc-spring-boot-autoconfigure:2.4.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/fangjinuo/sqlhelper/sqlhelper-springjdbc-spring-boot-autoconfigure/2.4.1/sqlhelper-springjdbc-spring-boot-autoconfigure-2.4.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/fangjinuo/sqlhelper/sqlhelper-springjdbc-spring-boot-autoconfigure/2.4.1/sqlhelper-springjdbc-spring-boot-autoconfigure-2.4.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/fangjinuo/sqlhelper/sqlhelper-springjdbc-spring-boot-autoconfigure/2.4.1/sqlhelper-springjdbc-spring-boot-autoconfigure-2.4.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.github.fangjinuo.sqlhelper:sqlhelper-springjdbc:2.4.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/fangjinuo/sqlhelper/sqlhelper-springjdbc/2.4.1/sqlhelper-springjdbc-2.4.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/fangjinuo/sqlhelper/sqlhelper-springjdbc/2.4.1/sqlhelper-springjdbc-2.4.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/fangjinuo/sqlhelper/sqlhelper-springjdbc/2.4.1/sqlhelper-springjdbc-2.4.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.github.jsqlparser:jsqlparser:2.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/jsqlparser/jsqlparser/2.0/jsqlparser-2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/jsqlparser/jsqlparser/2.0/jsqlparser-2.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/jsqlparser/jsqlparser/2.0/jsqlparser-2.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.github.jsqlparser:jsqlparser:2.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/jsqlparser/jsqlparser/2.1/jsqlparser-2.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/jsqlparser/jsqlparser/2.1/jsqlparser-2.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/jsqlparser/jsqlparser/2.1/jsqlparser-2.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.github.jsqlparser:jsqlparser:3.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/jsqlparser/jsqlparser/3.1/jsqlparser-3.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/jsqlparser/jsqlparser/3.1/jsqlparser-3.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/jsqlparser/jsqlparser/3.1/jsqlparser-3.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.github.pagehelper:pagehelper-spring-boot-autoconfigure:1.2.13">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper-spring-boot-autoconfigure/1.2.13/pagehelper-spring-boot-autoconfigure-1.2.13.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper-spring-boot-autoconfigure/1.2.13/pagehelper-spring-boot-autoconfigure-1.2.13-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper-spring-boot-autoconfigure/1.2.13/pagehelper-spring-boot-autoconfigure-1.2.13-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.github.pagehelper:pagehelper-spring-boot-starter:1.2.13">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper-spring-boot-starter/1.2.13/pagehelper-spring-boot-starter-1.2.13.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper-spring-boot-starter/1.2.13/pagehelper-spring-boot-starter-1.2.13-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper-spring-boot-starter/1.2.13/pagehelper-spring-boot-starter-1.2.13-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.github.pagehelper:pagehelper:5.1.11">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/5.1.11/pagehelper-5.1.11.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/5.1.11/pagehelper-5.1.11-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/5.1.11/pagehelper-5.1.11-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: com.jayway.jsonpath:json-path:2.4.0">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar!/" />
@@ -187,6 +533,28 @@
         <root url="jar://$MAVEN_REPOSITORY$/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: com.sun.istack:istack-commons-runtime:3.0.8">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/sun/istack/istack-commons-runtime/3.0.8/istack-commons-runtime-3.0.8.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/sun/istack/istack-commons-runtime/3.0.8/istack-commons-runtime-3.0.8-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/sun/istack/istack-commons-runtime/3.0.8/istack-commons-runtime-3.0.8-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.sun.xml.fastinfoset:FastInfoset:1.2.16">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/sun/xml/fastinfoset/FastInfoset/1.2.16/FastInfoset-1.2.16.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/sun/xml/fastinfoset/FastInfoset/1.2.16/FastInfoset-1.2.16-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/sun/xml/fastinfoset/FastInfoset/1.2.16/FastInfoset-1.2.16-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: com.vaadin.external.google:android-json:0.0.20131108.vaadin1">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/" />
@@ -196,6 +564,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.zaxxer:HikariCP:3.4.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/zaxxer/HikariCP/3.4.1/HikariCP-3.4.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/zaxxer/HikariCP/3.4.1/HikariCP-3.4.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/zaxxer/HikariCP/3.4.1/HikariCP-3.4.1-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: jakarta.activation:jakarta.activation-api:1.2.1">
@@ -220,6 +599,28 @@
         <root url="jar://$MAVEN_REPOSITORY$/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: jakarta.persistence:jakarta.persistence-api:2.2.3">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: jakarta.transaction:jakarta.transaction-api:1.3.3">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: jakarta.validation:jakarta.validation-api:2.0.1">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/jakarta/validation/jakarta.validation-api/2.0.1/jakarta.validation-api-2.0.1.jar!/" />
@@ -240,6 +641,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: javax.persistence:persistence-api:1.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/persistence/persistence-api/1.0/persistence-api-1.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/persistence/persistence-api/1.0/persistence-api-1.0-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: net.bytebuddy:byte-buddy-agent:1.10.4">
@@ -352,6 +764,17 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.aspectj:aspectjweaver:1.9.5">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.9.5/aspectjweaver-1.9.5.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.9.5/aspectjweaver-1.9.5-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.9.5/aspectjweaver-1.9.5-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.assertj:assertj-core:3.13.2">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/org/assertj/assertj-core/3.13.2/assertj-core-3.13.2.jar!/" />
@@ -361,6 +784,39 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/org/assertj/assertj-core/3.13.2/assertj-core-3.13.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.dom4j:dom4j:2.1.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/dom4j/dom4j/2.1.1/dom4j-2.1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/dom4j/dom4j/2.1.1/dom4j-2.1.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/dom4j/dom4j/2.1.1/dom4j-2.1.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.glassfish.jaxb:jaxb-runtime:2.3.2">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.glassfish.jaxb:txw2:2.3.2">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/jaxb/txw2/2.3.2/txw2-2.3.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/jaxb/txw2/2.3.2/txw2-2.3.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/jaxb/txw2/2.3.2/txw2-2.3.2-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.hamcrest:hamcrest:2.1">
@@ -374,6 +830,17 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest/2.1/hamcrest-2.1-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.hibernate.common:hibernate-commons-annotations:5.1.0.Final">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/common/hibernate-commons-annotations/5.1.0.Final/hibernate-commons-annotations-5.1.0.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/common/hibernate-commons-annotations/5.1.0.Final/hibernate-commons-annotations-5.1.0.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/common/hibernate-commons-annotations/5.1.0.Final/hibernate-commons-annotations-5.1.0.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.hibernate.validator:hibernate-validator:6.0.18.Final">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/validator/hibernate-validator/6.0.18.Final/hibernate-validator-6.0.18.Final.jar!/" />
@@ -385,6 +852,28 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/validator/hibernate-validator/6.0.18.Final/hibernate-validator-6.0.18.Final-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.hibernate:hibernate-core:5.4.9.Final">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.9.Final/hibernate-core-5.4.9.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.9.Final/hibernate-core-5.4.9.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.9.Final/hibernate-core-5.4.9.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.javassist:javassist:3.24.0-GA">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/javassist/javassist/3.24.0-GA/javassist-3.24.0-GA.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/javassist/javassist/3.24.0-GA/javassist-3.24.0-GA-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/javassist/javassist/3.24.0-GA/javassist-3.24.0-GA-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.jboss.logging:jboss-logging:3.4.1.Final">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/org/jboss/logging/jboss-logging/3.4.1.Final/jboss-logging-3.4.1.Final.jar!/" />
@@ -394,6 +883,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/org/jboss/logging/jboss-logging/3.4.1.Final/jboss-logging-3.4.1.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.jboss:jandex:2.1.1.Final">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/jandex/2.1.1.Final/jandex-2.1.1.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/jandex/2.1.1.Final/jandex-2.1.1.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/jandex/2.1.1.Final/jandex-2.1.1.Final-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.junit.jupiter:junit-jupiter-api:5.5.2">
@@ -462,6 +962,17 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.jvnet.staxex:stax-ex:1.8.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/jvnet/staxex/stax-ex/1.8.1/stax-ex-1.8.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/jvnet/staxex/stax-ex/1.8.1/stax-ex-1.8.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/jvnet/staxex/stax-ex/1.8.1/stax-ex-1.8.1-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.mockito:mockito-core:3.1.0">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/3.1.0/mockito-core-3.1.0.jar!/" />
@@ -482,6 +993,50 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-junit-jupiter/3.1.0/mockito-junit-jupiter-3.1.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:2.1.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/2.1.1/mybatis-spring-boot-autoconfigure-2.1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/2.1.1/mybatis-spring-boot-autoconfigure-2.1.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/2.1.1/mybatis-spring-boot-autoconfigure-2.1.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.mybatis.spring.boot:mybatis-spring-boot-starter:2.1.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/mybatis/spring/boot/mybatis-spring-boot-starter/2.1.1/mybatis-spring-boot-starter-2.1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/mybatis/spring/boot/mybatis-spring-boot-starter/2.1.1/mybatis-spring-boot-starter-2.1.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/mybatis/spring/boot/mybatis-spring-boot-starter/2.1.1/mybatis-spring-boot-starter-2.1.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.mybatis:mybatis-spring:2.0.3">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/2.0.3/mybatis-spring-2.0.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/2.0.3/mybatis-spring-2.0.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/2.0.3/mybatis-spring-2.0.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.mybatis:mybatis:3.5.3">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.3/mybatis-3.5.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.3/mybatis-3.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.3/mybatis-3.5.3-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.objenesis:objenesis:2.6">
@@ -594,6 +1149,61 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-devtools/2.2.2.RELEASE/spring-boot-devtools-2.2.2.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.springframework.boot:spring-boot-starter-aop:2.2.2.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-aop/2.2.2.RELEASE/spring-boot-starter-aop-2.2.2.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-aop/2.2.2.RELEASE/spring-boot-starter-aop-2.2.2.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-aop/2.2.2.RELEASE/spring-boot-starter-aop-2.2.2.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.boot:spring-boot-starter-data-jdbc:2.2.2.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-data-jdbc/2.2.2.RELEASE/spring-boot-starter-data-jdbc-2.2.2.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-data-jdbc/2.2.2.RELEASE/spring-boot-starter-data-jdbc-2.2.2.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-data-jdbc/2.2.2.RELEASE/spring-boot-starter-data-jdbc-2.2.2.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.boot:spring-boot-starter-data-jpa:2.2.2.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-data-jpa/2.2.2.RELEASE/spring-boot-starter-data-jpa-2.2.2.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-data-jpa/2.2.2.RELEASE/spring-boot-starter-data-jpa-2.2.2.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-data-jpa/2.2.2.RELEASE/spring-boot-starter-data-jpa-2.2.2.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.boot:spring-boot-starter-hateoas:2.2.2.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-hateoas/2.2.2.RELEASE/spring-boot-starter-hateoas-2.2.2.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-hateoas/2.2.2.RELEASE/spring-boot-starter-hateoas-2.2.2.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-hateoas/2.2.2.RELEASE/spring-boot-starter-hateoas-2.2.2.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.boot:spring-boot-starter-jdbc:2.2.2.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-jdbc/2.2.2.RELEASE/spring-boot-starter-jdbc-2.2.2.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-jdbc/2.2.2.RELEASE/spring-boot-starter-jdbc-2.2.2.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-jdbc/2.2.2.RELEASE/spring-boot-starter-jdbc-2.2.2.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.springframework.boot:spring-boot-starter-json:2.2.2.RELEASE">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-json/2.2.2.RELEASE/spring-boot-starter-json-2.2.2.RELEASE.jar!/" />
@@ -704,6 +1314,72 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.springframework.data:spring-data-commons:2.2.3.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.2.3.RELEASE/spring-data-commons-2.2.3.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.2.3.RELEASE/spring-data-commons-2.2.3.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.2.3.RELEASE/spring-data-commons-2.2.3.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.data:spring-data-jdbc:1.1.3.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jdbc/1.1.3.RELEASE/spring-data-jdbc-1.1.3.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jdbc/1.1.3.RELEASE/spring-data-jdbc-1.1.3.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jdbc/1.1.3.RELEASE/spring-data-jdbc-1.1.3.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.data:spring-data-jpa:2.2.3.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.2.3.RELEASE/spring-data-jpa-2.2.3.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.2.3.RELEASE/spring-data-jpa-2.2.3.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.2.3.RELEASE/spring-data-jpa-2.2.3.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.data:spring-data-relational:1.1.3.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-relational/1.1.3.RELEASE/spring-data-relational-1.1.3.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-relational/1.1.3.RELEASE/spring-data-relational-1.1.3.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-relational/1.1.3.RELEASE/spring-data-relational-1.1.3.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.hateoas:spring-hateoas:1.0.2.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/hateoas/spring-hateoas/1.0.2.RELEASE/spring-hateoas-1.0.2.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/hateoas/spring-hateoas/1.0.2.RELEASE/spring-hateoas-1.0.2.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/hateoas/spring-hateoas/1.0.2.RELEASE/spring-hateoas-1.0.2.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.plugin:spring-plugin-core:2.0.0.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/plugin/spring-plugin-core/2.0.0.RELEASE/spring-plugin-core-2.0.0.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/plugin/spring-plugin-core/2.0.0.RELEASE/spring-plugin-core-2.0.0.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/plugin/spring-plugin-core/2.0.0.RELEASE/spring-plugin-core-2.0.0.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.springframework:spring-aop:5.2.2.RELEASE">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.2.2.RELEASE/spring-aop-5.2.2.RELEASE.jar!/" />
@@ -713,6 +1389,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.2.2.RELEASE/spring-aop-5.2.2.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-aspects:5.2.2.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aspects/5.2.2.RELEASE/spring-aspects-5.2.2.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aspects/5.2.2.RELEASE/spring-aspects-5.2.2.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aspects/5.2.2.RELEASE/spring-aspects-5.2.2.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.springframework:spring-beans:5.2.2.RELEASE">
@@ -770,6 +1457,28 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jcl/5.2.2.RELEASE/spring-jcl-5.2.2.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.springframework:spring-jdbc:5.2.2.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.2.2.RELEASE/spring-jdbc-5.2.2.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.2.2.RELEASE/spring-jdbc-5.2.2.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.2.2.RELEASE/spring-jdbc-5.2.2.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-orm:5.2.2.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/5.2.2.RELEASE/spring-orm-5.2.2.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/5.2.2.RELEASE/spring-orm-5.2.2.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/5.2.2.RELEASE/spring-orm-5.2.2.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.springframework:spring-test:5.2.2.RELEASE">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.2.2.RELEASE/spring-test-5.2.2.RELEASE.jar!/" />
@@ -779,6 +1488,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.2.2.RELEASE/spring-test-5.2.2.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-tx:5.2.2.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.2.2.RELEASE/spring-tx-5.2.2.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.2.2.RELEASE/spring-tx-5.2.2.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.2.2.RELEASE/spring-tx-5.2.2.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.springframework:spring-web:5.2.2.RELEASE">
@@ -823,6 +1543,83 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.25/snakeyaml-1.25-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: tk.mybatis:mapper-base:1.1.5">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.1.5/mapper-base-1.1.5.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.1.5/mapper-base-1.1.5-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.1.5/mapper-base-1.1.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: tk.mybatis:mapper-core:1.1.5">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-core/1.1.5/mapper-core-1.1.5.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-core/1.1.5/mapper-core-1.1.5-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-core/1.1.5/mapper-core-1.1.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: tk.mybatis:mapper-extra:1.1.5">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-extra/1.1.5/mapper-extra-1.1.5.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-extra/1.1.5/mapper-extra-1.1.5-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-extra/1.1.5/mapper-extra-1.1.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: tk.mybatis:mapper-spring-boot-autoconfigure:2.1.5">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-spring-boot-autoconfigure/2.1.5/mapper-spring-boot-autoconfigure-2.1.5.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-spring-boot-autoconfigure/2.1.5/mapper-spring-boot-autoconfigure-2.1.5-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-spring-boot-autoconfigure/2.1.5/mapper-spring-boot-autoconfigure-2.1.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: tk.mybatis:mapper-spring-boot-starter:2.1.5">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-spring-boot-starter/2.1.5/mapper-spring-boot-starter-2.1.5.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-spring-boot-starter/2.1.5/mapper-spring-boot-starter-2.1.5-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-spring-boot-starter/2.1.5/mapper-spring-boot-starter-2.1.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: tk.mybatis:mapper-spring:1.1.5">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-spring/1.1.5/mapper-spring-1.1.5.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-spring/1.1.5/mapper-spring-1.1.5-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-spring/1.1.5/mapper-spring-1.1.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: tk.mybatis:mapper-weekend:1.1.5">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-weekend/1.1.5/mapper-weekend-1.1.5.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-weekend/1.1.5/mapper-weekend-1.1.5-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-weekend/1.1.5/mapper-weekend-1.1.5-sources.jar!/" />
       </SOURCES>
     </library>
   </component>
