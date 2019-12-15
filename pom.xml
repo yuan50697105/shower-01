@@ -4,16 +4,28 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <modules>
-        <module>mvc-demo-01</module>
-        <module>mvc-hateoas-demo-01</module>
-        <module>mvc-jdbc-sqlhelper-demo-01</module>
-        <module>mvc-jpa-sqlhelper-demo-01</module>
-        <module>mvc-mybatis-base-pagehelper-demo-01</module>
-        <module>mvc-mybatis-base-sqlhelper-demo-01</module>
-        <module>mvc-mybatis-mapper-pagehelper-demo-01</module>
-        <module>mvc-mybatis-mapper-sqlhelper-demo-01</module>
-        <module>mvc-mybatis-plus-base-demo-01</module>
-        <module>mvc-mybatis-plus-sqlhelper-demo-01</module>
+        <module>mvc</module>
+        <module>mvc-jdbc-sqlhelper</module>
+        <module>mvc-jpa-sqlhelper</module>
+        <module>mvc-mybatis-base-pagehelper</module>
+        <module>mvc-mybatis-base-sqlhelper</module>
+        <module>mvc-mybatis-mapper-pagehelper</module>
+        <module>mvc-mybatis-mapper-sqlhelper</module>
+        <module>mvc-mybatis-plus</module>
+        <module>mvc-mybatis-plus-sqlhelper</module>
+        <module>mvc-mybatis-fast-pagehelper</module>
+        <module>mvc-mybatis-fast-sqlhelper</module>
+        <module>hateoas</module>
+        <module>hateoas-jdbc-sqlhelper</module>
+        <module>hateoas-jpa-sqlhelper</module>
+        <module>hateoas-mybatis-base-pagehelper</module>
+        <module>hateoas-mybatis-base-sqlhelper</module>
+        <module>hateoas-mybatis-mapper-pagehelper</module>
+        <module>hateoas-mybatis-mapper-sqlhelper</module>
+        <module>hateoas-mybatis-plus</module>
+        <module>hateoas-mybatis-plus-sqlhepler</module>
+        <module>hateoas-mybatis-fast-pagehelper</module>
+        <module>hateoas-mybatis-fast-sqlhelper</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

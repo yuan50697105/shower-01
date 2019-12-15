@@ -1,6 +1,8 @@
-# Default ignored files
-/learning-demo-01.iws
+/**/target/
 
-
-# Project exclude paths
-/mvc-demo-01/target/
+/**/*.iml
+/**/*.ipr
+/**/*.iws
+/*.iml
+/*.ipr
+/*.iws
