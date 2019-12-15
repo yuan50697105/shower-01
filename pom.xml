@@ -15,6 +15,7 @@
         <module>mvc-mybatis-plus-sqlhelper</module>
         <module>mvc-mybatis-fast-pagehelper</module>
         <module>mvc-mybatis-fast-sqlhelper</module>
+        <module>mvc-security</module>
         <module>hateoas</module>
         <module>hateoas-jdbc-sqlhelper</module>
         <module>hateoas-jpa-sqlhelper</module>
@@ -26,6 +27,7 @@
         <module>hateoas-mybatis-plus-sqlhepler</module>
         <module>hateoas-mybatis-fast-pagehelper</module>
         <module>hateoas-mybatis-fast-sqlhelper</module>
+        <module>hateoas-security</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

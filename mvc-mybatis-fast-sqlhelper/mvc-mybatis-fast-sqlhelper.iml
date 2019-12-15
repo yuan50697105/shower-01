@@ -9,6 +9,8 @@
       <configuration>
         <webroots />
         <sourceRoots>
+          <root url="file://$MODULE_DIR$/src/main/java" />
+          <root url="file://$MODULE_DIR$/src/main/resources" />
           <root url="file://$MODULE_DIR$/../mvc-mybatis-mapper-pagehelper/src/main/java" />
           <root url="file://$MODULE_DIR$/../mvc-mybatis-mapper-pagehelper/src/main/resources" />
         </sourceRoots>
@@ -16,9 +18,14 @@
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
-    <output url="file://$MODULE_DIR$/../mvc-mybatis-mapper-pagehelper/target/classes" />
-    <output-test url="file://$MODULE_DIR$/../mvc-mybatis-mapper-pagehelper/target/test-classes" />
-    <content url="file://$MODULE_DIR$/../mvc-mybatis-fast-sqlhelper" />
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
     <content url="file://$MODULE_DIR$/../mvc-mybatis-mapper-pagehelper/src/main/java">
       <sourceFolder url="file://$MODULE_DIR$/../mvc-mybatis-mapper-pagehelper/src/main/java" isTestSource="false" />
     </content>

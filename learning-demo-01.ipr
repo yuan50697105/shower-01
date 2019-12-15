@@ -10,13 +10,14 @@
         <module name="mvc-fastmybatis-pagehelper" />
         <module name="mvc-mybatis-base-sqlhelper" />
         <module name="mvc-mybatis-fast-pagehelper" />
+        <module name="hateoas-security" />
+        <module name="mvc-mybatis-fast-sqlhelper" />
         <module name="mvc-mybatis-plus-sqlhelper" />
         <module name="hateoas-jdbc-sqlhelper" />
         <module name="hateoas-mybatis-plus" />
         <module name="hateoas-mybatis-plus-sqlhepler" />
         <module name="mvc" />
         <module name="mvc-mybatis-base-pagehelper" />
-        <module name="mvc-mybatis-mapper-pagehelper" />
         <module name="hateoas-mybatis-fast-pagehelper" />
         <module name="mvc-jpa-sqlhelper" />
         <module name="hateoas-mybatis-base-pagehelper" />
@@ -24,16 +25,17 @@
         <module name="hateoas-mybatis-mapper-sqlhelper" />
         <module name="hateoas" />
         <module name="hateoas-jpa-sqlhelper" />
+        <module name="mvc-security" />
         <module name="mvc-mybatis-mapper-sqlhelper" />
         <module name="hateoas-mybatis-fast-sqlhelper" />
         <module name="mvc-jdbc-sqlhelper" />
         <module name="hateoas-mybatis-base-sqlhelper" />
       </profile>
       <profile name="Annotation profile for learning-demo-01" enabled="true">
-        <sourceOutputDir name="../mvc-mybatis-mapper-pagehelper/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../mvc-mybatis-mapper-pagehelper/target/generated-test-sources/test-annotations" />
+        <sourceOutputDir name="../mvc-mybatis-fast-sqlhelper/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../mvc-mybatis-fast-sqlhelper/target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mvc-mybatis-fast-sqlhelper" />
+        <module name="mvc-mybatis-mapper-pagehelper" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -48,6 +50,7 @@
       <module name="hateoas-mybatis-mapper-sqlhelper" target="11" />
       <module name="hateoas-mybatis-plus" target="11" />
       <module name="hateoas-mybatis-plus-sqlhepler" target="11" />
+      <module name="hateoas-security" target="11" />
       <module name="learning-demo-01" target="11" />
       <module name="mvc" target="11" />
       <module name="mvc-fastmybatis-pagehelper" target="11" />
@@ -62,6 +65,7 @@
       <module name="mvc-mybatis-plus" target="11" />
       <module name="mvc-mybatis-plus-base" target="11" />
       <module name="mvc-mybatis-plus-sqlhelper" target="11" />
+      <module name="mvc-security" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="Encoding">
@@ -78,6 +82,7 @@
     <file url="file://$PROJECT_DIR$/hateoas-mybatis-mapper-sqlhelper/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hateoas-mybatis-plus-sqlhepler/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hateoas-mybatis-plus/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hateoas-security/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hateoas/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mvc-jdbc-sqlhelper/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mvc-jpa-sqlhelper/src/main/java" charset="UTF-8" />
@@ -89,6 +94,7 @@
     <file url="file://$PROJECT_DIR$/mvc-mybatis-mapper-sqlhelper/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mvc-mybatis-plus-sqlhelper/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mvc-mybatis-plus/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mvc-security/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mvc/src/main/java" charset="UTF-8" />
   </component>
   <component name="InspectionProjectProfileManager">
@@ -141,6 +147,7 @@
       <module name="hateoas-mybatis-mapper-sqlhelper" options="-parameters" />
       <module name="hateoas-mybatis-plus" options="-parameters" />
       <module name="hateoas-mybatis-plus-sqlhepler" options="-parameters" />
+      <module name="hateoas-security" options="-parameters" />
       <module name="learning-demo-01" options="-parameters" />
       <module name="mvc" options="-parameters" />
       <module name="mvc-fastmybatis-pagehelper" options="-parameters" />
@@ -155,6 +162,7 @@
       <module name="mvc-mybatis-plus" options="-parameters" />
       <module name="mvc-mybatis-plus-base" options="-parameters" />
       <module name="mvc-mybatis-plus-sqlhelper" options="-parameters" />
+      <module name="mvc-security" options="-parameters" />
     </option>
   </component>
   <component name="MavenProjectsManager">
@@ -303,6 +311,7 @@
       <module fileurl="file://$PROJECT_DIR$/hateoas-mybatis-mapper-sqlhelper/hateoas-mybatis-mapper-sqlhelper.iml" filepath="$PROJECT_DIR$/hateoas-mybatis-mapper-sqlhelper/hateoas-mybatis-mapper-sqlhelper.iml" />
       <module fileurl="file://$PROJECT_DIR$/hateoas-mybatis-plus/hateoas-mybatis-plus.iml" filepath="$PROJECT_DIR$/hateoas-mybatis-plus/hateoas-mybatis-plus.iml" />
       <module fileurl="file://$PROJECT_DIR$/hateoas-mybatis-plus-sqlhepler/hateoas-mybatis-plus-sqlhepler.iml" filepath="$PROJECT_DIR$/hateoas-mybatis-plus-sqlhepler/hateoas-mybatis-plus-sqlhepler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hateoas-security/hateoas-security.iml" filepath="$PROJECT_DIR$/hateoas-security/hateoas-security.iml" />
       <module fileurl="file://$PROJECT_DIR$/learning-demo-01.iml" filepath="$PROJECT_DIR$/learning-demo-01.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvc/mvc.iml" filepath="$PROJECT_DIR$/mvc/mvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvc-mybatis-fast-pagehelper/mvc-fastmybatis-pagehelper.iml" filepath="$PROJECT_DIR$/mvc-mybatis-fast-pagehelper/mvc-fastmybatis-pagehelper.iml" />
@@ -316,6 +325,7 @@
       <module fileurl="file://$PROJECT_DIR$/mvc-mybatis-mapper-sqlhelper/mvc-mybatis-mapper-sqlhelper.iml" filepath="$PROJECT_DIR$/mvc-mybatis-mapper-sqlhelper/mvc-mybatis-mapper-sqlhelper.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvc-mybatis-plus/mvc-mybatis-plus.iml" filepath="$PROJECT_DIR$/mvc-mybatis-plus/mvc-mybatis-plus.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvc-mybatis-plus-sqlhelper/mvc-mybatis-plus-sqlhelper.iml" filepath="$PROJECT_DIR$/mvc-mybatis-plus-sqlhelper/mvc-mybatis-plus-sqlhelper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvc-security/mvc-security.iml" filepath="$PROJECT_DIR$/mvc-security/mvc-security.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
@@ -1546,6 +1556,17 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-logging/2.2.2.RELEASE/spring-boot-starter-logging-2.2.2.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.springframework.boot:spring-boot-starter-security:2.2.2.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-security/2.2.2.RELEASE/spring-boot-starter-security-2.2.2.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-security/2.2.2.RELEASE/spring-boot-starter-security-2.2.2.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-security/2.2.2.RELEASE/spring-boot-starter-security-2.2.2.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.springframework.boot:spring-boot-starter-test:2.2.2.RELEASE">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-test/2.2.2.RELEASE/spring-boot-starter-test-2.2.2.RELEASE.jar!/" />
@@ -1698,6 +1719,39 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/org/springframework/plugin/spring-plugin-core/2.0.0.RELEASE/spring-plugin-core-2.0.0.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.security:spring-security-config:5.2.1.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.2.1.RELEASE/spring-security-config-5.2.1.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.2.1.RELEASE/spring-security-config-5.2.1.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.2.1.RELEASE/spring-security-config-5.2.1.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.security:spring-security-core:5.2.1.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.2.1.RELEASE/spring-security-core-5.2.1.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.2.1.RELEASE/spring-security-core-5.2.1.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.2.1.RELEASE/spring-security-core-5.2.1.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.security:spring-security-web:5.2.1.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.2.1.RELEASE/spring-security-web-5.2.1.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.2.1.RELEASE/spring-security-web-5.2.1.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.2.1.RELEASE/spring-security-web-5.2.1.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.springframework:spring-aop:5.2.2.RELEASE">
