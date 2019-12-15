@@ -9,7 +9,6 @@
         <module>mvc-security-modules</module>
         <module>hateoas-security-modules</module>
         <module>app-project</module>
-        <module>mvc-security-modules</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -19,7 +18,7 @@
     </parent>
     <groupId>org.yuan.boot</groupId>
     <artifactId>learning-demo-01</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1-DEV</version>
     <name>learning-demo-01</name>
     <description>Demo project for Spring Boot</description>
 
@@ -97,6 +96,11 @@
                     <skip>true</skip>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>versions-maven-plugin</artifactId>
+            </plugin>
+
         </plugins>
     </build>
 
