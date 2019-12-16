@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/app-project/app-hateoas/app-hateoas.iml" filepath="$PROJECT_DIR$/app-project/app-hateoas/app-hateoas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-project/app-hateoas/app-hateoas-01/app-hateoas-01.iml" filepath="$PROJECT_DIR$/app-project/app-hateoas/app-hateoas-01/app-hateoas-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-project/app-mvc/app-mvc.iml" filepath="$PROJECT_DIR$/app-project/app-mvc/app-mvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-project/app-mvc/app-mvc-01/app-mvc-01.iml" filepath="$PROJECT_DIR$/app-project/app-mvc/app-mvc-01/app-mvc-01.iml" />
       <module fileurl="file://$PROJECT_DIR$/app-project/app-project.iml" filepath="$PROJECT_DIR$/app-project/app-project.iml" />
       <module fileurl="file://$PROJECT_DIR$/hateoas-modules/hateoas/hateoas.iml" filepath="$PROJECT_DIR$/hateoas-modules/hateoas/hateoas.iml" group="hateoas-modules and modules" />
       <module fileurl="file://$PROJECT_DIR$/hateoas-modules/hateoas-jdbc-sqlhelper/hateoas-jdbc-sqlhelper.iml" filepath="$PROJECT_DIR$/hateoas-modules/hateoas-jdbc-sqlhelper/hateoas-jdbc-sqlhelper.iml" group="hateoas-modules and modules" />
@@ -12,7 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/hateoas-modules/hateoas-mybatis-mapper-pagehelper/hateoas-mybatis-mapper-pagehelper.iml" filepath="$PROJECT_DIR$/hateoas-modules/hateoas-mybatis-mapper-pagehelper/hateoas-mybatis-mapper-pagehelper.iml" group="hateoas-modules and modules" />
       <module fileurl="file://$PROJECT_DIR$/hateoas-security-modules/hateoas-security/hateoas-security.iml" filepath="$PROJECT_DIR$/hateoas-security-modules/hateoas-security/hateoas-security.iml" group="hateoas-security-modules and modules" />
       <module fileurl="file://$PROJECT_DIR$/hateoas-security-modules/hateoas-security-modules.iml" filepath="$PROJECT_DIR$/hateoas-security-modules/hateoas-security-modules.iml" group="hateoas-security-modules and modules" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/learning-demo-01.iml" filepath="$PROJECT_DIR$/.idea/learning-demo-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learning-demo-01.iml" filepath="$PROJECT_DIR$/learning-demo-01.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvc-modules/mvc/mvc.iml" filepath="$PROJECT_DIR$/mvc-modules/mvc/mvc.iml" group="mvc-modules and modules" />
       <module fileurl="file://$PROJECT_DIR$/mvc-modules/mvc-jdbc-sqlhelper/mvc-jdbc-sqlhelper.iml" filepath="$PROJECT_DIR$/mvc-modules/mvc-jdbc-sqlhelper/mvc-jdbc-sqlhelper.iml" group="mvc-modules and modules" />
       <module fileurl="file://$PROJECT_DIR$/mvc-modules/mvc-jpa-sqlhelper/mvc-jpa-sqlhelper.iml" filepath="$PROJECT_DIR$/mvc-modules/mvc-jpa-sqlhelper/mvc-jpa-sqlhelper.iml" group="mvc-modules and modules" />

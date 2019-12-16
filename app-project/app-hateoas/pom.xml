@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xmlns="http://maven.apache.org/POM/4.0.0"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>learning-demo-01</artifactId>
+        <artifactId>app-project</artifactId>
         <groupId>org.yuan.boot</groupId>
         <version>0.0.2-DEV</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>app-project</artifactId>
+    <groupId>org.yuan.boot.hateoas</groupId>
+    <artifactId>app-hateoas</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>app-mvc</module>
-        <module>app-hateoas</module>
+        <module>app-hateoas-01</module>
     </modules>
+
 </project>

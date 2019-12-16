@@ -5,7 +5,7 @@
     <parent>
         <artifactId>hateoas-modules</artifactId>
         <groupId>org.yuan.boot</groupId>
-        <version>0.0.1-DEV</version>
+        <version>0.0.2-DEV</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -14,12 +14,12 @@
         <dependency>
             <groupId>org.yuan.boot</groupId>
             <artifactId>hateoas</artifactId>
-            <version>0.0.1-DEV</version>
+            <version>0.0.2-DEV</version>
         </dependency>
         <dependency>
             <groupId>org.yuan.boot</groupId>
             <artifactId>mvc-mybatis-fast-pagehelper</artifactId>
-            <version>0.0.1-DEV</version>
+            <version>0.0.2-DEV</version>
         </dependency>
     </dependencies>
 

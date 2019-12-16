@@ -15,20 +15,21 @@
         <module name="mvc-mybatis-plus-sqlhelper" />
         <module name="hateoas-jdbc-sqlhelper" />
         <module name="mvc" />
-        <module name="mvc-mybatis-base-pagehelper" />
         <module name="mvc-mybatis-mapper-sqlhelper" />
         <module name="hateoas-mybatis-fast-pagehelper" />
+        <module name="hateoas" />
         <module name="mvc-mybatis-mapper-pagehelper" />
         <module name="mvc-jpa-sqlhelper" />
         <module name="hateoas-mybatis-base-pagehelper" />
         <module name="hateoas-mybatis-mapper-pagehelper" />
+        <module name="mvc-mybatis-base-pagehelper" />
         <module name="mvc-security" />
-        <module name="hateoas" />
         <module name="hateoas-jpa-sqlhelper" />
         <module name="mvc-jdbc-sqlhelper" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="app-mvc" target="11" />
       <module name="app-project" target="11" />
       <module name="hateoas" target="11" />
       <module name="hateoas-jdbc-sqlhelper" target="11" />
@@ -60,6 +61,11 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="app-hateoas" options="" />
+      <module name="app-hateoas-01" options="-parameters" />
+      <module name="app-mvc" options="" />
+      <module name="app-mvc-01" options="-parameters" />
+      <module name="app-mvc-system-01" options="-parameters" />
       <module name="app-project" options="" />
       <module name="hateoas" options="-parameters" />
       <module name="hateoas-jdbc-sqlhelper" options="-parameters" />
