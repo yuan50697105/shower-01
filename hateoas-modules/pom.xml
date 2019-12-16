@@ -12,12 +12,7 @@
     <artifactId>hateoas-modules</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>hateoas</module>
-        <module>hateoas-jdbc-sqlhelper</module>
-        <module>hateoas-jpa-sqlhelper</module>
-        <module>hateoas-mybatis-base-pagehelper</module>
-        <module>hateoas-mybatis-mapper-pagehelper</module>
-        <module>hateoas-mybatis-fast-pagehelper</module>
+        <module>hateoas-core</module>
     </modules>
     <dependencies>
         <dependency>

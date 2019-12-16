@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>learning-demo-01</artifactId>
@@ -11,5 +11,28 @@
 
     <artifactId>db-modules</artifactId>
     <packaging>pom</packaging>
-
+    <modules>
+        <module>db-core</module>
+        <module>db-jdbc-sqlhelper</module>
+        <module>db-jpa-sqlhelper</module>
+        <module>db-mybatis-base-pagehelper</module>
+        <module>db-mybatis-base-sqlhelper</module>
+        <module>db-mybatis-fast-pagehelper</module>
+        <module>db-mybatis-fast-sqlhelper</module>
+        <module>db-mybatis-mapper-pagehelper</module>
+        <module>db-mybatis-mapper-sqlhelper</module>
+        <module>db-mybatis-plus</module>
+        <module>db-mybatis-plus-sqlhelper</module>
+    </modules>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <skip>true</skip>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>

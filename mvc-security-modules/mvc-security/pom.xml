@@ -13,7 +13,7 @@
     <dependencies>
         <dependency>
             <groupId>org.yuan.boot</groupId>
-            <artifactId>mvc</artifactId>
+            <artifactId>mvc-core</artifactId>
             <version>0.0.2-DEV</version>
         </dependency>
     </dependencies>

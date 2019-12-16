@@ -12,17 +12,7 @@
     <artifactId>mvc-modules</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>mvc</module>
-        <module>mvc-jdbc-sqlhelper</module>
-        <module>mvc-jpa-sqlhelper</module>
-        <module>mvc-mybatis-base-pagehelper</module>
-        <module>mvc-mybatis-base-sqlhelper</module>
-        <module>mvc-mybatis-fast-pagehelper</module>
-        <module>mvc-mybatis-fast-sqlhelper</module>
-        <module>mvc-mybatis-mapper-pagehelper</module>
-        <module>mvc-mybatis-mapper-sqlhelper</module>
-        <module>mvc-mybatis-plus</module>
-        <module>mvc-mybatis-plus-sqlhelper</module>
+        <module>mvc-core</module>
     </modules>
     <dependencies>
         <dependency>

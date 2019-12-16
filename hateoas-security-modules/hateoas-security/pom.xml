@@ -13,7 +13,7 @@
     <dependencies>
         <dependency>
             <groupId>org.yuan.boot</groupId>
-            <artifactId>hateoas</artifactId>
+            <artifactId>hateoas-core</artifactId>
             <version>0.0.2-DEV</version>
         </dependency>
     </dependencies>

@@ -1,5 +1,5 @@
 /**/target/
-/.idea/
+/.idea/*
 /**/*.iml
 /**/*.ipr
 /**/*.iws
@@ -7,5 +7,3 @@
 /*.ipr
 /*.iws
 /out/
-/app/
-/lib/
