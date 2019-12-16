@@ -14,18 +14,17 @@ import java.util.Map;
 import java.util.Optional;
 
 
-@SuppressWarnings("SpringJavaAutowiredMembersInspection")
 public abstract class BaseServiceImpl<T extends BaseEntity<T>, R extends BaseRepository<T>, D extends BaseDao<T>> implements BaseService<T> {
     @Autowired
     private R baseRepository;
     @Autowired
     private D baseDao;
 
-    public R baseRepository() {
+    protected R baseRepository() {
         return baseRepository;
     }
 
-    public D baseDao() {
+    protected D baseDao() {
         return baseDao;
     }
 

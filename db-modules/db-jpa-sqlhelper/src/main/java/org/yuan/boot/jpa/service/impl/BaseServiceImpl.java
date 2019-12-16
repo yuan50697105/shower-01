@@ -15,12 +15,19 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
-@SuppressWarnings("SpringJavaAutowiredMembersInspection")
 public abstract class BaseServiceImpl<T extends BaseEntity<T>, R extends BaseRepository<T>, D extends BaseDao<T>> implements BaseService<T> {
     @Autowired
     private R baseRepository;
     @Autowired
     private D baseDao;
+
+    protected R baseRepository() {
+        return baseRepository;
+    }
+
+    protected D baseDao() {
+        return baseDao;
+    }
 
     @Override
     @Transactional(rollbackFor = Exception.class)

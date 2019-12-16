@@ -9,27 +9,6 @@
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/hateoas-jdbc-sqlhelper/pom.xml" />
-        <option value="$PROJECT_DIR$/hateoas-modules/hateoas-jdbc-sqlhelper/pom.xml" />
-        <option value="$PROJECT_DIR$/hateoas-modules/hateoas-jpa-sqlhelper/pom.xml" />
-        <option value="$PROJECT_DIR$/hateoas-modules/hateoas-mybatis-base-pagehelper/pom.xml" />
-        <option value="$PROJECT_DIR$/hateoas-modules/hateoas-mybatis-fast-pagehelper/pom.xml" />
-        <option value="$PROJECT_DIR$/hateoas-modules/hateoas-mybatis-mapper-pagehelper/pom.xml" />
-        <option value="$PROJECT_DIR$/mvc-modules/mvc-jdbc-sqlhelper/pom.xml" />
-        <option value="$PROJECT_DIR$/mvc-modules/mvc-jpa-sqlhelper/pom.xml" />
-        <option value="$PROJECT_DIR$/mvc-modules/mvc-mybatis-base-pagehelper/pom.xml" />
-        <option value="$PROJECT_DIR$/mvc-modules/mvc-mybatis-base-sqlhelper/pom.xml" />
-        <option value="$PROJECT_DIR$/mvc-modules/mvc-mybatis-fast-pagehelper/pom.xml" />
-        <option value="$PROJECT_DIR$/mvc-modules/mvc-mybatis-fast-sqlhelper/pom.xml" />
-        <option value="$PROJECT_DIR$/mvc-modules/mvc-mybatis-mapper-pagehelper/pom.xml" />
-        <option value="$PROJECT_DIR$/mvc-modules/mvc-mybatis-mapper-sqlhelper/pom.xml" />
-        <option value="$PROJECT_DIR$/mvc-modules/mvc-mybatis-plus-sqlhelper/pom.xml" />
-        <option value="$PROJECT_DIR$/mvc-modules/mvc-mybatis-plus/pom.xml" />
-        <option value="$PROJECT_DIR$/mvc-security-modules/pom.xml" />
-      </set>
-    </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="false" project-jdk-name="11" project-jdk-type="JavaSDK" />
 </project>

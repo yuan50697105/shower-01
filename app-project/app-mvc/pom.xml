@@ -14,5 +14,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>app-mvc-01</module>
+        <module>app-mvc-jdbc-01</module>
+        <module>app-mvc-jpa-01</module>
+        <module>app-mvc-mybatis-01</module>
     </modules>
 </project>

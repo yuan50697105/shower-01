@@ -13,7 +13,9 @@
     <packaging>pom</packaging>
     <modules>
         <module>mvc-core</module>
-        <module>mvc-jdbc-sqlhelper</module>
+        <module>mvc-jdbc</module>
+        <module>mvc-jpa</module>
+        <module>mvc-mybatis</module>
     </modules>
     <dependencies>
         <dependency>

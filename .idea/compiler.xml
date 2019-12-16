@@ -8,28 +8,52 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="db-mybatis-base-pagehelper" />
-        <module name="db-core" />
-        <module name="mvc-jdbc-sqlhelper" />
-        <module name="hateoas-core" />
-        <module name="db-mybatis-plus-sqlhelper" />
-        <module name="hateoas-security" />
-        <module name="db-mybatis-base-sqlhelper" />
-        <module name="db-mybatis-plus" />
-        <module name="db-jdbc-mybatis-pagehelper" />
-        <module name="db-mybatis-fast-sqlhelper" />
-        <module name="db-mybatis-fast-pagehelper" />
-        <module name="db-jpa-mybatis-pagehelper" />
-        <module name="db-mybatis-mapper-sqlhelper" />
-        <module name="db-jpa-mybatis-sqlhelper" />
-        <module name="db-jdbc-sqlhelper" />
-        <module name="app-hateoas-01" />
-        <module name="app-mvc-01" />
-        <module name="mvc-security" />
-        <module name="mvc-security-jdbc-sqlhelper" />
-        <module name="mvc-core" />
-        <module name="db-jdbc-mybatis-sqlhelper" />
-        <module name="db-mybatis-mapper-pagehelper" />
+        <module name="app-mvc-jdbc-01" />
         <module name="db-jpa-sqlhelper" />
+        <module name="db-modules and modules.db-mybatis-base-sqlhelper" />
+        <module name="db-mybatis-fast-pagehelper" />
+        <module name="db-modules and modules.db-mybatis-fast-sqlhelper" />
+        <module name="hateoas-security-modules and modules.hateoas-security" />
+        <module name="db-modules and modules.db-jpa-mybatis-sqlhelper" />
+        <module name="db-mybatis-plus" />
+        <module name="db-mybatis-fast-sqlhelper" />
+        <module name="db-jpa-mybatis-sqlhelper" />
+        <module name="db-jdbc-mybatis-sqlhelper" />
+        <module name="db-jpa-mybatis-pagehelper" />
+        <module name="db-modules and modules.db-jdbc-mybatis-sqlhelper" />
+        <module name="db-modules and modules.db-jdbc-mybatis-pagehelper" />
+        <module name="db-modules and modules.db-mybatis-plus" />
+        <module name="app-mvc-01" />
+        <module name="hateoas-core" />
+        <module name="hateoas-modules and modules.hateoas-core" />
+        <module name="db-modules and modules.db-mybatis-plus-sqlhelper" />
+        <module name="mvc-modules and modules.mvc-core" />
+        <module name="mvc-security-jdbc-sqlhelper" />
+        <module name="db-modules and modules.db-core" />
+        <module name="app-mvc-mybatis-01" />
+        <module name="db-modules and modules.db-jpa-mybatis-pagehelper" />
+        <module name="hateoas-security" />
+        <module name="db-modules and modules.db-jdbc-sqlhelper" />
+        <module name="db-mybatis-base-sqlhelper" />
+        <module name="db-modules and modules.db-mybatis-base-pagehelper" />
+        <module name="mvc-core" />
+        <module name="db-core" />
+        <module name="db-jdbc-mybatis-pagehelper" />
+        <module name="mvc-jdbc" />
+        <module name="app-hateoas-01" />
+        <module name="db-mybatis-mapper-sqlhelper" />
+        <module name="app-mvc-jpa-01" />
+        <module name="app-project and modules.app-mvc and modules.app-mvc-01" />
+        <module name="db-modules and modules.db-mybatis-fast-pagehelper" />
+        <module name="db-mybatis-mapper-pagehelper" />
+        <module name="db-modules and modules.db-mybatis-mapper-pagehelper" />
+        <module name="db-modules and modules.db-mybatis-mapper-sqlhelper" />
+        <module name="mvc-mybatis" />
+        <module name="db-mybatis-plus-sqlhelper" />
+        <module name="db-jdbc-sqlhelper" />
+        <module name="mvc-jpa" />
+        <module name="db-modules and modules.db-jpa-sqlhelper" />
+        <module name="app-project and modules.app-hateoas and modules.app-hateoas-01" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -37,7 +61,15 @@
       <module name="app-hateoas-01" target="1.8" />
       <module name="app-mvc" target="1.8" />
       <module name="app-mvc-01" target="1.8" />
+      <module name="app-mvc-jdbc-01" target="1.8" />
+      <module name="app-mvc-jpa-01" target="1.8" />
+      <module name="app-mvc-mybatis-01" target="1.8" />
       <module name="app-project" target="1.8" />
+      <module name="app-project and modules.app-hateoas and modules.app-hateoas" target="1.8" />
+      <module name="app-project and modules.app-hateoas and modules.app-hateoas-01" target="1.8" />
+      <module name="app-project and modules.app-mvc and modules.app-mvc" target="1.8" />
+      <module name="app-project and modules.app-mvc and modules.app-mvc-01" target="1.8" />
+      <module name="app-project and modules.app-project" target="1.8" />
       <module name="db-core" target="1.8" />
       <module name="db-jdbc-mybatis-pagehelper" target="1.8" />
       <module name="db-jdbc-mybatis-sqlhelper" target="1.8" />
@@ -46,6 +78,22 @@
       <module name="db-jpa-mybatis-sqlhelper" target="1.8" />
       <module name="db-jpa-sqlhelper" target="1.8" />
       <module name="db-modules" target="1.8" />
+      <module name="db-modules and modules.db-core" target="1.8" />
+      <module name="db-modules and modules.db-jdbc-mybatis-pagehelper" target="1.8" />
+      <module name="db-modules and modules.db-jdbc-mybatis-sqlhelper" target="1.8" />
+      <module name="db-modules and modules.db-jdbc-sqlhelper" target="1.8" />
+      <module name="db-modules and modules.db-jpa-mybatis-pagehelper" target="1.8" />
+      <module name="db-modules and modules.db-jpa-mybatis-sqlhelper" target="1.8" />
+      <module name="db-modules and modules.db-jpa-sqlhelper" target="1.8" />
+      <module name="db-modules and modules.db-modules" target="1.8" />
+      <module name="db-modules and modules.db-mybatis-base-pagehelper" target="1.8" />
+      <module name="db-modules and modules.db-mybatis-base-sqlhelper" target="1.8" />
+      <module name="db-modules and modules.db-mybatis-fast-pagehelper" target="1.8" />
+      <module name="db-modules and modules.db-mybatis-fast-sqlhelper" target="1.8" />
+      <module name="db-modules and modules.db-mybatis-mapper-pagehelper" target="1.8" />
+      <module name="db-modules and modules.db-mybatis-mapper-sqlhelper" target="1.8" />
+      <module name="db-modules and modules.db-mybatis-plus" target="1.8" />
+      <module name="db-modules and modules.db-mybatis-plus-sqlhelper" target="1.8" />
       <module name="db-mybatis-base-pagehelper" target="1.8" />
       <module name="db-mybatis-base-sqlhelper" target="1.8" />
       <module name="db-mybatis-fast-pagehelper" target="1.8" />
@@ -59,16 +107,25 @@
       <module name="hateoas-jpa-sqlhelper" target="11" />
       <module name="hateoas-jpa-sqlhelper (1)" target="11" />
       <module name="hateoas-modules" target="1.8" />
+      <module name="hateoas-modules and modules.hateoas-core" target="1.8" />
+      <module name="hateoas-modules and modules.hateoas-modules" target="1.8" />
       <module name="hateoas-mybatis-base-pagehelper" target="11" />
       <module name="hateoas-mybatis-fast-pagehelper" target="11" />
       <module name="hateoas-mybatis-mapper-pagehelper" target="11" />
       <module name="hateoas-security" target="1.8" />
       <module name="hateoas-security-modules" target="1.8" />
+      <module name="hateoas-security-modules and modules.hateoas-security" target="1.8" />
+      <module name="hateoas-security-modules and modules.hateoas-security-modules" target="1.8" />
       <module name="learning-demo-01" target="1.8" />
       <module name="mvc-core" target="1.8" />
+      <module name="mvc-jdbc" target="1.8" />
       <module name="mvc-jdbc-sqlhelper" target="1.8" />
+      <module name="mvc-jpa" target="1.8" />
       <module name="mvc-jpa-sqlhelper" target="1.8" />
       <module name="mvc-modules" target="1.8" />
+      <module name="mvc-modules and modules.mvc-core" target="1.8" />
+      <module name="mvc-modules and modules.mvc-modules" target="1.8" />
+      <module name="mvc-mybatis" target="1.8" />
       <module name="mvc-mybatis-base-pagehelper" target="1.8" />
       <module name="mvc-mybatis-base-sqlhelper" target="1.8" />
       <module name="mvc-mybatis-fast-pagehelper" target="1.8" />
@@ -84,12 +141,17 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="app-hateoas" options="" />
       <module name="app-hateoas-01" options="-parameters" />
-      <module name="app-mvc" options="" />
       <module name="app-mvc-01" options="-parameters" />
+      <module name="app-mvc-jdbc-01" options="-parameters" />
+      <module name="app-mvc-jpa-01" options="-parameters" />
+      <module name="app-mvc-mybatis-01" options="-parameters" />
       <module name="app-mvc-system-01" options="-parameters" />
-      <module name="app-project" options="" />
+      <module name="app-project and modules.app-hateoas and modules.app-hateoas" options="" />
+      <module name="app-project and modules.app-hateoas and modules.app-hateoas-01" options="-parameters" />
+      <module name="app-project and modules.app-mvc and modules.app-mvc" options="" />
+      <module name="app-project and modules.app-mvc and modules.app-mvc-01" options="-parameters" />
+      <module name="app-project and modules.app-project" options="" />
       <module name="db-core" options="-parameters" />
       <module name="db-jdbc-mybatis-pagehelper" options="-parameters" />
       <module name="db-jdbc-mybatis-sqlhelper" options="-parameters" />
@@ -97,7 +159,22 @@
       <module name="db-jpa-mybatis-pagehelper" options="-parameters" />
       <module name="db-jpa-mybatis-sqlhelper" options="-parameters" />
       <module name="db-jpa-sqlhelper" options="-parameters" />
-      <module name="db-modules" options="" />
+      <module name="db-modules and modules.db-core" options="-parameters" />
+      <module name="db-modules and modules.db-jdbc-mybatis-pagehelper" options="-parameters" />
+      <module name="db-modules and modules.db-jdbc-mybatis-sqlhelper" options="-parameters" />
+      <module name="db-modules and modules.db-jdbc-sqlhelper" options="-parameters" />
+      <module name="db-modules and modules.db-jpa-mybatis-pagehelper" options="-parameters" />
+      <module name="db-modules and modules.db-jpa-mybatis-sqlhelper" options="-parameters" />
+      <module name="db-modules and modules.db-jpa-sqlhelper" options="-parameters" />
+      <module name="db-modules and modules.db-modules" options="" />
+      <module name="db-modules and modules.db-mybatis-base-pagehelper" options="-parameters" />
+      <module name="db-modules and modules.db-mybatis-base-sqlhelper" options="-parameters" />
+      <module name="db-modules and modules.db-mybatis-fast-pagehelper" options="-parameters" />
+      <module name="db-modules and modules.db-mybatis-fast-sqlhelper" options="-parameters" />
+      <module name="db-modules and modules.db-mybatis-mapper-pagehelper" options="-parameters" />
+      <module name="db-modules and modules.db-mybatis-mapper-sqlhelper" options="-parameters" />
+      <module name="db-modules and modules.db-mybatis-plus" options="-parameters" />
+      <module name="db-modules and modules.db-mybatis-plus-sqlhelper" options="-parameters" />
       <module name="db-mybatis-base-pagehelper" options="-parameters" />
       <module name="db-mybatis-base-sqlhelper" options="-parameters" />
       <module name="db-mybatis-fast-pagehelper" options="-parameters" />
@@ -110,13 +187,19 @@
       <module name="hateoas-jdbc-sqlhelper" options="-parameters" />
       <module name="hateoas-jpa-sqlhelper" options="-parameters" />
       <module name="hateoas-jpa-sqlhelper (1)" options="-parameters" />
+      <module name="hateoas-modules and modules.hateoas-core" options="-parameters" />
       <module name="hateoas-mybatis-base-pagehelper" options="-parameters" />
       <module name="hateoas-mybatis-fast-pagehelper" options="-parameters" />
       <module name="hateoas-mybatis-mapper-pagehelper" options="-parameters" />
       <module name="hateoas-security" options="-parameters" />
+      <module name="hateoas-security-modules and modules.hateoas-security" options="-parameters" />
       <module name="mvc-core" options="-parameters" />
+      <module name="mvc-jdbc" options="-parameters" />
       <module name="mvc-jdbc-sqlhelper" options="-parameters" />
+      <module name="mvc-jpa" options="-parameters" />
       <module name="mvc-jpa-sqlhelper" options="-parameters" />
+      <module name="mvc-modules and modules.mvc-core" options="-parameters" />
+      <module name="mvc-mybatis" options="-parameters" />
       <module name="mvc-mybatis-base-pagehelper" options="-parameters" />
       <module name="mvc-mybatis-base-sqlhelper" options="-parameters" />
       <module name="mvc-mybatis-fast-pagehelper" options="-parameters" />

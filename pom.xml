@@ -7,7 +7,6 @@
         <module>db-modules</module>
         <module>mvc-modules</module>
         <module>hateoas-modules</module>
-        <module>mvc-security-modules</module>
         <module>hateoas-security-modules</module>
         <module>app-project</module>
     </modules>
