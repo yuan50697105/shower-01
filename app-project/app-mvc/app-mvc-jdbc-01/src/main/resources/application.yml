@@ -9,7 +9,7 @@ spring:
     url: jdbc:mysql://localhost:3306/learning?useSSL=false&serverTimezone=UTC
     driver-class-name: com.mysql.cj.jdbc.Driver
     schema: classpath*:sql/*.sql
-    initialization-mode: embedded
+    initialization-mode: always
 logging:
   level:
     web: debug

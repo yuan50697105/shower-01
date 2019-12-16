@@ -1,5 +1,5 @@
 -- auto Generated on 2019-12-17
--- DROP TABLE IF EXISTS goods_info;
+DROP TABLE IF EXISTS goods_info;
 CREATE TABLE goods_info
 (
     id       BIGINT(15) NOT NULL AUTO_INCREMENT COMMENT 'id',
