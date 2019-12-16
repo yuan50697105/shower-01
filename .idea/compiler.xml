@@ -14,6 +14,7 @@
         <module name="db-mybatis-fast-pagehelper" />
         <module name="db-modules and modules.db-mybatis-fast-sqlhelper" />
         <module name="hateoas-security-modules and modules.hateoas-security" />
+        <module name="mvc-security" />
         <module name="db-modules and modules.db-jpa-mybatis-sqlhelper" />
         <module name="db-mybatis-plus" />
         <module name="db-mybatis-fast-sqlhelper" />

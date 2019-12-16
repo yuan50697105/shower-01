@@ -42,5 +42,6 @@
     <file url="file://$PROJECT_DIR$/mvc-modules/mvc-jdbc/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mvc-modules/mvc-jpa/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mvc-modules/mvc-mybatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mvc-security-modules/mvc-security/src/main/java" charset="UTF-8" />
   </component>
 </project>

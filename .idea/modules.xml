@@ -92,6 +92,8 @@
       <module fileurl="file://$PROJECT_DIR$/mvc-modules/mvc-core/mvc-modules and modules.mvc-core.iml" filepath="$PROJECT_DIR$/mvc-modules/mvc-core/mvc-modules and modules.mvc-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvc-modules/mvc-modules and modules.mvc-modules.iml" filepath="$PROJECT_DIR$/mvc-modules/mvc-modules and modules.mvc-modules.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvc-modules/mvc-mybatis/mvc-mybatis.iml" filepath="$PROJECT_DIR$/mvc-modules/mvc-mybatis/mvc-mybatis.iml" group="mvc-modules and modules" />
+      <module fileurl="file://$PROJECT_DIR$/mvc-security-modules/mvc-security/mvc-security.iml" filepath="$PROJECT_DIR$/mvc-security-modules/mvc-security/mvc-security.iml" group="mvc-security-modules and modules" />
+      <module fileurl="file://$PROJECT_DIR$/mvc-security-modules/mvc-security-modules.iml" filepath="$PROJECT_DIR$/mvc-security-modules/mvc-security-modules.iml" group="mvc-security-modules and modules" />
     </modules>
   </component>
 </project>
