@@ -12,17 +12,6 @@
     <groupId>org.yuan.boot.app.mvc</groupId>
     <artifactId>app-mvc</artifactId>
     <packaging>pom</packaging>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <skip>true</skip>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
     <modules>
         <module>app-mvc-01</module>
     </modules>

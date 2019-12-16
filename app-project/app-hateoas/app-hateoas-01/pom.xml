@@ -10,6 +10,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>app-hateoas-01</artifactId>
-
+    <dependencies>
+        <dependency>
+            <groupId>org.yuan.boot</groupId>
+            <artifactId>hateoas</artifactId>
+            <version>0.0.2-DEV</version>
+        </dependency>
+    </dependencies>
 
 </project>
