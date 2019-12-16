@@ -5,7 +5,7 @@
     <parent>
         <artifactId>learning-demo-01</artifactId>
         <groupId>org.yuan.boot</groupId>
-        <version>0.0.2-DEV</version>
+        <version>0.0.1-DEV</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -23,6 +23,10 @@
         <module>db-mybatis-mapper-sqlhelper</module>
         <module>db-mybatis-plus</module>
         <module>db-mybatis-plus-sqlhelper</module>
+        <module>db-jdbc-mybatis-pagehelper</module>
+        <module>db-jdbc-mybatis-sqlhelper</module>
+        <module>db-jpa-mybatis-pagehelper</module>
+        <module>db-jpa-mybatis-sqlhelper</module>
     </modules>
     <build>
         <plugins>
