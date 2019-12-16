@@ -9,14 +9,11 @@ import java.time.LocalDateTime;
 
 @EqualsAndHashCode(callSuper = true)
 @Data
-@Table("sys_user")
-public class SysUser extends BaseEntity<SysUser> {
+@Table("sys_module")
+public class SysModule extends BaseEntity<SysModule> {
     private String createUser;
     private String updateUser;
     private LocalDateTime createTime;
     private LocalDateTime updateTime;
-    private String username;
-    private String password;
-    private String realName;
-    private String nickName;
+    private String moduleName;
 }

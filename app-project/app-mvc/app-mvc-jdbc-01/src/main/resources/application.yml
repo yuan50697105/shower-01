@@ -8,6 +8,8 @@ spring:
     password: root
     url: jdbc:mysql://localhost:3306/learning?useSSL=false&serverTimezone=UTC
     driver-class-name: com.mysql.cj.jdbc.Driver
+    schema: classpath*:sql/*.sql
+    initialization-mode: embedded
 logging:
   level:
     web: debug

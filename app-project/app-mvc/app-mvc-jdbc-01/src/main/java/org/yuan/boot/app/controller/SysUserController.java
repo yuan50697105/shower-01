@@ -11,12 +11,12 @@ import org.yuan.boot.mvc.jdbc.pojo.PageResult;
 import org.yuan.boot.mvc.pojo.Result;
 
 @RestController
-//@RequestMapping("sys/user")
+@RequestMapping("sys/user")
 public class SysUserController extends ResultController {
     @Autowired
     private SysUserService sysUserService;
 
-    @GetMapping
+    @GetMapping("page")
     public PageResult<SysUser> page(SysUser sysUser,
                                     @RequestParam(defaultValue = "1") int page,
                                     @RequestParam(defaultValue = "20") int size) {
