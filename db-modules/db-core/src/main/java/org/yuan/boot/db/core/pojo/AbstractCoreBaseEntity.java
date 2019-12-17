@@ -14,24 +14,24 @@ import java.util.Map;
 public abstract class AbstractCoreBaseEntity<T> {
     @SuppressWarnings("unchecked")
     public T copyFrom(T t) {
-        BeanUtil.copyProperties(t, this, CopyOptions.create().ignoreError().ignoreCase().ignoreNullValue());
+        BeanUtil.copyProperties(t, this, CopyOptions.create().ignoreError().ignoreCase().ignoreNullValue().setIgnoreProperties("id"));
         return (T) this;
     }
 
     @SuppressWarnings("unchecked")
     public T copyFromWithNull(T t) {
-        BeanUtil.copyProperties(t, this, CopyOptions.create().ignoreError().ignoreCase());
+        BeanUtil.copyProperties(t, this, CopyOptions.create().ignoreError().ignoreCase().setIgnoreProperties("id"));
         return (T) this;
     }
 
     @SuppressWarnings("unchecked")
     public T copyFrom(Map<?, ?> map) {
-        return (T) BeanUtil.fillBeanWithMap(map, this, CopyOptions.create().ignoreError().ignoreCase().ignoreNullValue());
+        return (T) BeanUtil.fillBeanWithMap(map, this, CopyOptions.create().ignoreError().ignoreCase().ignoreNullValue().setIgnoreProperties("id"));
     }
 
     @SuppressWarnings("unchecked")
     public T copyFromWithNull(Map<?, ?> map) {
-        return (T) BeanUtil.fillBeanWithMap(map, this, CopyOptions.create().ignoreCase().ignoreError());
+        return (T) BeanUtil.fillBeanWithMap(map, this, CopyOptions.create().ignoreCase().ignoreError().setIgnoreProperties("id"));
     }
 
 }
