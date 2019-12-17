@@ -73,14 +73,14 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <outputDirectory>D:\IdeaProjects\learning-demo-01\out\app</outputDirectory>
+                    <outputDirectory>E:\WorkSpace\learning-demo-01\out\app</outputDirectory>
                 </configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
                 <configuration>
-                    <outputDirectory>D:\IdeaProjects\learning-demo-01\out\lib</outputDirectory>
+                    <outputDirectory>E:\WorkSpace\learning-demo-01\out\lib</outputDirectory>
                 </configuration>
             </plugin>
             <plugin>

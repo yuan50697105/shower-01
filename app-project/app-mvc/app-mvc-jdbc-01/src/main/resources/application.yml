@@ -6,11 +6,10 @@ spring:
   datasource:
     username: learning
     password: learning
-#    url: jdbc:mysql://localhost:3306/learning?useSSL=false&serverTimezone=UTC
-    url: jdbc:mysql://localhost:3306/learning
+    url: jdbc:mysql://localhost:3306/learning?useSSL=false&serverTimezone=UTC
     driver-class-name: com.mysql.cj.jdbc.Driver
     schema: classpath*:sql/*.sql
-#    initialization-mode: always
+    initialization-mode: always
 logging:
   level:
     web: debug
