@@ -16,6 +16,10 @@
         <module>mvc-jdbc</module>
         <module>mvc-jpa</module>
         <module>mvc-mybatis</module>
+        <module>mvc-jdbc-mybatis</module>
+        <module>mvc-jpa-mybatis</module>
+        <module>mvc-mybatis-mapper</module>
+        <module>mvc-mybatis-plus</module>
     </modules>
     <dependencies>
         <dependency>

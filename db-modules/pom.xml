@@ -14,19 +14,17 @@
     <modules>
         <module>db-core</module>
         <module>db-jdbc-sqlhelper</module>
-        <module>db-jpa-sqlhelper</module>
-        <module>db-mybatis-base-pagehelper</module>
-        <module>db-mybatis-base-sqlhelper</module>
-        <module>db-mybatis-fast-pagehelper</module>
-        <module>db-mybatis-fast-sqlhelper</module>
-        <module>db-mybatis-mapper-pagehelper</module>
-        <module>db-mybatis-mapper-sqlhelper</module>
-        <module>db-mybatis-plus</module>
-        <module>db-mybatis-plus-sqlhelper</module>
         <module>db-jdbc-mybatis-pagehelper</module>
         <module>db-jdbc-mybatis-sqlhelper</module>
+        <module>db-jpa-sqlhelper</module>
         <module>db-jpa-mybatis-pagehelper</module>
         <module>db-jpa-mybatis-sqlhelper</module>
+        <module>db-mybatis-base-pagehelper</module>
+        <module>db-mybatis-base-sqlhelper</module>
+        <module>db-mybatis-mapper-pagehelper</module>
+        <module>db-mybatis-mapper-sqlhelper</module>
+        <module>db-mybatis-plus-base</module>
+        <module>db-mybatis-plus-sqlhelper</module>
     </modules>
     <build>
         <plugins>

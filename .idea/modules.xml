@@ -66,15 +66,13 @@
       <module fileurl="file://$PROJECT_DIR$/db-modules/db-mybatis-fast-sqlhelper/db-modules and modules.db-mybatis-fast-sqlhelper.iml" filepath="$PROJECT_DIR$/db-modules/db-mybatis-fast-sqlhelper/db-modules and modules.db-mybatis-fast-sqlhelper.iml" />
       <module fileurl="file://$PROJECT_DIR$/db-modules/db-mybatis-mapper-pagehelper/db-modules and modules.db-mybatis-mapper-pagehelper.iml" filepath="$PROJECT_DIR$/db-modules/db-mybatis-mapper-pagehelper/db-modules and modules.db-mybatis-mapper-pagehelper.iml" />
       <module fileurl="file://$PROJECT_DIR$/db-modules/db-mybatis-mapper-sqlhelper/db-modules and modules.db-mybatis-mapper-sqlhelper.iml" filepath="$PROJECT_DIR$/db-modules/db-mybatis-mapper-sqlhelper/db-modules and modules.db-mybatis-mapper-sqlhelper.iml" />
-      <module fileurl="file://$PROJECT_DIR$/db-modules/db-mybatis-plus/db-modules and modules.db-mybatis-plus.iml" filepath="$PROJECT_DIR$/db-modules/db-mybatis-plus/db-modules and modules.db-mybatis-plus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/db-modules/db-mybatis-plus-base/db-modules and modules.db-mybatis-plus.iml" filepath="$PROJECT_DIR$/db-modules/db-mybatis-plus-base/db-modules and modules.db-mybatis-plus.iml" />
       <module fileurl="file://$PROJECT_DIR$/db-modules/db-mybatis-plus-sqlhelper/db-modules and modules.db-mybatis-plus-sqlhelper.iml" filepath="$PROJECT_DIR$/db-modules/db-mybatis-plus-sqlhelper/db-modules and modules.db-mybatis-plus-sqlhelper.iml" />
       <module fileurl="file://$PROJECT_DIR$/db-modules/db-mybatis-base-pagehelper/db-mybatis-base-pagehelper.iml" filepath="$PROJECT_DIR$/db-modules/db-mybatis-base-pagehelper/db-mybatis-base-pagehelper.iml" group="db-modules and modules" />
       <module fileurl="file://$PROJECT_DIR$/db-modules/db-mybatis-base-sqlhelper/db-mybatis-base-sqlhelper.iml" filepath="$PROJECT_DIR$/db-modules/db-mybatis-base-sqlhelper/db-mybatis-base-sqlhelper.iml" group="db-modules and modules" />
-      <module fileurl="file://$PROJECT_DIR$/db-modules/db-mybatis-fast-pagehelper/db-mybatis-fast-pagehelper.iml" filepath="$PROJECT_DIR$/db-modules/db-mybatis-fast-pagehelper/db-mybatis-fast-pagehelper.iml" group="db-modules and modules" />
-      <module fileurl="file://$PROJECT_DIR$/db-modules/db-mybatis-fast-sqlhelper/db-mybatis-fast-sqlhelper.iml" filepath="$PROJECT_DIR$/db-modules/db-mybatis-fast-sqlhelper/db-mybatis-fast-sqlhelper.iml" group="db-modules and modules" />
       <module fileurl="file://$PROJECT_DIR$/db-modules/db-mybatis-mapper-pagehelper/db-mybatis-mapper-pagehelper.iml" filepath="$PROJECT_DIR$/db-modules/db-mybatis-mapper-pagehelper/db-mybatis-mapper-pagehelper.iml" group="db-modules and modules" />
       <module fileurl="file://$PROJECT_DIR$/db-modules/db-mybatis-mapper-sqlhelper/db-mybatis-mapper-sqlhelper.iml" filepath="$PROJECT_DIR$/db-modules/db-mybatis-mapper-sqlhelper/db-mybatis-mapper-sqlhelper.iml" group="db-modules and modules" />
-      <module fileurl="file://$PROJECT_DIR$/db-modules/db-mybatis-plus/db-mybatis-plus.iml" filepath="$PROJECT_DIR$/db-modules/db-mybatis-plus/db-mybatis-plus.iml" group="db-modules and modules" />
+      <module fileurl="file://$PROJECT_DIR$/db-modules/db-mybatis-plus-base/db-mybatis-plus-base.iml" filepath="$PROJECT_DIR$/db-modules/db-mybatis-plus-base/db-mybatis-plus-base.iml" group="db-modules and modules" />
       <module fileurl="file://$PROJECT_DIR$/db-modules/db-mybatis-plus-sqlhelper/db-mybatis-plus-sqlhelper.iml" filepath="$PROJECT_DIR$/db-modules/db-mybatis-plus-sqlhelper/db-mybatis-plus-sqlhelper.iml" group="db-modules and modules" />
       <module fileurl="file://$PROJECT_DIR$/hateoas-modules/hateoas-core/hateoas-core.iml" filepath="$PROJECT_DIR$/hateoas-modules/hateoas-core/hateoas-core.iml" group="hateoas-modules and modules" />
       <module fileurl="file://$PROJECT_DIR$/hateoas-modules/hateoas-modules.iml" filepath="$PROJECT_DIR$/hateoas-modules/hateoas-modules.iml" group="hateoas-modules and modules" />
@@ -87,11 +85,15 @@
       <module fileurl="file://$PROJECT_DIR$/learning-demo-01.iml" filepath="$PROJECT_DIR$/learning-demo-01.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvc-modules/mvc-core/mvc-core.iml" filepath="$PROJECT_DIR$/mvc-modules/mvc-core/mvc-core.iml" group="mvc-modules and modules" />
       <module fileurl="file://$PROJECT_DIR$/mvc-modules/mvc-jdbc/mvc-jdbc.iml" filepath="$PROJECT_DIR$/mvc-modules/mvc-jdbc/mvc-jdbc.iml" group="mvc-modules and modules" />
+      <module fileurl="file://$PROJECT_DIR$/mvc-modules/mvc-jdbc-mybatis/mvc-jdbc-mybatis.iml" filepath="$PROJECT_DIR$/mvc-modules/mvc-jdbc-mybatis/mvc-jdbc-mybatis.iml" group="mvc-modules and modules" />
       <module fileurl="file://$PROJECT_DIR$/mvc-modules/mvc-jpa/mvc-jpa.iml" filepath="$PROJECT_DIR$/mvc-modules/mvc-jpa/mvc-jpa.iml" group="mvc-modules and modules" />
+      <module fileurl="file://$PROJECT_DIR$/mvc-modules/mvc-jpa-mybatis/mvc-jpa-mybatis.iml" filepath="$PROJECT_DIR$/mvc-modules/mvc-jpa-mybatis/mvc-jpa-mybatis.iml" group="mvc-modules and modules" />
       <module fileurl="file://$PROJECT_DIR$/mvc-modules/mvc-modules.iml" filepath="$PROJECT_DIR$/mvc-modules/mvc-modules.iml" group="mvc-modules and modules" />
       <module fileurl="file://$PROJECT_DIR$/mvc-modules/mvc-core/mvc-modules and modules.mvc-core.iml" filepath="$PROJECT_DIR$/mvc-modules/mvc-core/mvc-modules and modules.mvc-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvc-modules/mvc-modules and modules.mvc-modules.iml" filepath="$PROJECT_DIR$/mvc-modules/mvc-modules and modules.mvc-modules.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvc-modules/mvc-mybatis/mvc-mybatis.iml" filepath="$PROJECT_DIR$/mvc-modules/mvc-mybatis/mvc-mybatis.iml" group="mvc-modules and modules" />
+      <module fileurl="file://$PROJECT_DIR$/mvc-modules/mvc-mybatis-mapper/mvc-mybatis-mapper.iml" filepath="$PROJECT_DIR$/mvc-modules/mvc-mybatis-mapper/mvc-mybatis-mapper.iml" group="mvc-modules and modules" />
+      <module fileurl="file://$PROJECT_DIR$/mvc-modules/mvc-mybatis-plus/mvc-mybatis-plus.iml" filepath="$PROJECT_DIR$/mvc-modules/mvc-mybatis-plus/mvc-mybatis-plus.iml" group="mvc-modules and modules" />
       <module fileurl="file://$PROJECT_DIR$/mvc-security-modules/mvc-security/mvc-security.iml" filepath="$PROJECT_DIR$/mvc-security-modules/mvc-security/mvc-security.iml" group="mvc-security-modules and modules" />
       <module fileurl="file://$PROJECT_DIR$/mvc-security-modules/mvc-security-modules.iml" filepath="$PROJECT_DIR$/mvc-security-modules/mvc-security-modules.iml" group="mvc-security-modules and modules" />
     </modules>
