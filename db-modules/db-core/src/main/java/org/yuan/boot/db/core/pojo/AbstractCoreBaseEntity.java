@@ -13,25 +13,42 @@ import java.util.Map;
 @Data
 public abstract class AbstractCoreBaseEntity<T> {
     @SuppressWarnings("unchecked")
+    public T copyFrom(T t, String... ignoreProperties) {
+        BeanUtil.copyProperties(t, this, CopyOptions.create().ignoreError().ignoreCase().ignoreNullValue().setIgnoreProperties(ignoreProperties));
+        return (T) this;
+    }
+
+    @SuppressWarnings({"unchecked"})
+    public T copyFromWithNull(T t, String... ignoreProperties) {
+        BeanUtil.copyProperties(t, this, CopyOptions.create().ignoreError().ignoreCase().setIgnoreProperties(ignoreProperties));
+        return (T) this;
+    }
+
     public T copyFrom(T t) {
-        BeanUtil.copyProperties(t, this, CopyOptions.create().ignoreError().ignoreCase().ignoreNullValue().setIgnoreProperties("id"));
-        return (T) this;
+        return copyFrom(t, "id");
     }
 
-    @SuppressWarnings("unchecked")
     public T copyFromWithNull(T t) {
-        BeanUtil.copyProperties(t, this, CopyOptions.create().ignoreError().ignoreCase().setIgnoreProperties("id"));
-        return (T) this;
+        return copyFromWithNull(t, "id");
     }
 
     @SuppressWarnings("unchecked")
+    public T copyFrom(Map<?, ?> map, String... ignoreProperties) {
+        return (T) BeanUtil.fillBeanWithMap(map, this, CopyOptions.create().ignoreError().ignoreCase().ignoreNullValue().setIgnoreProperties(ignoreProperties));
+    }
+
     public T copyFrom(Map<?, ?> map) {
-        return (T) BeanUtil.fillBeanWithMap(map, this, CopyOptions.create().ignoreError().ignoreCase().ignoreNullValue().setIgnoreProperties("id"));
+        return copyFrom(map, "id");
     }
 
     @SuppressWarnings("unchecked")
-    public T copyFromWithNull(Map<?, ?> map) {
-        return (T) BeanUtil.fillBeanWithMap(map, this, CopyOptions.create().ignoreCase().ignoreError().setIgnoreProperties("id"));
+    public T copyFromWithNull(Map<?, ?> map, String... ignoreProperties) {
+        return (T) BeanUtil.fillBeanWithMap(map, this, CopyOptions.create().ignoreCase().ignoreError().setIgnoreProperties(ignoreProperties));
     }
+
+    public T copyFromWithNull(Map<?, ?> map) {
+        return copyFromWithNull(map, "id");
+    }
+
 
 }
