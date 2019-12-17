@@ -4,12 +4,13 @@ server:
   port: 8080
 spring:
   datasource:
-    username: root
-    password: root
-    url: jdbc:mysql://localhost:3306/learning?useSSL=false&serverTimezone=UTC
+    username: learning
+    password: learning
+#    url: jdbc:mysql://localhost:3306/learning?useSSL=false&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/learning
     driver-class-name: com.mysql.cj.jdbc.Driver
     schema: classpath*:sql/*.sql
-    initialization-mode: always
+#    initialization-mode: always
 logging:
   level:
     web: debug
