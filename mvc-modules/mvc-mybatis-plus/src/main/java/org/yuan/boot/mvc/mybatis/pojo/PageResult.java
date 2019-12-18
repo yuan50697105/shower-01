@@ -20,11 +20,11 @@ public class PageResult<T> extends PageCollectionResult<T> {
         super(code, message, iPage.getRecords(), iPage.getCurrent(), iPage.getSize(), iPage.getTotal(), iPage.getPages());
     }
 
-    public PageResult(@NonNull Integer code, @NonNull String message, PagingResult<T> result) {
-        super(code, message, result.getItems(), result.getPageNo(), result.getPageSize(), result.getTotal(), result.getMaxPageCount());
-    }
-
     public PageResult(@NonNull Integer code, @NonNull String message, PageInfo<T> pageInfo) {
         super(code, message, pageInfo.getList(), pageInfo.getPageNum(), pageInfo.getPageSize(), pageInfo.getTotal(), pageInfo.getPages());
+    }
+
+    public PageResult(@NonNull Integer code, @NonNull String message, PagingResult<T> result) {
+        super(code, message, result.getItems(), result.getPageNo(), result.getPageSize(), result.getTotal(), result.getMaxPageCount());
     }
 }

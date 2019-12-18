@@ -2,18 +2,19 @@ package org.yuan.boot.hateoas.pojo;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import lombok.NonNull;
+import lombok.NoArgsConstructor;
 
 @EqualsAndHashCode(callSuper = true)
 @Data
+@NoArgsConstructor
 public class DataResultModel<T> extends ResultModel {
     private T data;
 
-    public DataResultModel(@NonNull Integer code, @NonNull String message) {
+    public DataResultModel(Integer code, String message) {
         super(code, message);
     }
 
-    public DataResultModel(@NonNull Integer code, @NonNull String message, T data) {
+    public DataResultModel(Integer code, String message, T data) {
         super(code, message);
         this.data = data;
     }

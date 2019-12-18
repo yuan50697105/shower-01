@@ -18,7 +18,7 @@
         </dependency>
         <dependency>
             <groupId>org.yuan.boot</groupId>
-            <artifactId>db-mybatis-base-pagehelper</artifactId>
+            <artifactId>db-mybatis-base-sqlhelper</artifactId>
             <version>0.0.2-DEV</version>
         </dependency>
     </dependencies>

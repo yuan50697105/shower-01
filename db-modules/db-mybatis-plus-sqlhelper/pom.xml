@@ -12,6 +12,11 @@
     <artifactId>db-mybatis-plus-sqlhelper</artifactId>
     <dependencies>
         <dependency>
+            <groupId>org.yuan.boot</groupId>
+            <artifactId>db-core</artifactId>
+            <version>0.0.2-DEV</version>
+        </dependency>
+        <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
             <version>3.3.0</version>

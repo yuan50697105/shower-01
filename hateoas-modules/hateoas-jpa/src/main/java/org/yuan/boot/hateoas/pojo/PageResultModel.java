@@ -13,11 +13,11 @@ public class PageResultModel<T> extends PageCollectionResultModel<T> {
         super(code, message);
     }
 
-    public PageResultModel(@NonNull Integer code, @NonNull String message, PagingResult<T> result) {
-        super(code, message, result.getItems(), result.getPageNo(), result.getPageSize(), result.getTotal(), result.getMaxPageCount());
-    }
-
     public PageResultModel(@NonNull Integer code, @NonNull String message, Page<T> page) {
         super(code, message, page.getContent(), page.getPageable().getPageNumber() + 1, page.getPageable().getPageSize(), page.getTotalElements(), page.getTotalPages());
+    }
+
+    public PageResultModel(@NonNull Integer code, @NonNull String message, PagingResult<T> result) {
+        super(code, message, result.getItems(), result.getPageNo(), result.getPageSize(), result.getTotal(), result.getMaxPageCount());
     }
 }

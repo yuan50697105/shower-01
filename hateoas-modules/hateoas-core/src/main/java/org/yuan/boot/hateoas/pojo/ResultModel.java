@@ -1,16 +1,22 @@
 package org.yuan.boot.hateoas.pojo;
 
-import lombok.*;
+
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
 import org.springframework.hateoas.RepresentationModel;
 
 @EqualsAndHashCode(callSuper = true)
 @Data
 @NoArgsConstructor
-@RequiredArgsConstructor
-@AllArgsConstructor
 public class ResultModel extends RepresentationModel<ResultModel> {
-    @NonNull
     private Integer code;
-    @NonNull
     private String message;
+
+    public ResultModel(Integer code, String message) {
+        this.code = code;
+        this.message = message;
+    }
+
+
 }

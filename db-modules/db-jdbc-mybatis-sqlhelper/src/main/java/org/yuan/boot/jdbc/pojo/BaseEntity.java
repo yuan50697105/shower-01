@@ -1,5 +1,6 @@
 package org.yuan.boot.jdbc.pojo;
 
+
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import org.springframework.data.annotation.Id;
