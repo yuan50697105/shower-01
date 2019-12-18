@@ -82,6 +82,7 @@
       <module fileurl="file://$PROJECT_DIR$/hateoas-modules/hateoas-jdbc/hateoas-jdbc.iml" filepath="$PROJECT_DIR$/hateoas-modules/hateoas-jdbc/hateoas-jdbc.iml" group="hateoas-modules and modules" />
       <module fileurl="file://$PROJECT_DIR$/hateoas-modules/hateoas-jdbc-mybatis/hateoas-jdbc-mybatis.iml" filepath="$PROJECT_DIR$/hateoas-modules/hateoas-jdbc-mybatis/hateoas-jdbc-mybatis.iml" group="hateoas-modules and modules" />
       <module fileurl="file://$PROJECT_DIR$/hateoas-modules/hateoas-jpa/hateoas-jpa.iml" filepath="$PROJECT_DIR$/hateoas-modules/hateoas-jpa/hateoas-jpa.iml" group="hateoas-modules and modules" />
+      <module fileurl="file://$PROJECT_DIR$/hateoas-modules/hateoas-jpa-mybatis/hateoas-jpa-mybatis.iml" filepath="$PROJECT_DIR$/hateoas-modules/hateoas-jpa-mybatis/hateoas-jpa-mybatis.iml" group="hateoas-modules and modules" />
       <module fileurl="file://$PROJECT_DIR$/hateoas-modules/hateoas-modules.iml" filepath="$PROJECT_DIR$/hateoas-modules/hateoas-modules.iml" group="hateoas-modules and modules" />
       <module fileurl="file://$PROJECT_DIR$/hateoas-modules/hateoas-core/hateoas-modules and modules.hateoas-core.iml" filepath="$PROJECT_DIR$/hateoas-modules/hateoas-core/hateoas-modules and modules.hateoas-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/hateoas-modules/hateoas-modules and modules.hateoas-modules.iml" filepath="$PROJECT_DIR$/hateoas-modules/hateoas-modules and modules.hateoas-modules.iml" />
