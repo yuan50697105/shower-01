@@ -5,7 +5,7 @@
     <parent>
         <artifactId>app-project</artifactId>
         <groupId>org.yuan.boot</groupId>
-        <version>0.0.2-DEV</version>
+        <version>0.0.3-DEV</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
