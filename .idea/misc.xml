@@ -13,7 +13,6 @@
       <set>
         <option value="$PROJECT_DIR$/db-modules/db-mybatis-fast-pagehelper/pom.xml" />
         <option value="$PROJECT_DIR$/db-modules/db-mybatis-fast-sqlhelper/pom.xml" />
-        <option value="$PROJECT_DIR$/hateoas-modules/hateoas-jpa-mybatis/pom.xml" />
       </set>
     </option>
   </component>

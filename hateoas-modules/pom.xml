@@ -16,10 +16,10 @@
         <module>hateoas-jdbc</module>
         <module>hateoas-jdbc-mybatis</module>
         <module>hateoas-jpa</module>
+        <module>hateoas-jpa-mybatis</module>
         <module>hateoas-mybatis</module>
         <module>hateoas-mybatis-mapper</module>
         <module>hateoas-mybatis-plus</module>
-        <module>hateoas-jpa-mybatis</module>
     </modules>
     <dependencies>
         <dependency>
