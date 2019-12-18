@@ -5,12 +5,12 @@ import org.springframework.hateoas.RepresentationModel;
 
 @EqualsAndHashCode(callSuper = true)
 @Data
+@NoArgsConstructor
 @RequiredArgsConstructor
 @AllArgsConstructor
-public class ResultModel<T> extends RepresentationModel<ResultModel<T>> {
+public class ResultModel extends RepresentationModel<ResultModel> {
     @NonNull
     private Integer code;
     @NonNull
     private String message;
-    private T data;
 }

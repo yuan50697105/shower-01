@@ -17,5 +17,9 @@
         <module>app-mvc-jdbc-01</module>
         <module>app-mvc-jpa-01</module>
         <module>app-mvc-mybatis-01</module>
+        <module>app-mvc-jdbc-mybatis-01</module>
+        <module>app-mvc-jpa-mybatis-01</module>
+        <module>app-mvc-mybatis-mapper-01</module>
+        <module>app-mvc-mybatis-plus-01</module>
     </modules>
 </project>

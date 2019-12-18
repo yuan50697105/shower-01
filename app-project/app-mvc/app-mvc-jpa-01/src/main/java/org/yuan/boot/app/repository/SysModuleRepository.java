@@ -2,12 +2,9 @@ package org.yuan.boot.app.repository;
 
 
 import org.springframework.stereotype.Repository;
-import org.yuan.boot.app.pojo.SysUser;
+import org.yuan.boot.app.pojo.SysModule;
 import org.yuan.boot.jpa.repository.BaseRepository;
 
-/**
- * @author yuane
- */
 @Repository
-public interface SysUseRepository extends BaseRepository<SysUser> {
+public interface SysModuleRepository extends BaseRepository<SysModule> {
 }

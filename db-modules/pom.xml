@@ -23,7 +23,7 @@
         <module>db-mybatis-base-sqlhelper</module>
         <module>db-mybatis-mapper-pagehelper</module>
         <module>db-mybatis-mapper-sqlhelper</module>
-        <module>db-mybatis-plus-base</module>
+        <module>db-mybatis-plus-pagehelper</module>
         <module>db-mybatis-plus-sqlhelper</module>
     </modules>
     <build>

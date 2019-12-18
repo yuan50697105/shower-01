@@ -2,6 +2,7 @@ package org.yuan.boot.mvc.mybatis.pojo;
 
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.github.pagehelper.PageInfo;
 import com.jn.sqlhelper.dialect.pagination.PagingResult;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -21,5 +22,9 @@ public class PageResult<T> extends PageCollectionResult<T> {
 
     public PageResult(@NonNull Integer code, @NonNull String message, PagingResult<T> result) {
         super(code, message, result.getItems(), result.getPageNo(), result.getPageSize(), result.getTotal(), result.getMaxPageCount());
+    }
+
+    public PageResult(@NonNull Integer code, @NonNull String message, PageInfo<T> pageInfo) {
+        super(code, message, pageInfo.getList(), pageInfo.getPageNum(), pageInfo.getPageSize(), pageInfo.getTotal(), pageInfo.getPages());
     }
 }

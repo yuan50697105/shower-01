@@ -11,7 +11,7 @@ import java.util.Map;
  * @author yuanez
  */
 @Data
-public abstract class AbstractCoreBaseEntity<T> {
+public abstract class AbstractBaseEntity<T> {
     @SuppressWarnings("unchecked")
     public T copyFrom(T t, String... ignoreProperties) {
         BeanUtil.copyProperties(t, this, CopyOptions.create().ignoreError().ignoreCase().ignoreNullValue().setIgnoreProperties(ignoreProperties));

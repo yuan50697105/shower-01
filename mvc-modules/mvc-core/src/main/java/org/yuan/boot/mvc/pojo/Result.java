@@ -10,10 +10,10 @@ import java.io.Serializable;
 @NoArgsConstructor
 @RequiredArgsConstructor
 @AllArgsConstructor
-public class Result<T> implements Serializable {
+public class Result implements Serializable {
     @NonNull
     private Integer code;
     @NonNull
     private String message;
-    private T data;
+
 }

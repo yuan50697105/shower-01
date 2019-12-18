@@ -8,7 +8,7 @@ import java.util.Collection;
 
 @EqualsAndHashCode(callSuper = true)
 @Data
-public class CollectionResult<T> extends Result<Collection<T>> {
+public class CollectionResult<T> extends DataResult<Collection<T>> {
 
     public CollectionResult(@NonNull Integer code, @NonNull String message) {
         super(code, message);

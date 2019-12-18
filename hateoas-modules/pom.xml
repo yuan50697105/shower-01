@@ -13,6 +13,12 @@
     <packaging>pom</packaging>
     <modules>
         <module>hateoas-core</module>
+        <module>hateoas-jdbc</module>
+        <module>hateoas-jdbc-mybatis</module>
+        <module>hateoas-jpa</module>
+        <module>hateoas-mybatis</module>
+        <module>hateoas-mybatis-mapper</module>
+        <module>hateoas-mybatis-plus</module>
     </modules>
     <dependencies>
         <dependency>

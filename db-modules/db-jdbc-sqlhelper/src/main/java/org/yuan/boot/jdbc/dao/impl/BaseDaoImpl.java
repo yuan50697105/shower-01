@@ -1,5 +1,6 @@
 package org.yuan.boot.jdbc.dao.impl;
 
+import cn.hutool.core.util.ObjectUtil;
 import com.jn.sqlhelper.dialect.pagination.PagingRequest;
 import com.jn.sqlhelper.dialect.pagination.PagingResult;
 import com.jn.sqlhelper.dialect.pagination.SqlPaginations;
@@ -15,7 +16,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
-@SuppressWarnings("SpringJavaAutowiredMembersInspection")
+
 public abstract class BaseDaoImpl<T> implements BaseDao<T> {
     @Autowired
     private JdbcTemplate jdbcTemplate;
@@ -26,6 +27,10 @@ public abstract class BaseDaoImpl<T> implements BaseDao<T> {
     @SuppressWarnings("unchecked")
     public BaseDaoImpl() {
         type = (Class<T>) ((ParameterizedType) getClass().getGenericSuperclass()).getActualTypeArguments()[0];
+    }
+
+    public boolean isNotEmpty(Object object) {
+        return ObjectUtil.isNotEmpty(object);
     }
 
     @Override
