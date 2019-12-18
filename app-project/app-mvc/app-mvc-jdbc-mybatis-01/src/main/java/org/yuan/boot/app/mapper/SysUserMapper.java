@@ -1,4 +1,9 @@
 package org.yuan.boot.app.mapper;
 
-public interface SysUserMapper {
+import org.apache.ibatis.annotations.Mapper;
+import org.yuan.boot.app.pojo.SysUser;
+import org.yuan.boot.jdbc.mapper.BaseMapper;
+
+@Mapper
+public interface SysUserMapper extends BaseMapper<SysUser> {
 }
