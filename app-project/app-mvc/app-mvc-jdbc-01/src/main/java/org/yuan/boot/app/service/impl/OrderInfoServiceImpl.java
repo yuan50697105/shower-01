@@ -5,7 +5,7 @@ import org.yuan.boot.app.dao.OrderInfoDao;
 import org.yuan.boot.app.pojo.OrderInfo;
 import org.yuan.boot.app.repository.OrderInfoRepository;
 import org.yuan.boot.app.service.OrderInfoService;
-import org.yuan.boot.jdbc.service.impl.BaseServiceImpl;
+import org.yuan.boot.db.jdbc.service.impl.BaseServiceImpl;
 
 /**
  * @program: learning-demo-01

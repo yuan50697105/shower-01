@@ -1,7 +1,7 @@
 package org.yuan.boot.app.service;
 
 import org.yuan.boot.app.pojo.OrderInfo;
-import org.yuan.boot.jdbc.service.BaseService;
+import org.yuan.boot.db.jdbc.service.BaseService;
 
 /**
  * @program: learning-demo-01

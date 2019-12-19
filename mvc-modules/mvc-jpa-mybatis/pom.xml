@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>mvc-modules</artifactId>
-        <groupId>org.yuan.boot</groupId>
+        <groupId>org.yuan.boot.mvc</groupId>
         <version>0.0.3-DEV</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -12,12 +12,12 @@
     <artifactId>mvc-jpa-mybatis</artifactId>
     <dependencies>
         <dependency>
-            <groupId>org.yuan.boot</groupId>
+            <groupId>org.yuan.boot.mvc</groupId>
             <artifactId>mvc-core</artifactId>
             <version>0.0.3-DEV</version>
         </dependency>
         <dependency>
-            <groupId>org.yuan.boot</groupId>
+            <groupId>org.yuan.boot.db</groupId>
             <artifactId>db-jpa-mybatis-sqlhelper</artifactId>
             <version>0.0.3-DEV</version>
         </dependency>

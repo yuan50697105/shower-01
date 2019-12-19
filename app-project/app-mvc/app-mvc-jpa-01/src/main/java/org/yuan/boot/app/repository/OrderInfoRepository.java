@@ -3,7 +3,7 @@ package org.yuan.boot.app.repository;
 
 import org.springframework.stereotype.Repository;
 import org.yuan.boot.app.pojo.OrderInfo;
-import org.yuan.boot.jpa.repository.BaseRepository;
+import org.yuan.boot.db.jpa.repository.BaseRepository;
 
 /**
  * @program: learning-demo-01

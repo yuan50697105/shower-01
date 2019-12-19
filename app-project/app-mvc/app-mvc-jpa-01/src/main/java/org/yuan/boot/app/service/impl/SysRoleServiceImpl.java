@@ -6,7 +6,7 @@ import org.yuan.boot.app.dao.SysRoleDao;
 import org.yuan.boot.app.pojo.SysRole;
 import org.yuan.boot.app.repository.SysRoleRepository;
 import org.yuan.boot.app.service.SysRoleService;
-import org.yuan.boot.jpa.service.impl.BaseServiceImpl;
+import org.yuan.boot.db.jpa.service.impl.BaseServiceImpl;
 
 @Service
 public class SysRoleServiceImpl extends BaseServiceImpl<SysRole, SysRoleRepository, SysRoleDao> implements SysRoleService {

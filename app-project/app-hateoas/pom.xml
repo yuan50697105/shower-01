@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>app-project</artifactId>
-        <groupId>org.yuan.boot</groupId>
+        <groupId>org.yuan.boot.app</groupId>
         <version>0.0.3-DEV</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.yuan.boot.hateoas</groupId>
+    <groupId>org.yuan.boot.app.hateoas</groupId>
     <artifactId>app-hateoas</artifactId>
     <packaging>pom</packaging>
     <modules>

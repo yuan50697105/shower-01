@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>hateoas-modules</artifactId>
-        <groupId>org.yuan.boot</groupId>
+        <groupId>org.yuan.boot.hateoas</groupId>
         <version>0.0.3-DEV</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -12,12 +12,12 @@
     <artifactId>hateoas-jdbc</artifactId>
     <dependencies>
         <dependency>
-            <groupId>org.yuan.boot</groupId>
+            <groupId>org.yuan.boot.hateoas</groupId>
             <artifactId>hateoas-core</artifactId>
             <version>0.0.3-DEV</version>
         </dependency>
         <dependency>
-            <groupId>org.yuan.boot</groupId>
+            <groupId>org.yuan.boot.mvc</groupId>
             <artifactId>mvc-jdbc</artifactId>
             <version>0.0.3-DEV</version>
         </dependency>

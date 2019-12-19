@@ -1,7 +1,7 @@
 package org.yuan.boot.app.dao;
 
 import org.yuan.boot.app.pojo.OrderInfo;
-import org.yuan.boot.jdbc.dao.BaseDao;
+import org.yuan.boot.db.jdbc.dao.BaseDao;
 
 /**
  * @program: learning-demo-01

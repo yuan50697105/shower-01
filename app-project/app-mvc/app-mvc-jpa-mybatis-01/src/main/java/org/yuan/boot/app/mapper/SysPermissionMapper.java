@@ -3,7 +3,7 @@ package org.yuan.boot.app.mapper;
 
 import org.apache.ibatis.annotations.Mapper;
 import org.yuan.boot.app.pojo.SysPermission;
-import org.yuan.boot.jpa.mapper.BaseMapper;
+import org.yuan.boot.db.jpa.mapper.BaseMapper;
 
 @Mapper
 public interface SysPermissionMapper extends BaseMapper<SysPermission> {

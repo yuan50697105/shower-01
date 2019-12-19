@@ -3,7 +3,7 @@ package org.yuan.boot.app.pojo;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import org.yuan.boot.mybatis.pojo.BaseEntity;
+import org.yuan.boot.db.mybatis.pojo.BaseEntity;
 
 import java.math.BigDecimal;
 

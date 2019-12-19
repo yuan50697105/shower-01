@@ -12,7 +12,7 @@
     <artifactId>app-mvc-mybatis-01</artifactId>
     <dependencies>
         <dependency>
-            <groupId>org.yuan.boot</groupId>
+            <groupId>org.yuan.boot.mvc</groupId>
             <artifactId>mvc-mybatis</artifactId>
             <version>0.0.3-DEV</version>
         </dependency>

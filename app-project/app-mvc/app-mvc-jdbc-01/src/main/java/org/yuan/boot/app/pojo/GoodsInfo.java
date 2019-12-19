@@ -3,7 +3,7 @@ package org.yuan.boot.app.pojo;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import org.springframework.data.relational.core.mapping.Table;
-import org.yuan.boot.jdbc.pojo.BaseEntity;
+import org.yuan.boot.db.jdbc.pojo.BaseEntity;
 
 import java.math.BigDecimal;
 

@@ -3,7 +3,7 @@ package org.yuan.boot.app.dao.impl;
 import org.springframework.stereotype.Repository;
 import org.yuan.boot.app.dao.OrderInfoDao;
 import org.yuan.boot.app.pojo.OrderInfo;
-import org.yuan.boot.jdbc.dao.impl.BaseDaoImpl;
+import org.yuan.boot.db.jdbc.dao.impl.BaseDaoImpl;
 
 /**
  * @program: learning-demo-01
