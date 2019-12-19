@@ -2,9 +2,16 @@ package org.yuan.boot.app.pojo.dto;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import org.yuan.boot.app.pojo.SysModule;
+import lombok.experimental.Accessors;
+import org.yuan.boot.db.jdbc.pojo.BaseCondition;
+
+import java.util.List;
 
 @EqualsAndHashCode(callSuper = true)
 @Data
-public class SysModuleQueryCondition extends SysModule {
+@Accessors(fluent = true)
+public class SysModuleQueryCondition extends BaseCondition {
+    private Long id;
+    private List<Long> ids;
+    private String name;
 }

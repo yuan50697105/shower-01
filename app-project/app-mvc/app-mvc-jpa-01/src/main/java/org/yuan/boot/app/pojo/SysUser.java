@@ -3,6 +3,8 @@ package org.yuan.boot.app.pojo;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+import lombok.experimental.Accessors;
+import lombok.experimental.FieldNameConstants;
 import org.yuan.boot.db.jpa.pojo.BaseEntity;
 
 import javax.persistence.Entity;
@@ -13,6 +15,8 @@ import java.time.LocalDateTime;
 @Data
 @Entity
 @Table(name = "sys_user")
+@FieldNameConstants
+@Accessors(fluent = true)
 public class SysUser extends BaseEntity<SysUser> {
     private String createUser;
     private String updateUser;
@@ -22,4 +26,11 @@ public class SysUser extends BaseEntity<SysUser> {
     private String password;
     private String realName;
     private String nickName;
+
+    public SysUser() {
+    }
+
+    public SysUser(Long id) {
+        super(id);
+    }
 }

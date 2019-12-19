@@ -2,9 +2,11 @@ package org.yuan.boot.app.pojo.dto;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import org.yuan.boot.app.pojo.SysPermission;
+import lombok.experimental.Accessors;
+import org.yuan.boot.db.jdbc.pojo.BaseCondition;
 
 @EqualsAndHashCode(callSuper = true)
 @Data
-public class SysPermissionQueryCondition extends SysPermission {
+@Accessors(fluent = true)
+public class SysPermissionQueryCondition extends BaseCondition {
 }

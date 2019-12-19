@@ -13,12 +13,31 @@ import org.yuan.boot.db.jpa.service.BaseService;
 import java.util.List;
 import java.util.Optional;
 
-@SuppressWarnings("SpringJavaAutowiredMembersInspection")
 public abstract class BaseServiceImpl<T extends BaseEntity<T>, R extends BaseRepository<T>, D extends BaseMapper<T>> implements BaseService<T> {
     @Autowired
     private R baseRepository;
     @Autowired
     private D baseMapper;
+
+    @Override
+    @Transactional(rollbackFor = Exception.class)
+    public void update(T t) {
+        Optional<T> optional = baseRepository.findById(t.getId());
+        if (optional.isPresent()) {
+            T copy = optional.get().copyFrom(t);
+            baseRepository.save(copy);
+        }
+    }
+
+    @Override
+    @Transactional(rollbackFor = Exception.class)
+    public void updateWithNull(T t) {
+        Optional<T> optional = baseRepository.findById(t.getId());
+        if (optional.isPresent()) {
+            T copy = optional.get().copyFromWithNull(t);
+            baseRepository.save(copy);
+        }
+    }
 
     @Override
     @Transactional(rollbackFor = Exception.class)

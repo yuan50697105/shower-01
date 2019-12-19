@@ -1,10 +1,18 @@
 package org.yuan.boot.app.pojo.dto;
 
+
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import org.yuan.boot.app.pojo.SysRole;
+import lombok.experimental.Accessors;
+import org.yuan.boot.db.mybatis.pojo.BaseCondition;
+
+import java.util.List;
 
 @EqualsAndHashCode(callSuper = true)
 @Data
-public class SysRoleQueryCondition extends SysRole {
+@Accessors(fluent = true)
+public class SysRoleQueryCondition extends BaseCondition {
+    private Long id;
+    private List<Long> ids;
+    private String name;
 }

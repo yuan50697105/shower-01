@@ -4,12 +4,14 @@ server:
   port: 8080
 spring:
   datasource:
-    username: root
-    password: root
-    url: jdbc:mysql://localhost:3306/learning?useSSL=false&serverTimezone=UTC
+    username: yuan
+    password: yuan
+    url: jdbc:mysql://localhost:3306/learning?useUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true&useSSL=false
+      &serverTimezone=UTC&allowPublicKeyRetrieval=true
     driver-class-name: com.mysql.cj.jdbc.Driver
-mybatis:
-  mapper-locations: classpath*:/mappers/*.xml
+    schema: classpath*:sql/*.sql
+    #    data: classpath*:sql/*.sql
+    initialization-mode: always
 logging:
   level:
     web: debug

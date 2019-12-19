@@ -2,9 +2,12 @@ package org.yuan.boot.app.pojo.dto;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import org.yuan.boot.app.pojo.GoodsInfo;
+import lombok.experimental.Accessors;
+import org.yuan.boot.db.jdbc.pojo.BaseCondition;
 
 @EqualsAndHashCode(callSuper = true)
 @Data
-public class GoodsInfoQueryCondition extends GoodsInfo {
+@Accessors(fluent = true)
+public class GoodsInfoQueryCondition extends BaseCondition {
+
 }

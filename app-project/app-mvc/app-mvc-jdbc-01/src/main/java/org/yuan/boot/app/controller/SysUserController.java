@@ -1,11 +1,18 @@
 package org.yuan.boot.app.controller;
 
+import cn.hutool.http.HttpStatus;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.bind.annotation.RestControllerAdvice;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.*;
+import org.yuan.boot.app.pojo.SysUser;
+import org.yuan.boot.app.pojo.dto.SysUserQueryCondition;
 import org.yuan.boot.app.service.SysUserService;
 import org.yuan.boot.mvc.controller.ResultController;
+import org.yuan.boot.mvc.pojo.DataResult;
+import org.yuan.boot.mvc.pojo.Result;
+
+import java.util.Optional;
 
 @RestControllerAdvice
 @RestController
@@ -13,4 +20,46 @@ import org.yuan.boot.mvc.controller.ResultController;
 public class SysUserController extends ResultController {
     @Autowired
     private SysUserService sysUserService;
+
+    @GetMapping("data")
+    public Result data(SysUserQueryCondition condition) {
+        return sysUserService.selectPage(condition);
+    }
+
+    @GetMapping("list")
+    public Result list(SysUserQueryCondition condition) {
+        return sysUserService.selectList(condition);
+    }
+
+    @GetMapping("get")
+    public Result get(SysUser sysUser) {
+        return sysUserService.selectOne(sysUser);
+    }
+
+    @GetMapping("{id}")
+    public Result get(@PathVariable("id") Long id) {
+        Optional<SysUser> sysUser = sysUserService.selectById(id);
+        return new DataResult<>(HttpStatus.HTTP_OK, "成功", sysUser);
+    }
+
+    @PostMapping
+    public Result save(@RequestBody @Validated SysUser sysUser, BindingResult result) {
+        validate(result);
+        return sysUserService.saveFromVO(sysUser);
+    }
+
+    @PutMapping
+    public Result update(@RequestBody @Validated SysUser sysUser, BindingResult result) {
+        validate(result);
+        sysUserService.update(sysUser);
+        return ok();
+    }
+
+    @DeleteMapping("{id}")
+    public Result delete(@PathVariable("id") Long id) {
+        sysUserService.delete(id);
+        return ok();
+    }
+
+
 }

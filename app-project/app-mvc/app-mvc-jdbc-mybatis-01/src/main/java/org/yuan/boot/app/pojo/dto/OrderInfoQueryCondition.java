@@ -2,7 +2,8 @@ package org.yuan.boot.app.pojo.dto;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import org.yuan.boot.app.pojo.OrderInfo;
+import lombok.experimental.Accessors;
+import org.yuan.boot.db.jdbc.pojo.BaseCondition;
 
 /**
  * @program: learning-demo-01
@@ -12,5 +13,9 @@ import org.yuan.boot.app.pojo.OrderInfo;
  **/
 @EqualsAndHashCode(callSuper = true)
 @Data
-public class OrderInfoQueryCondition extends OrderInfo {
+@Accessors(fluent = true)
+public class OrderInfoQueryCondition extends BaseCondition {
+    private Long id;
+    private String orderNo;
+    private Long userId;
 }
