@@ -10,6 +10,7 @@
         <module>hateoas-security-modules</module>
         <module>app-project</module>
         <module>mvc-security-modules</module>
+        <module>cloud-app-project</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -25,9 +26,26 @@
 
     <properties>
         <java.version>11</java.version>
-        <out.path>D:\IdeaProjects\learning-demo-01\out</out.path>
+        <out.path>E:\WorkSpace\learning-demo-01\out</out.path>
     </properties>
-
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>Hoxton.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>2.1.1.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
     <dependencies>
         <dependency>
             <groupId>cn.hutool</groupId>

@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>app-project</artifactId>
+    <artifactId>cloud-app-project</artifactId>
     <packaging>pom</packaging>
     <build>
         <plugins>
@@ -24,14 +24,11 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <outputDirectory>${out.path}\app\boot</outputDirectory>
+                    <outputDirectory>${out.path}\app\cloud</outputDirectory>
                 </configuration>
             </plugin>
         </plugins>
     </build>
-    <modules>
-        <module>app-mvc</module>
-        <module>app-hateoas</module>
-    </modules>
+
 
 </project>

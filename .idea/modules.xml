@@ -48,6 +48,7 @@
       <module fileurl="file://$PROJECT_DIR$/app-project/app-mvc/app-project and modules.app-mvc and modules.app-mvc.iml" filepath="$PROJECT_DIR$/app-project/app-mvc/app-project and modules.app-mvc and modules.app-mvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/app-project/app-mvc/app-mvc-01/app-project and modules.app-mvc and modules.app-mvc-01.iml" filepath="$PROJECT_DIR$/app-project/app-mvc/app-mvc-01/app-project and modules.app-mvc and modules.app-mvc-01.iml" />
       <module fileurl="file://$PROJECT_DIR$/app-project/app-project and modules.app-project.iml" filepath="$PROJECT_DIR$/app-project/app-project and modules.app-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-app-project/cloud-app-project.iml" filepath="$PROJECT_DIR$/cloud-app-project/cloud-app-project.iml" />
       <module fileurl="file://$PROJECT_DIR$/db-modules/db-core/db-core.iml" filepath="$PROJECT_DIR$/db-modules/db-core/db-core.iml" group="db-modules and modules" />
       <module fileurl="file://$PROJECT_DIR$/db-modules/db-jdbc-mybatis-pagehelper/db-jdbc-mybatis-pagehelper.iml" filepath="$PROJECT_DIR$/db-modules/db-jdbc-mybatis-pagehelper/db-jdbc-mybatis-pagehelper.iml" group="db-modules and modules" />
       <module fileurl="file://$PROJECT_DIR$/db-modules/db-jdbc-mybatis-sqlhelper/db-jdbc-mybatis-sqlhelper.iml" filepath="$PROJECT_DIR$/db-modules/db-jdbc-mybatis-sqlhelper/db-jdbc-mybatis-sqlhelper.iml" group="db-modules and modules" />
