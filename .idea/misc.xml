@@ -12,6 +12,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/cloud-app-project/cloud-app-01/eureka-server-01/pom.xml" />
         <option value="$PROJECT_DIR$/db-modules/db-mybatis-fast-pagehelper/pom.xml" />
         <option value="$PROJECT_DIR$/db-modules/db-mybatis-fast-sqlhelper/pom.xml" />
       </set>
