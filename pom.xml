@@ -108,6 +108,7 @@
                 <artifactId>maven-source-plugin</artifactId>
                 <configuration>
                     <attach>true</attach>
+                    <outputDirectory>${out.path}/lib</outputDirectory>
                 </configuration>
                 <executions>
                     <execution>
