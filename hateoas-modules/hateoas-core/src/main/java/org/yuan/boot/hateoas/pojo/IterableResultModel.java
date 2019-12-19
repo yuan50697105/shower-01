@@ -4,18 +4,16 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
-import java.util.Collection;
-
 @EqualsAndHashCode(callSuper = true)
 @Data
 @NoArgsConstructor
-public class CollectionResultModel<T> extends DataResultModel<Collection<T>> {
+public class IterableResultModel<E extends Iterable<?>> extends DataResultModel<E> {
 
-    public CollectionResultModel(Integer code, String message) {
+    public IterableResultModel(Integer code, String message) {
         super(code, message);
     }
 
-    public CollectionResultModel(Integer code, String message, Collection<T> data) {
+    public IterableResultModel(Integer code, String message, E data) {
         super(code, message, data);
     }
 }

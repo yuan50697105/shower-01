@@ -7,11 +7,15 @@
     <file url="file://$PROJECT_DIR$/app-project/app-mvc/app-mvc-01/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app-project/app-mvc/app-mvc-jdbc-01/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app-project/app-mvc/app-mvc-jdbc-mybatis-01/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app-project/app-mvc/app-mvc-jdbc-mybatis-01/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app-project/app-mvc/app-mvc-jpa-01/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app-project/app-mvc/app-mvc-jpa-mybatis-01/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app-project/app-mvc/app-mvc-jpa-mybatis-01/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app-project/app-mvc/app-mvc-mybatis-01/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app-project/app-mvc/app-mvc-mybatis-mapper-01/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app-project/app-mvc/app-mvc-mybatis-mapper-01/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app-project/app-mvc/app-mvc-mybatis-plus-01/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app-project/app-mvc/app-mvc-mybatis-plus-01/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/db-modules/db-core/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/db-modules/db-jdbc-mybatis-pagehelper/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/db-modules/db-jdbc-mybatis-sqlhelper/src/main/java" charset="UTF-8" />
@@ -37,12 +41,19 @@
     <file url="file://$PROJECT_DIR$/hateoas-modules/hateoas-core/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hateoas-modules/hateoas-core/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hateoas-modules/hateoas-jdbc-mybatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hateoas-modules/hateoas-jdbc-mybatis/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hateoas-modules/hateoas-jdbc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hateoas-modules/hateoas-jdbc/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hateoas-modules/hateoas-jpa-mybatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hateoas-modules/hateoas-jpa-mybatis/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hateoas-modules/hateoas-jpa/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hateoas-modules/hateoas-jpa/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hateoas-modules/hateoas-mybatis-mapper/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hateoas-modules/hateoas-mybatis-mapper/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hateoas-modules/hateoas-mybatis-plus/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hateoas-modules/hateoas-mybatis-plus/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hateoas-modules/hateoas-mybatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hateoas-modules/hateoas-mybatis/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hateoas-security-modules/hateoas-security/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mvc-modules/mvc-core/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mvc-modules/mvc-core/src/main/resources" charset="UTF-8" />

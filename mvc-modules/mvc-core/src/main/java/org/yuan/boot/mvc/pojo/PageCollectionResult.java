@@ -4,11 +4,11 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NonNull;
 
-import java.util.Collection;
+import java.util.List;
 
 @EqualsAndHashCode(callSuper = true)
 @Data
-public class PageCollectionResult<T> extends CollectionResult<T> {
+public class PageCollectionResult<T> extends IterableResult<List<T>> {
     private long page;
     private long size;
     private long totalNumberOfRows;
@@ -18,7 +18,7 @@ public class PageCollectionResult<T> extends CollectionResult<T> {
         super(code, message);
     }
 
-    public PageCollectionResult(@NonNull Integer code, @NonNull String message, Collection<T> data, long page, long size, long totalNumberOfRows, long totalPages) {
+    public PageCollectionResult(@NonNull Integer code, @NonNull String message, List<T> data, long page, long size, long totalNumberOfRows, long totalPages) {
         super(code, message, data);
         this.page = page;
         this.size = size;

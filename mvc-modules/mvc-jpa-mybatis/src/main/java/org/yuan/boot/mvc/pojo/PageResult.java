@@ -7,6 +7,7 @@ import lombok.EqualsAndHashCode;
 import lombok.NonNull;
 import org.springframework.data.domain.Page;
 
+
 @EqualsAndHashCode(callSuper = true)
 @Data
 public class PageResult<T> extends PageCollectionResult<T> {

@@ -5,12 +5,12 @@ import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import lombok.NonNull;
 
-import java.util.Collection;
+import java.util.List;
 
 @EqualsAndHashCode(callSuper = true)
 @Data
 @NoArgsConstructor
-public class PageCollectionResultModel<T> extends CollectionResultModel<T> {
+public class PageCollectionResultModel<T> extends IterableResultModel<List<T>> {
     private long page;
     private long size;
     private long totalNumberOfRows;
@@ -21,7 +21,7 @@ public class PageCollectionResultModel<T> extends CollectionResultModel<T> {
         super(code, message);
     }
 
-    public PageCollectionResultModel(@NonNull Integer code, @NonNull String message, Collection<T> data, long page, long size, long totalNumberOfRows, long totalPages) {
+    public PageCollectionResultModel(@NonNull Integer code, @NonNull String message, List<T> data, long page, long size, long totalNumberOfRows, long totalPages) {
         super(code, message, data);
         this.page = page;
         this.size = size;
