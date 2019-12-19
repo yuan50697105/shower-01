@@ -5,7 +5,7 @@
     <parent>
         <artifactId>mvc-security-modules</artifactId>
         <groupId>org.yuan.boot.mvc.security</groupId>
-        <version>0.0.3-DEV</version>
+        <version>0.0.4-DEV</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -14,7 +14,7 @@
         <dependency>
             <groupId>org.yuan.boot.mvc</groupId>
             <artifactId>mvc-core</artifactId>
-            <version>0.0.3-DEV</version>
+            <version>0.0.4-DEV</version>
         </dependency>
     </dependencies>
 
