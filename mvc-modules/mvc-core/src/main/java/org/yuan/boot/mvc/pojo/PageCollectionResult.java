@@ -2,7 +2,6 @@ package org.yuan.boot.mvc.pojo;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import lombok.NonNull;
 
 import java.util.List;
 
@@ -14,11 +13,11 @@ public class PageCollectionResult<T> extends IterableResult<List<T>> {
     private long totalNumberOfRows;
     private long totalPages;
 
-    public PageCollectionResult(@NonNull Integer code, @NonNull String message) {
+    public PageCollectionResult(Integer code, String message) {
         super(code, message);
     }
 
-    public PageCollectionResult(@NonNull Integer code, @NonNull String message, List<T> data, long page, long size, long totalNumberOfRows, long totalPages) {
+    public PageCollectionResult(Integer code, String message, List<T> data, long page, long size, long totalNumberOfRows, long totalPages) {
         super(code, message, data);
         this.page = page;
         this.size = size;
