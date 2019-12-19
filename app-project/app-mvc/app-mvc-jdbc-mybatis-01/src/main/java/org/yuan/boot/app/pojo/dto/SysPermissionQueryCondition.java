@@ -9,4 +9,10 @@ import org.yuan.boot.db.jdbc.pojo.BaseCondition;
 @Data
 @Accessors(fluent = true)
 public class SysPermissionQueryCondition extends BaseCondition {
+    public SysPermissionQueryCondition() {
+    }
+
+    public SysPermissionQueryCondition(int page, int size) {
+        super(page, size);
+    }
 }

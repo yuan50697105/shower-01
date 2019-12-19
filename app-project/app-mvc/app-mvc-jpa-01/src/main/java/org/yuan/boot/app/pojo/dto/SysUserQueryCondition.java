@@ -21,4 +21,11 @@ public class SysUserQueryCondition extends BaseCondition {
     private String createUser;
     private LocalDateTime createDateStart;
     private LocalDateTime createDateEnd;
+
+    public SysUserQueryCondition() {
+    }
+
+    public SysUserQueryCondition(int page, int size) {
+        super(page, size);
+    }
 }

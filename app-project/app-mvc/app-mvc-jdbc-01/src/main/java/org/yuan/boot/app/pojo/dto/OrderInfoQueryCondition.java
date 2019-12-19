@@ -13,4 +13,11 @@ public class OrderInfoQueryCondition extends BaseCondition {
     private Long id;
     private String orderNo;
     private Long userId;
+
+    public OrderInfoQueryCondition() {
+    }
+
+    public OrderInfoQueryCondition(int page, int size) {
+        super(page, size);
+    }
 }

@@ -10,4 +10,10 @@ import org.yuan.boot.db.jdbc.pojo.BaseCondition;
 @Accessors(fluent = true)
 public class GoodsInfoQueryCondition extends BaseCondition {
 
+    public GoodsInfoQueryCondition() {
+    }
+
+    public GoodsInfoQueryCondition(int page, int size) {
+        super(page, size);
+    }
 }

@@ -14,4 +14,11 @@ public class SysModuleQueryCondition extends BaseCondition {
     private Long id;
     private List<Long> ids;
     private String name;
+
+    public SysModuleQueryCondition() {
+    }
+
+    public SysModuleQueryCondition(int page, int size) {
+        super(page, size);
+    }
 }

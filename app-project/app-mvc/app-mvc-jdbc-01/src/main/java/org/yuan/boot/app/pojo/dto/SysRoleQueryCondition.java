@@ -14,4 +14,11 @@ public class SysRoleQueryCondition extends BaseCondition {
     private Long id;
     private List<Long> ids;
     private String name;
+
+    public SysRoleQueryCondition() {
+    }
+
+    public SysRoleQueryCondition(int page, int size) {
+        super(page, size);
+    }
 }
