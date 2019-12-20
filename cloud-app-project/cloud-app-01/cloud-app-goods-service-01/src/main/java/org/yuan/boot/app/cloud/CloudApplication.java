@@ -1,18 +1,18 @@
-package org.yuan.boot.cloud;
+package org.yuan.boot.app.cloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 /**
  * @program: learning-demo-01
  * @description:
  * @author: yuanez
- * @create: 2019-12-19 11:56
+ * @create: 2019-12-19 12:04
  **/
-@EnableEurekaServer
 @EnableEurekaClient
+@EnableDiscoveryClient
 @SpringBootApplication
 public class CloudApplication {
     public static void main(String[] args) {

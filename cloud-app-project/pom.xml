@@ -8,7 +8,7 @@
         <version>0.0.4-DEV</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.yuan.boot.cloud</groupId>
+    <groupId>org.yuan.boot.app.cloud</groupId>
     <artifactId>cloud-app-project</artifactId>
     <packaging>pom</packaging>
     <dependencies>

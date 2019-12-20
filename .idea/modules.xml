@@ -100,6 +100,7 @@
       <module fileurl="file://$PROJECT_DIR$/hateoas-security-modules/hateoas-security/hateoas-security-modules and modules.hateoas-security.iml" filepath="$PROJECT_DIR$/hateoas-security-modules/hateoas-security/hateoas-security-modules and modules.hateoas-security.iml" />
       <module fileurl="file://$PROJECT_DIR$/hateoas-security-modules/hateoas-security-modules and modules.hateoas-security-modules.iml" filepath="$PROJECT_DIR$/hateoas-security-modules/hateoas-security-modules and modules.hateoas-security-modules.iml" />
       <module fileurl="file://$PROJECT_DIR$/learning-demo-01.iml" filepath="$PROJECT_DIR$/learning-demo-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules-app-project/modules-app-01/modules-app-01.iml" filepath="$PROJECT_DIR$/modules-app-project/modules-app-01/modules-app-01.iml" />
       <module fileurl="file://$PROJECT_DIR$/modules-app-project/modules-app-project.iml" filepath="$PROJECT_DIR$/modules-app-project/modules-app-project.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvc-modules/mvc-core/mvc-core.iml" filepath="$PROJECT_DIR$/mvc-modules/mvc-core/mvc-core.iml" group="mvc-modules and modules" />
       <module fileurl="file://$PROJECT_DIR$/mvc-modules/mvc-jdbc/mvc-jdbc.iml" filepath="$PROJECT_DIR$/mvc-modules/mvc-jdbc/mvc-jdbc.iml" group="mvc-modules and modules" />
