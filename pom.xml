@@ -20,14 +20,14 @@
     </parent>
     <groupId>org.yuan.boot</groupId>
     <artifactId>learning-demo-01</artifactId>
-    <version>0.0.4-DEV</version>
+    <version>0.0.5-DEV</version>
     <name>learning-demo-01</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
         <!--        <java.version>11</java.version>-->
         <java.version>1.8</java.version>
-        <out.path>D:\IdeaProjects\learning-demo-01\out</out.path>
+        <out.path>E:\WorkSpace\learning-demo-01\out</out.path>
     </properties>
     <dependencyManagement>
         <dependencies>
