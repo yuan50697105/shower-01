@@ -17,4 +17,5 @@ import org.yuan.boot.mvc.modules.service.SysUserService;
 public class SysUserController extends ResultController {
     @Autowired
     private SysUserService sysUserService;
+
 }

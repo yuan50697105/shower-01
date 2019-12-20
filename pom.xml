@@ -99,7 +99,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <outputDirectory>${out.path}\app</outputDirectory>
+<!--                    <outputDirectory>${out.path}\app</outputDirectory>-->
                 </configuration>
             </plugin>
             <plugin>
