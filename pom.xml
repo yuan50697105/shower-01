@@ -28,7 +28,7 @@
     <properties>
         <!--        <java.version>11</java.version>-->
         <java.version>1.8</java.version>
-        <out.path>E:\WorkSpace\learning-demo-01\out</out.path>
+        <out.path>D:\IdeaProjects\learning-demo-01\out</out.path>
     </properties>
     <dependencyManagement>
         <dependencies>
