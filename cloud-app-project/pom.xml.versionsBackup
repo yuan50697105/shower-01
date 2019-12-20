@@ -5,43 +5,39 @@
     <parent>
         <artifactId>learning-demo-01</artifactId>
         <groupId>org.yuan.boot</groupId>
-        <version>0.0.4-DEV</version>
+        <version>0.0.5-DEV</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.yuan.boot.hateoas.security</groupId>
-    <artifactId>hateoas-security-modules</artifactId>
+    <groupId>org.yuan.boot.cloud</groupId>
+    <artifactId>cloud-app-project</artifactId>
     <packaging>pom</packaging>
-    <modules>
-        <module>hateoas-security</module>
-    </modules>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-hateoas</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-security</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.security</groupId>
-            <artifactId>spring-security-test</artifactId>
-            <scope>test</scope>
-        </dependency>
     </dependencies>
     <build>
         <plugins>
             <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-install-plugin</artifactId>
                 <configuration>
                     <skip>true</skip>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <outputDirectory>${out.path}\app\cloud</outputDirectory>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
+    <modules>
+        <module>cloud-app-01</module>
+    </modules>
+
+
 </project>

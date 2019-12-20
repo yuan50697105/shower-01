@@ -3,20 +3,17 @@
          xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>cloud-app-project</artifactId>
-        <groupId>org.yuan.boot.cloud</groupId>
-        <version>0.0.4-DEV</version>
+        <artifactId>app-project</artifactId>
+        <groupId>org.yuan.boot.app</groupId>
+        <version>0.0.5-DEV</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>cloud-app-01</artifactId>
+    <groupId>org.yuan.boot.app.hateoas</groupId>
+    <artifactId>app-hateoas</artifactId>
     <packaging>pom</packaging>
     <modules>
-
-        <module>cloud-app-eureka-server-01</module>
-        <module>cloud-app-user-service-01</module>
-        <module>cloud-app-commons-01</module>
-        <module>cloud-app-goods-service-01</module>
+        <module>app-hateoas-01</module>
     </modules>
 
 </project>
