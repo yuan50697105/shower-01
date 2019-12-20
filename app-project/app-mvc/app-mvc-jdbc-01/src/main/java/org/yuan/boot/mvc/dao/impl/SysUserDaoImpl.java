@@ -59,6 +59,7 @@ public class SysUserDaoImpl extends BaseDaoImpl<SysUser> implements SysUserDao {
         }
 
         public ConditionQuery invoke() {
+            map = new HashMap<>(condition.getClass().getFields().length);
             StringBuilder stringBuilder = new StringBuilder();
             stringBuilder.append("select create_user, update_user, create_time, update_time, id, username, password ");
             stringBuilder.append("from sys_user ");
@@ -98,7 +99,6 @@ public class SysUserDaoImpl extends BaseDaoImpl<SysUser> implements SysUserDao {
                 }
             }
             sql = stringBuilder.toString();
-            map = new HashMap<>(condition.getClass().getFields().length);
             return this;
         }
     }
@@ -121,6 +121,7 @@ public class SysUserDaoImpl extends BaseDaoImpl<SysUser> implements SysUserDao {
         }
 
         public ExampleQuery invoke() {
+            map = new HashMap<>(sysUser.getClass().getFields().length);
             StringBuilder stringBuilder = new StringBuilder();
             stringBuilder.append("select create_user, update_user, create_time, update_time, id, username, password ");
             stringBuilder.append("from sys_user ");
@@ -136,7 +137,6 @@ public class SysUserDaoImpl extends BaseDaoImpl<SysUser> implements SysUserDao {
                 }
             }
             sql = stringBuilder.toString();
-            map = new HashMap<>(sysUser.getClass().getFields().length);
             return this;
         }
     }

@@ -8,6 +8,7 @@ import com.jn.sqlhelper.dialect.pagination.SqlPaginations;
 import com.jn.sqlhelper.springjdbc.JdbcTemplate;
 import com.jn.sqlhelper.springjdbc.NamedParameterJdbcTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DataAccessException;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.transaction.annotation.Transactional;
 import org.yuan.boot.db.jpa.dao.BaseDao;
@@ -61,22 +62,42 @@ public abstract class BaseDaoImpl<T> implements BaseDao<T> {
 
     @Override
     public Optional<T> selectOne(String sql) {
-        return Optional.ofNullable(jdbcTemplate.queryForObject(sql, new BeanPropertyRowMapper<>(type)));
+        try {
+            return Optional.ofNullable(jdbcTemplate.queryForObject(sql, new BeanPropertyRowMapper<>(type)));
+        } catch (DataAccessException e) {
+            e.printStackTrace();
+            return Optional.empty();
+        }
     }
 
     @Override
     public Optional<T> selectOne(String sql, Object... objects) {
-        return Optional.ofNullable(jdbcTemplate.queryForObject(sql, new BeanPropertyRowMapper<>(type), objects));
+        try {
+            return Optional.ofNullable(jdbcTemplate.queryForObject(sql, new BeanPropertyRowMapper<>(type), objects));
+        } catch (DataAccessException e) {
+            e.printStackTrace();
+            return Optional.empty();
+        }
     }
 
     @Override
     public Optional<T> selectOne(String sql, Collection<Object> collection) {
-        return Optional.ofNullable(jdbcTemplate.queryForObject(sql, new BeanPropertyRowMapper<>(type), collection.toArray()));
+        try {
+            return Optional.ofNullable(jdbcTemplate.queryForObject(sql, new BeanPropertyRowMapper<>(type), collection.toArray()));
+        } catch (DataAccessException e) {
+            e.printStackTrace();
+            return Optional.empty();
+        }
     }
 
     @Override
     public Optional<T> selectOne(String sql, Map<String, Object> map) {
-        return Optional.ofNullable(parameterJdbcTemplate.queryForObject(sql, map, new BeanPropertyRowMapper<>(type)));
+        try {
+            return Optional.ofNullable(parameterJdbcTemplate.queryForObject(sql, map, new BeanPropertyRowMapper<>(type)));
+        } catch (DataAccessException e) {
+            e.printStackTrace();
+            return Optional.empty();
+        }
     }
 
     @Override
