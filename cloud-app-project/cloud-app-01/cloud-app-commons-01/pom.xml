@@ -12,13 +12,13 @@
     <artifactId>cloud-app-commons-01</artifactId>
     <build>
         <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-install-plugin</artifactId>
-                <!--                <configuration>-->
-                <!--                    <skip>true</skip>-->
-                <!--                </configuration>-->
-            </plugin>
+            <!--            <plugin>-->
+            <!--                <groupId>org.apache.maven.plugins</groupId>-->
+            <!--                <artifactId>maven-install-plugin</artifactId>-->
+            <!--                &lt;!&ndash;                <configuration>&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    <skip>true</skip>&ndash;&gt;-->
+            <!--                &lt;!&ndash;                </configuration>&ndash;&gt;-->
+            <!--            </plugin>-->
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
