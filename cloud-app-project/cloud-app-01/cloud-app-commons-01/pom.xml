@@ -5,13 +5,20 @@
     <parent>
         <artifactId>cloud-app-01</artifactId>
         <groupId>org.yuan.boot.app.cloud</groupId>
-        <version>0.0.5-DEV</version>
+        <version>0.0.4-DEV</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>cloud-app-commons-01</artifactId>
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-install-plugin</artifactId>
+                <!--                <configuration>-->
+                <!--                    <skip>true</skip>-->
+                <!--                </configuration>-->
+            </plugin>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>

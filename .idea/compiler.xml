@@ -15,9 +15,9 @@
         <module name="db-modules and modules.db-jpa-mybatis-pagehelper" />
         <module name="hateoas-mybatis" />
         <module name="db-modules and modules.db-mybatis-fast-sqlhelper" />
-        <module name="hateoas-security" />
+        <module name="app-mvc-jdbc-mybatis-01" />
         <module name="db-modules and modules.db-jpa-sqlhelper" />
-        <module name="hateoas-jdbc-mybatis" />
+        <module name="db-modules and modules.db-jdbc-mybatis-pagehelper" />
         <module name="app-project and modules.app-mvc and modules.app-mvc-01" />
         <module name="db-modules and modules.db-mybatis-plus-sqlhelper" />
         <module name="db-core" />
@@ -38,7 +38,7 @@
         <module name="hateoas-jpa" />
         <module name="db-jdbc-mybatis-sqlhelper" />
         <module name="db-jpa-mybatis-sqlhelper" />
-        <module name="db-modules and modules.db-mybatis-mapper-sqlhelper" />
+        <module name="hateoas-jdbc-mybatis" />
         <module name="app-project and modules.app-hateoas and modules.app-hateoas-01" />
         <module name="db-jpa-sqlhelper" />
         <module name="mvc-security-jdbc-sqlhelper" />
@@ -52,6 +52,7 @@
         <module name="app-hateoas-01" />
         <module name="db-modules and modules.db-mybatis-fast-pagehelper" />
         <module name="db-modules and modules.db-core" />
+        <module name="db-modules and modules.db-mybatis-mapper-sqlhelper" />
         <module name="hateoas-mybatis-plus" />
         <module name="mvc-jdbc-mybatis" />
         <module name="mvc-jdbc" />
@@ -63,8 +64,7 @@
         <module name="mvc-jpa-mybatis" />
         <module name="hateoas-mybatis-mapper" />
         <module name="app-mvc-mybatis-mapper-01" />
-        <module name="app-mvc-jdbc-mybatis-01" />
-        <module name="db-modules and modules.db-jdbc-mybatis-pagehelper" />
+        <module name="hateoas-security" />
         <module name="mvc-mybatis-mapper" />
         <module name="mvc-security" />
         <module name="eureka-server-01" />
@@ -76,37 +76,11 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11">
-      <module name="app-hateoas" target="1.8" />
-      <module name="app-hateoas-01" target="1.8" />
-      <module name="app-mvc" target="1.8" />
-      <module name="app-mvc-01" target="1.8" />
-      <module name="app-mvc-jdbc-01" target="1.8" />
-      <module name="app-mvc-jdbc-mybatis-01" target="1.8" />
-      <module name="app-mvc-jpa-01" target="1.8" />
-      <module name="app-mvc-jpa-mybatis-01" target="1.8" />
-      <module name="app-mvc-mybatis-01" target="1.8" />
-      <module name="app-mvc-mybatis-mapper-01" target="1.8" />
-      <module name="app-mvc-mybatis-plus-01" target="1.8" />
-      <module name="app-project" target="1.8" />
       <module name="app-project and modules.app-hateoas and modules.app-hateoas" target="1.8" />
       <module name="app-project and modules.app-hateoas and modules.app-hateoas-01" target="1.8" />
       <module name="app-project and modules.app-mvc and modules.app-mvc" target="1.8" />
       <module name="app-project and modules.app-mvc and modules.app-mvc-01" target="1.8" />
       <module name="app-project and modules.app-project" target="1.8" />
-      <module name="cloud-app-01" target="1.8" />
-      <module name="cloud-app-commons-01" target="1.8" />
-      <module name="cloud-app-eureka-server-01" target="1.8" />
-      <module name="cloud-app-goods-service-01" target="1.8" />
-      <module name="cloud-app-project" target="1.8" />
-      <module name="cloud-app-user-service-01" target="1.8" />
-      <module name="db-core" target="1.8" />
-      <module name="db-jdbc-mybatis-pagehelper" target="1.8" />
-      <module name="db-jdbc-mybatis-sqlhelper" target="1.8" />
-      <module name="db-jdbc-sqlhelper" target="1.8" />
-      <module name="db-jpa-mybatis-pagehelper" target="1.8" />
-      <module name="db-jpa-mybatis-sqlhelper" target="1.8" />
-      <module name="db-jpa-sqlhelper" target="1.8" />
-      <module name="db-modules" target="1.8" />
       <module name="db-modules and modules.db-core" target="1.8" />
       <module name="db-modules and modules.db-jdbc-mybatis-pagehelper" target="1.8" />
       <module name="db-modules and modules.db-jdbc-mybatis-sqlhelper" target="1.8" />
@@ -123,44 +97,13 @@
       <module name="db-modules and modules.db-mybatis-mapper-sqlhelper" target="1.8" />
       <module name="db-modules and modules.db-mybatis-plus" target="1.8" />
       <module name="db-modules and modules.db-mybatis-plus-sqlhelper" target="1.8" />
-      <module name="db-mybatis-base-pagehelper" target="1.8" />
-      <module name="db-mybatis-base-sqlhelper" target="1.8" />
-      <module name="db-mybatis-mapper-pagehelper" target="1.8" />
-      <module name="db-mybatis-mapper-sqlhelper" target="1.8" />
-      <module name="db-mybatis-plus-pagehelper" target="1.8" />
-      <module name="db-mybatis-plus-sqlhelper" target="1.8" />
       <module name="eureka-server-01" target="1.8" />
-      <module name="hateoas-core" target="1.8" />
-      <module name="hateoas-jdbc" target="1.8" />
-      <module name="hateoas-jdbc-mybatis" target="1.8" />
-      <module name="hateoas-jpa" target="1.8" />
-      <module name="hateoas-jpa-mybatis" target="1.8" />
-      <module name="hateoas-modules" target="1.8" />
       <module name="hateoas-modules and modules.hateoas-core" target="1.8" />
       <module name="hateoas-modules and modules.hateoas-modules" target="1.8" />
-      <module name="hateoas-mybatis" target="1.8" />
-      <module name="hateoas-mybatis-mapper" target="1.8" />
-      <module name="hateoas-mybatis-plus" target="1.8" />
-      <module name="hateoas-security" target="1.8" />
-      <module name="hateoas-security-modules" target="1.8" />
       <module name="hateoas-security-modules and modules.hateoas-security" target="1.8" />
       <module name="hateoas-security-modules and modules.hateoas-security-modules" target="1.8" />
-      <module name="learning-demo-01" target="1.8" />
-      <module name="modules-app-01" target="1.8" />
-      <module name="modules-app-project" target="1.8" />
-      <module name="mvc-core" target="1.8" />
-      <module name="mvc-jdbc" target="1.8" />
-      <module name="mvc-jdbc-mybatis" target="1.8" />
-      <module name="mvc-jpa" target="1.8" />
-      <module name="mvc-jpa-mybatis" target="1.8" />
-      <module name="mvc-modules" target="1.8" />
       <module name="mvc-modules and modules.mvc-core" target="1.8" />
       <module name="mvc-modules and modules.mvc-modules" target="1.8" />
-      <module name="mvc-mybatis" target="1.8" />
-      <module name="mvc-mybatis-mapper" target="1.8" />
-      <module name="mvc-mybatis-plus" target="1.8" />
-      <module name="mvc-security" target="1.8" />
-      <module name="mvc-security-modules" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
