@@ -15,9 +15,9 @@
         <module name="db-modules and modules.db-jpa-mybatis-pagehelper" />
         <module name="hateoas-mybatis" />
         <module name="db-modules and modules.db-mybatis-fast-sqlhelper" />
-        <module name="app-mvc-jdbc-mybatis-01" />
+        <module name="hateoas-security" />
         <module name="db-modules and modules.db-jpa-sqlhelper" />
-        <module name="db-modules and modules.db-jdbc-mybatis-pagehelper" />
+        <module name="hateoas-jdbc-mybatis" />
         <module name="app-project and modules.app-mvc and modules.app-mvc-01" />
         <module name="db-modules and modules.db-mybatis-plus-sqlhelper" />
         <module name="db-core" />
@@ -38,7 +38,7 @@
         <module name="hateoas-jpa" />
         <module name="db-jdbc-mybatis-sqlhelper" />
         <module name="db-jpa-mybatis-sqlhelper" />
-        <module name="hateoas-jdbc-mybatis" />
+        <module name="db-modules and modules.db-mybatis-mapper-sqlhelper" />
         <module name="app-project and modules.app-hateoas and modules.app-hateoas-01" />
         <module name="db-jpa-sqlhelper" />
         <module name="mvc-security-jdbc-sqlhelper" />
@@ -52,7 +52,6 @@
         <module name="app-hateoas-01" />
         <module name="db-modules and modules.db-mybatis-fast-pagehelper" />
         <module name="db-modules and modules.db-core" />
-        <module name="db-modules and modules.db-mybatis-mapper-sqlhelper" />
         <module name="hateoas-mybatis-plus" />
         <module name="mvc-jdbc-mybatis" />
         <module name="mvc-jdbc" />
@@ -64,7 +63,8 @@
         <module name="mvc-jpa-mybatis" />
         <module name="hateoas-mybatis-mapper" />
         <module name="app-mvc-mybatis-mapper-01" />
-        <module name="hateoas-security" />
+        <module name="app-mvc-jdbc-mybatis-01" />
+        <module name="db-modules and modules.db-jdbc-mybatis-pagehelper" />
         <module name="mvc-mybatis-mapper" />
         <module name="mvc-security" />
         <module name="eureka-server-01" />
