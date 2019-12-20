@@ -21,7 +21,7 @@
     </parent>
     <groupId>org.yuan.boot</groupId>
     <artifactId>learning-demo-01</artifactId>
-    <version>0.0.4-DEV</version>
+    <version>0.0.5-DEV</version>
     <name>learning-demo-01</name>
     <description>Demo project for Spring Boot</description>
 
@@ -57,7 +57,7 @@
         <dependency>
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>
-            <version>5.0.7</version>
+            <version>5.1.0</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
