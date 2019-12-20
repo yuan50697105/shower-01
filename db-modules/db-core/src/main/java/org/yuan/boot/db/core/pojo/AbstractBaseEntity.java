@@ -50,9 +50,5 @@ public class AbstractBaseEntity<T> {
         return copyFromWithNull(map, "id");
     }
 
-    @SuppressWarnings("unchecked")
-    public T newInstance() {
-        return (T) BeanUtil.toBean(this, getClass());
-    }
 
 }
