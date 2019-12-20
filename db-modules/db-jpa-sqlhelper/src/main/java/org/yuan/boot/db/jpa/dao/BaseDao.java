@@ -9,6 +9,14 @@ import java.util.Optional;
 
 public interface BaseDao<T> {
 
+    int update(String sql);
+
+    int update(String sql, Object... objects);
+
+    int update(String sql, Collection<Object> collection);
+
+    int update(String sql, Map<String, Object> map);
+
     Optional<T> selectOne(String sql);
 
     Optional<T> selectOne(String sql, Object... objects);

@@ -8,6 +8,7 @@ import com.jn.sqlhelper.springjdbc.JdbcTemplate;
 import com.jn.sqlhelper.springjdbc.NamedParameterJdbcTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
+import org.springframework.transaction.annotation.Transactional;
 import org.yuan.boot.db.jdbc.dao.BaseDao;
 
 import java.lang.reflect.ParameterizedType;
@@ -31,6 +32,30 @@ public abstract class BaseDaoImpl<T> implements BaseDao<T> {
 
     public boolean isNotEmpty(Object object) {
         return ObjectUtil.isNotEmpty(object);
+    }
+
+    @Override
+    @Transactional(rollbackFor = Exception.class)
+    public int update(String sql) {
+        return jdbcTemplate.update(sql);
+    }
+
+    @Override
+    @Transactional(rollbackFor = Exception.class)
+    public int update(String sql, Object... objects) {
+        return jdbcTemplate.update(sql, objects);
+    }
+
+    @Override
+    @Transactional(rollbackFor = Exception.class)
+    public int update(String sql, Collection<Object> collection) {
+        return jdbcTemplate.update(sql, collection.toArray());
+    }
+
+    @Override
+    @Transactional(rollbackFor = Exception.class)
+    public int update(String sql, Map<String, Object> map) {
+        return parameterJdbcTemplate.update(sql, map);
     }
 
     @Override

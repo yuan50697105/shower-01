@@ -1,8 +1,8 @@
-package org.yuan.boot.mvc.modules.repository;
+package org.yuan.boot.mvc.repository;
 
 import org.springframework.stereotype.Repository;
 import org.yuan.boot.db.jdbc.repository.BaseRepository;
-import org.yuan.boot.mvc.modules.pojo.SysUser;
+import org.yuan.boot.mvc.pojo.SysUser;
 
 /**
  * @program: learning-demo-01

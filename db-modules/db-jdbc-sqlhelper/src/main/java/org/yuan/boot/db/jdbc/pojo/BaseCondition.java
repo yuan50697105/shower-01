@@ -11,6 +11,7 @@ import org.yuan.boot.db.core.pojo.AbstractBaseCondition;
 @EqualsAndHashCode(callSuper = true)
 @Data
 public class BaseCondition extends AbstractBaseCondition {
+
     public BaseCondition() {
     }
 
