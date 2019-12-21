@@ -39,6 +39,7 @@
         <module name="webmvc-app-mvc-jpa-01" />
         <module name="webmvc-core" />
         <module name="webmvc-app-mvc-mybatis-mapper-01" />
+        <module name="webflux-core" />
         <module name="hateoas-modules and modules.hateoas-core" />
         <module name="db-mybatis-base-sqlhelper" />
         <module name="webmvc-app-mvc-jpa-mybatis-01" />
@@ -155,6 +156,7 @@
       <module name="mvc-modules and modules.mvc-modules and modules.mvc-core" options="-parameters" />
       <module name="mvc-security" options="-parameters" />
       <module name="webflux-app-projcet" options="" />
+      <module name="webflux-core" options="-parameters" />
       <module name="webflux-modules" options="" />
       <module name="webflux-modules-app-project" options="-parameters" />
       <module name="webmvc-app-hateoas-01" options="-parameters" />
