@@ -8,9 +8,21 @@
         <version>0.0.5-DEV</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.yuan.boot.app.cloud</groupId>
-    <artifactId>webmvc-cloud-app-project</artifactId>
+    <groupId>org.yuan.boot.mvc</groupId>
+    <artifactId>webmvc-modules</artifactId>
     <packaging>pom</packaging>
+    <modules>
+        <module>webmvc-core</module>
+    </modules>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.yuan.boot.mvc</groupId>
+                <artifactId>webmvc-core</artifactId>
+                <version>0.0.5-DEV</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -20,24 +32,12 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-install-plugin</artifactId>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <skip>true</skip>
                 </configuration>
             </plugin>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <outputDirectory>${out.path}\app\cloud</outputDirectory>
-                </configuration>
-            </plugin>
         </plugins>
     </build>
-    <modules>
-
-    </modules>
-
-
 </project>

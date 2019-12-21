@@ -6,10 +6,7 @@
     <modules>
         <module>db-modules</module>
         <module>db-reactive-modules</module>
-        <module>webmvc-base-modules</module>
-        <module>webmvc-security-modules</module>
-        <module>webmvc-hateoas-modules</module>
-        <module>webmvc-hateoas-security-modules</module>
+        <module>webmvc-modules</module>
         <module>webflux-modules</module>
         <module>webflux-app-projcet</module>
         <module>webmvc-app-project</module>

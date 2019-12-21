@@ -23,52 +23,6 @@
     <file url="file://$PROJECT_DIR$/db-modules/db-mybatis-plus-pagehelper/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/db-modules/db-mybatis-plus-sqlhelper/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/db-modules/db-mybatis-plus-sqlhelper/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-app-project/webmvc-app-hateoas/webmvc-app-hateoas-01/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-app-project/webmvc-app-hateoas/webmvc-app-hateoas-01/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-app-project/webmvc-app-mvc/webmvc-app-mvc-01/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-app-project/webmvc-app-mvc/webmvc-app-mvc-01/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-app-project/webmvc-app-mvc/webmvc-app-mvc-jdbc-01/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-app-project/webmvc-app-mvc/webmvc-app-mvc-jdbc-mybatis-01/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-app-project/webmvc-app-mvc/webmvc-app-mvc-jdbc-mybatis-01/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-app-project/webmvc-app-mvc/webmvc-app-mvc-jpa-01/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-app-project/webmvc-app-mvc/webmvc-app-mvc-jpa-mybatis-01/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-app-project/webmvc-app-mvc/webmvc-app-mvc-jpa-mybatis-01/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-app-project/webmvc-app-mvc/webmvc-app-mvc-mybatis-01/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-app-project/webmvc-app-mvc/webmvc-app-mvc-mybatis-mapper-01/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-app-project/webmvc-app-mvc/webmvc-app-mvc-mybatis-mapper-01/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-app-project/webmvc-app-mvc/webmvc-app-mvc-mybatis-plus-01/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-app-project/webmvc-app-mvc/webmvc-app-mvc-mybatis-plus-01/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-base-modules/webmvc-core/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-base-modules/webmvc-core/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-base-modules/webmvc-jdbc-mybatis/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-base-modules/webmvc-jdbc/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-base-modules/webmvc-jpa-mybatis/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-base-modules/webmvc-jpa/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-base-modules/webmvc-mybatis-mapper/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-base-modules/webmvc-mybatis-plus/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-base-modules/webmvc-mybatis/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-cloud-app-project/webmvc-cloud-app-01/webmvc-cloud-app-commons-01/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-cloud-app-project/webmvc-cloud-app-01/webmvc-cloud-app-eureka-server-01/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-cloud-app-project/webmvc-cloud-app-01/webmvc-cloud-app-goods-service-01/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-cloud-app-project/webmvc-cloud-app-01/webmvc-cloud-app-user-service-01/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-hateoas-modules/webmvc-hateoas-core/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-hateoas-modules/webmvc-hateoas-core/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-hateoas-modules/webmvc-hateoas-jdbc-mybatis/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-hateoas-modules/webmvc-hateoas-jdbc-mybatis/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-hateoas-modules/webmvc-hateoas-jdbc/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-hateoas-modules/webmvc-hateoas-jdbc/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-hateoas-modules/webmvc-hateoas-jpa-mybatis/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-hateoas-modules/webmvc-hateoas-jpa-mybatis/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-hateoas-modules/webmvc-hateoas-jpa/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-hateoas-modules/webmvc-hateoas-jpa/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-hateoas-modules/webmvc-hateoas-mybatis-mapper/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-hateoas-modules/webmvc-hateoas-mybatis-mapper/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-hateoas-modules/webmvc-hateoas-mybatis-plus/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-hateoas-modules/webmvc-hateoas-mybatis-plus/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-hateoas-modules/webmvc-hateoas-mybatis/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-hateoas-modules/webmvc-hateoas-mybatis/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-hateoas-security-modules/webmvc-hateoas-security/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-hateoas-security-modules/webmvc-hateoas-security/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webmvc-security-modules/webmvc-security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webmvc-modules/webmvc-core/src/main/java" charset="UTF-8" />
   </component>
 </project>

@@ -30,8 +30,7 @@
         </plugins>
     </build>
     <modules>
-        <module>webmvc-app-hateoas</module>
-        <module>webmvc-app-mvc</module>
+
     </modules>
 
 </project>
