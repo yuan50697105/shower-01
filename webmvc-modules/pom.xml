@@ -13,6 +13,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>webmvc-core</module>
+        <module>webmvc-hateoas-modules</module>
+        <module>webmvc-security-modules</module>
     </modules>
     <dependencyManagement>
         <dependencies>
