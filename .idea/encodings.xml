@@ -24,6 +24,7 @@
     <file url="file://$PROJECT_DIR$/db-modules/db-mybatis-plus-sqlhelper/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/db-modules/db-mybatis-plus-sqlhelper/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/webmvc-modules/webmvc-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webmvc-modules/webmvc-db-modules/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/webmvc-modules/webmvc-hateoas-modules/webmvc-hateoas-security-modules/src/main/java" charset="UTF-8" />
   </component>
 </project>

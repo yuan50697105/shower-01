@@ -15,6 +15,7 @@
         <module>webmvc-core</module>
         <module>webmvc-hateoas-modules</module>
         <module>webmvc-security-modules</module>
+        <module>webmvc-db-modules</module>
     </modules>
     <dependencyManagement>
         <dependencies>
