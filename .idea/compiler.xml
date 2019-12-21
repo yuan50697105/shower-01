@@ -13,6 +13,7 @@
         <module name="db-mybatis-plus-pagehelper" />
         <module name="webmvc-app-mvc-01" />
         <module name="webmvc-cloud-app-goods-service-01" />
+        <module name="webmvc-db-jpa" />
         <module name="webmvc-hateoas-mybatis" />
         <module name="webmvc-hateoas-jpa" />
         <module name="webmvc-db-jdbc" />
@@ -60,6 +61,7 @@
         <module name="db-modules and modules.db-modules and modules.db-mybatis-plus-sqlhelper" />
         <module name="db-modules and modules.db-modules and modules.db-jpa-mybatis-sqlhelper" />
         <module name="db-mybatis-plus-sqlhelper" />
+        <module name="webmvc-db-mybatis" />
         <module name="app-project and modules.app-mvc and modules.app-mvc-01" />
         <module name="db-jdbc-mybatis-pagehelper" />
         <module name="db-jdbc-sqlhelper" />
@@ -176,7 +178,9 @@
       <module name="webmvc-cloud-app-user-service-01" options="-parameters" />
       <module name="webmvc-core" options="-parameters" />
       <module name="webmvc-db-jdbc" options="-parameters" />
+      <module name="webmvc-db-jpa" options="-parameters" />
       <module name="webmvc-db-modules" options="" />
+      <module name="webmvc-db-mybatis" options="-parameters" />
       <module name="webmvc-hateoas-core" options="-parameters" />
       <module name="webmvc-hateoas-jdbc" options="-parameters" />
       <module name="webmvc-hateoas-jdbc-mybatis" options="-parameters" />

@@ -13,6 +13,14 @@
     <packaging>pom</packaging>
     <modules>
         <module>webmvc-db-jdbc</module>
+        <module>webmvc-db-jpa</module>
+        <module>webmvc-db-mybatis</module>
     </modules>
-
+    <dependencies>
+        <dependency>
+            <groupId>org.yuan.boot.mvc</groupId>
+            <artifactId>webmvc-core</artifactId>
+            <version>0.0.5-DEV</version>
+        </dependency>
+    </dependencies>
 </project>
