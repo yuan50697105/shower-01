@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>webmvc-cloud-app-01</artifactId>
+        <groupId>org.yuan.boot.app.cloud</groupId>
+        <version>0.0.5-DEV</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>webmvc-cloud-app-commons-01</artifactId>
+    <build>
+        <plugins>
+            <!--            <plugin>-->
+            <!--                <groupId>org.apache.maven.plugins</groupId>-->
+            <!--                <artifactId>maven-install-plugin</artifactId>-->
+            <!--                &lt;!&ndash;                <configuration>&ndash;&gt;-->
+            <!--                &lt;!&ndash;                    <skip>true</skip>&ndash;&gt;-->
+            <!--                &lt;!&ndash;                </configuration>&ndash;&gt;-->
+            <!--            </plugin>-->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <skip>true</skip>
+                    <outputDirectory>${out.path}\app\cloud</outputDirectory>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

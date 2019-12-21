@@ -5,15 +5,15 @@
     <packaging>pom</packaging>
     <modules>
         <module>db-modules</module>
-        <module>mvc-modules</module>
-        <module>hateoas-modules</module>
-        <module>hateoas-security-modules</module>
-        <module>app-project</module>
-        <module>mvc-security-modules</module>
-        <module>cloud-app-project</module>
-        <module>modules-app-project</module>
         <module>db-reactive-modules</module>
-        <module>webflux-moduled</module>
+        <module>webmvc-base-modules</module>
+        <module>webmvc-security-modules</module>
+        <module>webmvc-hateoas-modules</module>
+        <module>webmvc-hateoas-security-modules</module>
+        <module>webflux-modules</module>
+        <module>webflux-app-projcet</module>
+        <module>webmvc-app-project</module>
+        <module>webmvc-cloud-app-project</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
