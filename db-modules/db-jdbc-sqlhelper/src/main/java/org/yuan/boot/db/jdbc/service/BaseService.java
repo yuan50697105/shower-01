@@ -31,7 +31,6 @@ public interface BaseService<T extends BaseEntity<T>> {
 
     Optional<T> selectOne(String sql, Map<String, Object> map);
 
-    List<T> selectList(String sql);
 
     List<T> selectList(String sql, Object... objects);
 
