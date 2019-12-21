@@ -15,6 +15,7 @@
         <module name="webmvc-cloud-app-goods-service-01" />
         <module name="webmvc-hateoas-mybatis" />
         <module name="webmvc-hateoas-jpa" />
+        <module name="webmvc-db-jdbc" />
         <module name="db-modules and modules.db-modules and modules.db-jdbc-mybatis-pagehelper" />
         <module name="webmvc-app-mvc-jdbc-mybatis-01" />
         <module name="webmvc-cloud-app-commons-01" />
@@ -117,6 +118,7 @@
       <module name="app-project and modules.app-mvc and modules.app-mvc" options="" />
       <module name="app-project and modules.app-mvc and modules.app-mvc-01" options="-parameters" />
       <module name="app-project and modules.app-project" options="" />
+      <module name="cloud-app-project" options="" />
       <module name="db-core" options="-parameters" />
       <module name="db-jdbc-mybatis-pagehelper" options="-parameters" />
       <module name="db-jdbc-mybatis-sqlhelper" options="-parameters" />
@@ -171,9 +173,9 @@
       <module name="webmvc-cloud-app-commons-01" options="-parameters" />
       <module name="webmvc-cloud-app-eureka-server-01" options="-parameters" />
       <module name="webmvc-cloud-app-goods-service-01" options="-parameters" />
-      <module name="webmvc-cloud-app-project" options="" />
       <module name="webmvc-cloud-app-user-service-01" options="-parameters" />
       <module name="webmvc-core" options="-parameters" />
+      <module name="webmvc-db-jdbc" options="-parameters" />
       <module name="webmvc-db-modules" options="" />
       <module name="webmvc-hateoas-core" options="-parameters" />
       <module name="webmvc-hateoas-jdbc" options="-parameters" />

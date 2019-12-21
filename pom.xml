@@ -10,7 +10,7 @@
         <module>webflux-modules</module>
         <module>webflux-app-projcet</module>
         <module>webmvc-app-project</module>
-        <module>webmvc-cloud-app-project</module>
+        <module>cloud-app-project</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
