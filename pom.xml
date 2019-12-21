@@ -12,6 +12,8 @@
         <module>mvc-security-modules</module>
         <module>cloud-app-project</module>
         <module>modules-app-project</module>
+        <module>db-reactive-modules</module>
+        <module>webflux-moduled</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

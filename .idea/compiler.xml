@@ -26,6 +26,7 @@
         <module name="mvc-mybatis" />
         <module name="cloud-app-eureka-server-01" />
         <module name="db-modules and modules.db-jpa-mybatis-sqlhelper" />
+        <module name="webflux-moduled" />
         <module name="app-mvc-jpa-mybatis-01" />
         <module name="app-mvc-mybatis-mapper-01" />
         <module name="db-modules and modules.db-mybatis-mapper-pagehelper" />
@@ -157,6 +158,7 @@
       <module name="db-mybatis-mapper-sqlhelper" options="-parameters" />
       <module name="db-mybatis-plus-pagehelper" options="-parameters" />
       <module name="db-mybatis-plus-sqlhelper" options="-parameters" />
+      <module name="db-reactive-modules" options="" />
       <module name="eureka-server-01" options="-parameters" />
       <module name="hateoas-core" options="-parameters" />
       <module name="hateoas-jdbc" options="-parameters" />
@@ -182,6 +184,7 @@
       <module name="mvc-mybatis-plus" options="-parameters" />
       <module name="mvc-security" options="-parameters" />
       <module name="mvc-security-modules" options="" />
+      <module name="webflux-moduled" options="-parameters" />
     </option>
   </component>
 </project>
