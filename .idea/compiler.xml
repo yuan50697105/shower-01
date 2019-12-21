@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cloud-modules" />
         <module name="webmvc-cloud-app-commons-01" />
         <module name="db-modules and modules.db-modules and modules.db-jpa-mybatis-pagehelper" />
         <module name="app-project and modules.app-mvc and modules.app-mvc-01" />
@@ -130,6 +131,7 @@
       <module name="app-project and modules.app-mvc and modules.app-mvc-01" options="-parameters" />
       <module name="app-project and modules.app-project" options="" />
       <module name="cloud-app-project" options="" />
+      <module name="cloud-modules" options="-parameters" />
       <module name="db-core" options="-parameters" />
       <module name="db-jdbc-mybatis-fast-pagehelper" options="-parameters" />
       <module name="db-jdbc-mybatis-fast-sqlhelper" options="-parameters" />
