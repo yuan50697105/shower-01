@@ -52,7 +52,6 @@
         <module name="db-mybatis-mapper-sqlhelper" />
         <module name="webmvc-hateoas-security-modules" />
         <module name="webmvc-security" />
-        <module name="webmvc-db-modules" />
         <module name="webmvc-hateoas-jdbc" />
         <module name="db-modules and modules.db-modules and modules.db-jpa-sqlhelper" />
         <module name="webmvc-cloud-app-eureka-server-01" />
@@ -175,7 +174,7 @@
       <module name="webmvc-cloud-app-project" options="" />
       <module name="webmvc-cloud-app-user-service-01" options="-parameters" />
       <module name="webmvc-core" options="-parameters" />
-      <module name="webmvc-db-modules" options="-parameters" />
+      <module name="webmvc-db-modules" options="" />
       <module name="webmvc-hateoas-core" options="-parameters" />
       <module name="webmvc-hateoas-jdbc" options="-parameters" />
       <module name="webmvc-hateoas-jdbc-mybatis" options="-parameters" />
