@@ -1,8 +1,7 @@
 package org.yuan.boot.app.cloud;
 
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.cloud.client.SpringCloudApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
@@ -12,8 +11,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
  * @create: 2019-12-19 12:04
  **/
 @EnableEurekaClient
-@EnableDiscoveryClient
-@SpringBootApplication
+@SpringCloudApplication
 public class CloudApplication {
     public static void main(String[] args) {
         SpringApplication.run(CloudApplication.class, args);
