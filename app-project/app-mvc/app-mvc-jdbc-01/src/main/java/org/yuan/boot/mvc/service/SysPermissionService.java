@@ -1,20 +1,23 @@
 package org.yuan.boot.mvc.service;
 
+import com.jn.sqlhelper.dialect.pagination.PagingResult;
 import org.yuan.boot.db.jdbc.service.BaseService;
-import org.yuan.boot.mvc.pojo.Result;
 import org.yuan.boot.mvc.pojo.SysPermission;
 import org.yuan.boot.mvc.pojo.dto.SysPermissionCondition;
 import org.yuan.boot.mvc.pojo.vo.SysPermissionVo;
 
+import java.util.List;
+import java.util.Optional;
+
 public interface SysPermissionService extends BaseService<SysPermission> {
 
-    Result selectPage(SysPermissionCondition condition);
+    PagingResult<SysPermission> selectPage(SysPermissionCondition condition);
 
-    Result selectList(SysPermissionCondition condition);
+    List<SysPermission> selectList(SysPermissionCondition condition);
 
-    Result selectOne(SysPermission permission);
+    Optional<SysPermission> selectOne(SysPermission permission);
 
-    Result saveFromVo(SysPermissionVo sysPermissionVo);
+    void saveFromVo(SysPermissionVo sysPermissionVo);
 
-    Result updateFromVo(SysPermissionVo sysPermissionVo);
+    void updateFromVo(SysPermissionVo sysPermissionVo);
 }

@@ -1,10 +1,13 @@
 package org.yuan.boot.mvc.service;
 
+import com.jn.sqlhelper.dialect.pagination.PagingResult;
 import org.yuan.boot.db.jdbc.service.BaseService;
-import org.yuan.boot.mvc.pojo.Result;
 import org.yuan.boot.mvc.pojo.SysUser;
 import org.yuan.boot.mvc.pojo.dto.SysUserCondition;
 import org.yuan.boot.mvc.pojo.vo.SysUserVO;
+
+import java.util.List;
+import java.util.Optional;
 
 /**
  * @program: learning-demo-01
@@ -13,13 +16,13 @@ import org.yuan.boot.mvc.pojo.vo.SysUserVO;
  * @create: 2019-12-20 14:11
  **/
 public interface SysUserService extends BaseService<SysUser> {
-    Result selectPageList(SysUserCondition condition);
+    PagingResult<SysUser> selectPageList(SysUserCondition condition);
 
-    Result selectList(SysUserCondition condition);
+    List<SysUser> selectList(SysUserCondition condition);
 
-    Result selectOne(SysUser sysUser);
+    Optional<SysUser> selectOne(SysUser sysUser);
 
-    Result saveFromVo(SysUserVO sysUserVO);
+    void saveFromVo(SysUserVO sysUserVO);
 
-    Result updateFromVo(SysUserVO sysUserVO);
+    void updateFromVo(SysUserVO sysUserVO);
 }

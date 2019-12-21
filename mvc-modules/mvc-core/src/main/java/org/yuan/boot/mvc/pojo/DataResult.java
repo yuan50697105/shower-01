@@ -8,12 +8,14 @@ import lombok.EqualsAndHashCode;
 public class DataResult<T> extends Result {
     private T data;
 
-    public DataResult(Integer code, String message) {
-        super(code, message);
-    }
 
     public DataResult(Integer code, String message, T data) {
         super(code, message);
+        this.data = data;
+    }
+
+    public DataResult(T data) {
+        super();
         this.data = data;
     }
 }

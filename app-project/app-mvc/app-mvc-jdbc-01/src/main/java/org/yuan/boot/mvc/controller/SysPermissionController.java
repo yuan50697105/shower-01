@@ -1,18 +1,17 @@
 package org.yuan.boot.mvc.controller;
 
-import cn.hutool.http.HttpStatus;
+import com.jn.sqlhelper.dialect.pagination.PagingResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
-import org.yuan.boot.mvc.pojo.DataResult;
-import org.yuan.boot.mvc.pojo.Result;
-import org.yuan.boot.mvc.pojo.SysPermission;
+import org.yuan.boot.mvc.pojo.*;
 import org.yuan.boot.mvc.pojo.dto.SysPermissionCondition;
 import org.yuan.boot.mvc.pojo.vo.SysPermissionVo;
 import org.yuan.boot.mvc.service.SysPermissionService;
 
 import java.util.Arrays;
+import java.util.List;
 import java.util.Optional;
 
 @RestController
@@ -23,52 +22,58 @@ public class SysPermissionController extends ResultController {
 
     @GetMapping("data")
     public Result data(SysPermissionCondition condition) {
-        return sysPermissionService.selectPage(condition);
+        PagingResult<SysPermission> pagingResult = sysPermissionService.selectPage(condition);
+        return new PageResult<>(pagingResult);
     }
 
     @GetMapping("list")
     public Result list(SysPermissionCondition condition) {
-        return sysPermissionService.selectList(condition);
+        List<SysPermission> list = sysPermissionService.selectList(condition);
+        return new IterableResult<>(list);
     }
 
     @GetMapping("list/{name}")
     public Result list(@PathVariable("name") String name) {
-        return sysPermissionService.selectList(new SysPermissionCondition().setName(name));
+        List<SysPermission> list = sysPermissionService.selectList(new SysPermissionCondition().setName(name));
+        return new IterableResult<>(list);
     }
 
     @GetMapping("get")
     public Result get(SysPermission permission) {
-        return sysPermissionService.selectOne(permission);
+        Optional<SysPermission> optional = sysPermissionService.selectOne(permission);
+        return new DataResult<>(optional);
     }
 
     @GetMapping("{id}")
     public Result get(@PathVariable("id") Long id) {
         Optional<SysPermission> permission = sysPermissionService.selectById(id);
-        return new DataResult<>(HttpStatus.HTTP_OK, "成功", permission);
+        return new DataResult<>(permission);
     }
 
     @PostMapping({"", "save"})
     public Result save(@RequestBody @Validated SysPermissionVo sysPermissionVo, BindingResult result) {
         validate(result);
-        return sysPermissionService.saveFromVo(sysPermissionVo);
+        sysPermissionService.saveFromVo(sysPermissionVo);
+        return Result.ok();
     }
 
     @PutMapping
     @PostMapping("update")
     public Result update(@RequestBody @Validated SysPermissionVo sysPermissionVo, BindingResult result) {
         validate(result);
-        return sysPermissionService.updateFromVo(sysPermissionVo);
+        sysPermissionService.updateFromVo(sysPermissionVo);
+        return Result.ok();
     }
 
     @DeleteMapping("{id}")
     public Result delete(@PathVariable("id") Long id) {
         sysPermissionService.delete(id);
-        return new Result(HttpStatus.HTTP_OK, "成功");
+        return Result.ok();
     }
 
     @GetMapping("delete")
     public Result delete(Long[] id) {
         sysPermissionService.delete(Arrays.asList(id));
-        return new Result(HttpStatus.HTTP_OK, "成功");
+        return Result.ok();
     }
 }

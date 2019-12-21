@@ -11,9 +11,7 @@ import org.yuan.boot.mvc.pojo.PageCollectionResult;
 @EqualsAndHashCode(callSuper = true)
 @Data
 public class PageResult<T> extends PageCollectionResult<T> {
-    public PageResult(Integer code, String message) {
-        super(code, message);
-    }
+
 
     public <E extends IPage<T>> PageResult(Integer code, String message, E iPage) {
         super(code, message, iPage.getRecords(), iPage.getCurrent(), iPage.getSize(), iPage.getTotal(), iPage.getPages());

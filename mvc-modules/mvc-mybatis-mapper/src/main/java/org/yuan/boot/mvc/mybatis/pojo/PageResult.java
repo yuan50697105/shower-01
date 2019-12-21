@@ -10,9 +10,6 @@ import org.yuan.boot.mvc.pojo.PageCollectionResult;
 @EqualsAndHashCode(callSuper = true)
 @Data
 public class PageResult<T> extends PageCollectionResult<T> {
-    public PageResult(Integer code, String message) {
-        super(code, message);
-    }
 
     public PageResult(Integer code, String message, PageInfo<T> pageInfo) {
         super(code, message, pageInfo.getList(), pageInfo.getPageNum(), pageInfo.getSize(), pageInfo.getTotal(), pageInfo.getPages());

@@ -1,12 +1,12 @@
 package org.yuan.boot.mvc.service.impl;
 
-import cn.hutool.http.HttpStatus;
+import com.jn.sqlhelper.dialect.pagination.PagingResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.yuan.boot.db.jdbc.service.impl.BaseServiceImpl;
 import org.yuan.boot.mvc.dao.SysPermissionDao;
-import org.yuan.boot.mvc.pojo.*;
+import org.yuan.boot.mvc.pojo.SysPermission;
 import org.yuan.boot.mvc.pojo.converter.SysPermissionConverter;
 import org.yuan.boot.mvc.pojo.dto.SysPermissionCondition;
 import org.yuan.boot.mvc.pojo.vo.SysPermissionVo;
@@ -23,35 +23,33 @@ public class SysPermissionServiceImpl extends BaseServiceImpl<SysPermission, Sys
 
 
     @Override
-    public Result selectPage(SysPermissionCondition condition) {
-        return new PageResult<>(HttpStatus.HTTP_OK, "成功", baseDao().selectList(condition, condition.getPage(), condition.getSize()));
+    public PagingResult<SysPermission> selectPage(SysPermissionCondition condition) {
+        return baseDao().selectList(condition, condition.getPage(), condition.getSize());
     }
 
     @Override
-    public Result selectList(SysPermissionCondition condition) {
-        List<SysPermission> list = baseDao().selectList(condition);
-        return new IterableResult<>(HttpStatus.HTTP_OK, "成功", list);
+    public List<SysPermission> selectList(SysPermissionCondition condition) {
+        return baseDao().selectList(condition);
     }
 
     @Override
-    public Result selectOne(SysPermission permission) {
-        Optional<SysPermission> optional = baseDao().selectOne(permission);
-        return new DataResult<>(HttpStatus.HTTP_OK, "成功", optional);
+    public Optional<SysPermission> selectOne(SysPermission permission) {
+        return baseDao().selectOne(permission);
     }
 
     @Override
     @Transactional(rollbackFor = Exception.class)
-    public Result saveFromVo(SysPermissionVo sysPermissionVo) {
+    public void saveFromVo(SysPermissionVo sysPermissionVo) {
         SysPermission permission = sysPermissionConverter.convert(sysPermissionVo);
         this.save(permission);
-        return new Result(HttpStatus.HTTP_OK, "成功");
     }
 
     @Override
     @Transactional(rollbackFor = Exception.class)
-    public Result updateFromVo(SysPermissionVo sysPermissionVo) {
+    public void updateFromVo(SysPermissionVo sysPermissionVo) {
         SysPermission sysPermission = sysPermissionConverter.convert(sysPermissionVo);
         update(sysPermission);
-        return new Result(HttpStatus.HTTP_OK, "成功");
     }
+
+
 }

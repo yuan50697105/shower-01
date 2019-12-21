@@ -5,9 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
-import org.yuan.boot.mvc.pojo.DataResult;
-import org.yuan.boot.mvc.pojo.Result;
-import org.yuan.boot.mvc.pojo.SysRole;
+import org.yuan.boot.mvc.pojo.*;
 import org.yuan.boot.mvc.pojo.dto.SysRoleCondition;
 import org.yuan.boot.mvc.pojo.vo.SysRoleVo;
 import org.yuan.boot.mvc.service.SysRoleService;
@@ -22,23 +20,23 @@ public class SysRoleController extends ResultController {
 
     @GetMapping("data")
     public Result date(SysRoleCondition condition) {
-        return sysRoleService.selectPage(condition);
+        return new PageResult<>(HttpStatus.HTTP_OK, "成功", sysRoleService.selectPage(condition));
     }
 
     @GetMapping("list")
     public Result list(SysRoleCondition condition) {
-        return sysRoleService.selectList(condition);
+        return new IterableResult<>(sysRoleService.selectList(condition));
     }
 
     @GetMapping("list/{name}")
     public Result list(@PathVariable("name") String name) {
-        return sysRoleService.selectList(new SysRoleCondition().setName(name));
+        return new IterableResult<>(sysRoleService.selectList(new SysRoleCondition().setName(name)));
     }
 
 
     @GetMapping("get")
     public Result get(SysRole sysRole) {
-        return sysRoleService.selectOne(sysRole);
+        return new DataResult<>(sysRoleService.selectOne(sysRole));
     }
 
     @GetMapping("{id}")
@@ -49,27 +47,29 @@ public class SysRoleController extends ResultController {
     @PostMapping({"", "save"})
     public Result save(@RequestBody @Validated SysRoleVo sysRoleVo, BindingResult result) {
         validate(result);
-        return sysRoleService.saveFromVo(sysRoleVo);
+        sysRoleService.saveFromVo(sysRoleVo);
+        return Result.ok();
     }
 
     @PutMapping
     @PostMapping("update")
     public Result update(@RequestBody @Validated SysRoleVo sysRoleVo, BindingResult result) {
         validate(result);
-        return sysRoleService.updateFromVo(sysRoleVo);
+        sysRoleService.updateFromVo(sysRoleVo);
+        return Result.ok();
     }
 
     @DeleteMapping("{id}")
     @GetMapping(value = "delete", params = "id")
     public Result delete(@PathVariable("id") Long id) {
         sysRoleService.delete(id);
-        return ok();
+        return Result.ok();
     }
 
     @GetMapping("delete")
     public Result delete(@RequestParam("id") Long[] ids) {
         sysRoleService.delete(Arrays.asList(ids));
-        return ok();
+        return Result.ok();
     }
 
 }
