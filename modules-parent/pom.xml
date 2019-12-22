@@ -20,6 +20,13 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <dependency>
+                <groupId>org.yuan.boot.utils</groupId>
+                <artifactId>utils-modules</artifactId>
+                <version>0.0.1-DEV</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
