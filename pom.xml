@@ -160,7 +160,7 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
                 <configuration>
-                    <skip>true</skip>
+                    <!--                    <skip>true</skip>-->
                     <!--                    <outputDirectory>${out.path}/lib</outputDirectory>-->
                     <additionalOptions>
                         <additionalOption>-Xdoclint:none</additionalOption>
