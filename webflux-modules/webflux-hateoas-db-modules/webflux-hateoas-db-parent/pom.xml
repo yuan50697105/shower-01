@@ -5,7 +5,7 @@
     <parent>
         <artifactId>webflux-hateoas-db-modules</artifactId>
         <groupId>org.yuan.boot.webflux.hateoas.db</groupId>
-        <version>0.0.1-DEV</version>
+        <version>0.0.2-DEV</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 

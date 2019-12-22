@@ -5,7 +5,7 @@
     <parent>
         <artifactId>learning-demo-01</artifactId>
         <groupId>org.yuan.boot</groupId>
-        <version>0.0.1-DEV</version>
+        <version>0.0.2-DEV</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.yuan.boot.db</groupId>
@@ -34,77 +34,77 @@
             <dependency>
                 <groupId>org.yuan.boot.db</groupId>
                 <artifactId>db-core</artifactId>
-                <version>0.0.1-DEV</version>
+                <version>0.0.2-DEV</version>
             </dependency>
             <dependency>
                 <groupId>org.yuan.boot.db</groupId>
                 <artifactId>db-jdbc-sqlhelper</artifactId>
-                <version>0.0.1-DEV</version>
+                <version>0.0.2-DEV</version>
             </dependency>
             <dependency>
                 <groupId>org.yuan.boot.db</groupId>
                 <artifactId>db-jdbc-mybatis-pagehelper</artifactId>
-                <version>0.0.1-DEV</version>
+                <version>0.0.2-DEV</version>
             </dependency>
             <dependency>
                 <groupId>org.yuan.boot.db</groupId>
                 <artifactId>db-jdbc-mybatis-sqlhelper</artifactId>
-                <version>0.0.1-DEV</version>
+                <version>0.0.2-DEV</version>
             </dependency>
             <dependency>
                 <groupId>org.yuan.boot.db</groupId>
                 <artifactId>db-jpa-sqlhelper</artifactId>
-                <version>0.0.1-DEV</version>
+                <version>0.0.2-DEV</version>
             </dependency>
             <dependency>
                 <groupId>org.yuan.boot.db</groupId>
                 <artifactId>db-jpa-mybatis-pagehelper</artifactId>
-                <version>0.0.1-DEV</version>
+                <version>0.0.2-DEV</version>
             </dependency>
             <dependency>
                 <groupId>org.yuan.boot.db</groupId>
                 <artifactId>db-jpa-mybatis-sqlhelper</artifactId>
-                <version>0.0.1-DEV</version>
+                <version>0.0.2-DEV</version>
             </dependency>
             <dependency>
                 <groupId>org.yuan.boot.db</groupId>
                 <artifactId>db-mybatis-base-pagehelper</artifactId>
-                <version>0.0.1-DEV</version>
+                <version>0.0.2-DEV</version>
             </dependency>
             <dependency>
                 <groupId>org.yuan.boot.db</groupId>
                 <artifactId>db-mybatis-base-sqlhelper</artifactId>
-                <version>0.0.1-DEV</version>
+                <version>0.0.2-DEV</version>
             </dependency>
             <dependency>
                 <groupId>org.yuan.boot.db</groupId>
                 <artifactId>db-mybatis-mapper-pagehelper</artifactId>
-                <version>0.0.1-DEV</version>
+                <version>0.0.2-DEV</version>
             </dependency>
             <dependency>
                 <groupId>org.yuan.boot.db</groupId>
                 <artifactId>db-mybatis-mapper-sqlhelper</artifactId>
-                <version>0.0.1-DEV</version>
+                <version>0.0.2-DEV</version>
             </dependency>
             <dependency>
                 <groupId>org.yuan.boot.db</groupId>
                 <artifactId>db-mybatis-plus-pagehelper</artifactId>
-                <version>0.0.1-DEV</version>
+                <version>0.0.2-DEV</version>
             </dependency>
             <dependency>
                 <groupId>org.yuan.boot.db</groupId>
                 <artifactId>db-mybatis-plus-sqlhelper</artifactId>
-                <version>0.0.1-DEV</version>
+                <version>0.0.2-DEV</version>
             </dependency>
             <dependency>
                 <groupId>org.yuan.boot.db</groupId>
                 <artifactId>db-mybatis-fast-pagehelper</artifactId>
-                <version>0.0.1-DEV</version>
+                <version>0.0.2-DEV</version>
             </dependency>
             <dependency>
                 <groupId>org.yuan.boot.db</groupId>
                 <artifactId>db-mybatis-fast-sqlhelper</artifactId>
-                <version>0.0.1-DEV</version>
+                <version>0.0.2-DEV</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
