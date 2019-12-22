@@ -8,6 +8,7 @@ import org.yuan.boot.db.pojo.BaseEntity;
 import org.yuan.boot.db.service.BaseService;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.StringJoiner;
 
 public abstract class BaseServiceImpl<T extends BaseEntity<T>, M extends BaseMapper<T>> implements BaseService<T> {
@@ -58,14 +59,14 @@ public abstract class BaseServiceImpl<T extends BaseEntity<T>, M extends BaseMap
     }
 
     @Override
-    public T selectById(Long id) {
-        return baseMapper.selectByPrimaryKey(id);
+    public Optional<T> selectById(Long id) {
+        return Optional.ofNullable(baseMapper.selectByPrimaryKey(id));
     }
 
 
     @Override
-    public T selectOne(T t) {
-        return baseMapper.selectOne(t);
+    public Optional<T> selectOne(T t) {
+        return Optional.ofNullable(baseMapper.selectOne(t));
     }
 
     @Override

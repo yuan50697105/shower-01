@@ -5,7 +5,7 @@ import org.yuan.boot.db.pojo.BaseEntity;
 import java.util.Optional;
 
 public interface BaseService<T extends BaseEntity<T>> {
-    T save(T t);
+    void save(T t);
 
     void update(T t);
 

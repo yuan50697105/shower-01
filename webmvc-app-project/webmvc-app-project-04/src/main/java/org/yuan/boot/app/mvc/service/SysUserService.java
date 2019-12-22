@@ -4,12 +4,13 @@ import com.github.pagehelper.PageInfo;
 import org.yuan.boot.app.mvc.pojo.SysUser;
 import org.yuan.boot.app.mvc.pojo.dto.SysUserCondition;
 import org.yuan.boot.app.mvc.pojo.vo.SysUserVo;
+import org.yuan.boot.db.service.BaseService;
 
 import java.util.List;
 import java.util.Optional;
 
-public interface SysUserService {
-    int save(SysUser sysUser);
+public interface SysUserService extends BaseService<SysUser> {
+    boolean save(SysUser sysUser);
 
     int update(SysUser sysUser);
 

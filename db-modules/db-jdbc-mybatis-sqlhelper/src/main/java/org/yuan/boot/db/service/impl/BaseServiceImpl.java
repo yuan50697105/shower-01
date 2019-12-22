@@ -27,6 +27,12 @@ public abstract class BaseServiceImpl<T extends BaseEntity<T>, R extends BaseRep
 
     @Override
     @Transactional(rollbackFor = Exception.class)
+    public void save(T t) {
+        baseRepository.save(t);
+    }
+
+    @Override
+    @Transactional(rollbackFor = Exception.class)
     public void update(T t) {
         Optional<T> optional = baseRepository.findById(t.getId());
         if (optional.isPresent()) {
@@ -42,12 +48,6 @@ public abstract class BaseServiceImpl<T extends BaseEntity<T>, R extends BaseRep
             T copy = optional.get().copyFromWithNull(t);
             baseRepository.save(copy);
         }
-    }
-
-    @Override
-    @Transactional(rollbackFor = Exception.class)
-    public T save(T t) {
-        return baseRepository.save(t);
     }
 
     @Override

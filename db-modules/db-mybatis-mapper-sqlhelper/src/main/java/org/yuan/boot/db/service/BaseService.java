@@ -4,6 +4,7 @@ import com.github.pagehelper.PageInfo;
 import org.yuan.boot.db.pojo.BaseEntity;
 
 import java.util.List;
+import java.util.Optional;
 
 public interface BaseService<T extends BaseEntity<T>> {
     int insert(T t);
@@ -18,9 +19,9 @@ public interface BaseService<T extends BaseEntity<T>> {
 
     int delete(Iterable<Long> iterable);
 
-    T selectById(Long id);
+    Optional<T> selectById(Long id);
 
-    T selectOne(T t);
+    Optional<T> selectOne(T t);
 
     List<T> selectList(T t);
 

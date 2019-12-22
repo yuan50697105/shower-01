@@ -12,6 +12,7 @@ import org.yuan.boot.app.mvc.pojo.converter.SysUserConverter;
 import org.yuan.boot.app.mvc.pojo.dto.SysUserCondition;
 import org.yuan.boot.app.mvc.pojo.vo.SysUserVo;
 import org.yuan.boot.app.mvc.service.SysUserService;
+import org.yuan.boot.db.service.impl.BaseServiceImpl;
 
 import java.util.Arrays;
 import java.util.Date;
@@ -19,7 +20,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class SysUserServiceImpl implements SysUserService {
+public class SysUserServiceImpl extends BaseServiceImpl<SysUser, SysUserMapper> implements SysUserService {
     @Autowired
     private SysUserMapper sysUserMapper;
     @SuppressWarnings("SpringJavaInjectionPointsAutowiringInspection")
@@ -89,8 +90,8 @@ public class SysUserServiceImpl implements SysUserService {
 
     @Override
     @Transactional(rollbackFor = Exception.class)
-    public void delete(Long id) {
-        sysUserMapper.deleteByPrimaryKey(id);
+    public int delete(Long id) {
+        return sysUserMapper.deleteByPrimaryKey(id);
     }
 
     @Override
