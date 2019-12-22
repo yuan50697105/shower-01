@@ -126,7 +126,7 @@
                     <execution>
                         <id>run-findbugs</id>
                         <!-- 在package(也可设为compile) 阶段触发执行findbugs检查，比如执行 mvn clean package -->
-<!--                        <phase>package</phase>-->
+                        <!--                        <phase>package</phase>-->
                         <phase>package</phase>
                         <goals>
                             <goal>findbugs</goal>
@@ -179,6 +179,19 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>versions-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <phase>compile</phase>
+                        <goals>
+                            <goal>use-next-releases</goal>
+                            <goal>set</goal>
+                            <goal>commit</goal>
+                        </goals>
+                        <configuration>
+                            <newVersion>0.0.2-DEV</newVersion>
+                        </configuration>
+                    </execution>
+                </executions>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
