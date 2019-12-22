@@ -5,7 +5,7 @@
     <parent>
         <artifactId>cloud-modules</artifactId>
         <groupId>org.yuan.boot.cloud</groupId>
-        <version>0.0.1-APP01</version>
+        <version>0.0.1-DEV</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
