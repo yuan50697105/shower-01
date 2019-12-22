@@ -14,6 +14,14 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/cloud-app-project/cloud-app-01/eureka-server-01/pom.xml" />
+        <option value="$PROJECT_DIR$/db-modules/db-jdbc-mybatis-fast-pagehelper/pom.xml" />
+        <option value="$PROJECT_DIR$/db-modules/db-jdbc-mybatis-fast-sqlhelper/pom.xml" />
+        <option value="$PROJECT_DIR$/db-modules/db-jdbc-mybatis-mapper-pagehelper/pom.xml" />
+        <option value="$PROJECT_DIR$/db-modules/db-jdbc-mybatis-mapper-sqlhelper/pom.xml" />
+        <option value="$PROJECT_DIR$/db-modules/db-jpa-mybatis-fast-pagehelper/pom.xml" />
+        <option value="$PROJECT_DIR$/db-modules/db-jpa-mybatis-fast-sqlhelper/pom.xml" />
+        <option value="$PROJECT_DIR$/db-modules/db-jpa-mybatis-mapper-pagehelper/pom.xml" />
+        <option value="$PROJECT_DIR$/db-modules/db-jpa-mybatis-mapper-sqlhelper/pom.xml" />
         <option value="$PROJECT_DIR$/db-modules/db-mybatis-fast-pagehelper/pom.xml" />
         <option value="$PROJECT_DIR$/db-modules/db-mybatis-fast-sqlhelper/pom.xml" />
         <option value="$PROJECT_DIR$/webflux-modules-app-project/pom.xml" />

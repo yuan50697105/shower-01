@@ -7,12 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloud-modules" />
         <module name="webmvc-cloud-app-commons-01" />
         <module name="db-modules and modules.db-modules and modules.db-jpa-mybatis-pagehelper" />
         <module name="app-project and modules.app-mvc and modules.app-mvc-01" />
         <module name="db-modules and modules.db-modules and modules.db-mybatis-base-sqlhelper" />
-        <module name="db-jdbc-mybatis-fast-sqlhelper" />
         <module name="webmvc-db-jpa" />
         <module name="webmvc-app-mvc-jdbc-01" />
         <module name="db-modules and modules.db-modules and modules.db-jpa-sqlhelper" />
@@ -27,10 +25,7 @@
         <module name="webmvc-hateoas-jpa-mybatis" />
         <module name="db-mybatis-base-sqlhelper" />
         <module name="webmvc-cloud-app-goods-service-01" />
-        <module name="db-jpa-mybatis-fast-sqlhelper" />
         <module name="webmvc-core" />
-        <module name="webmvc-hateoas-mybatis-mapper" />
-        <module name="db-jpa-mybatis-mapper-sqlhelper" />
         <module name="db-modules and modules.db-modules and modules.db-mybatis-base-pagehelper" />
         <module name="webmvc-hateoas-jpa" />
         <module name="webmvc-app-hateoas-01" />
@@ -38,7 +33,6 @@
         <module name="db-modules and modules.db-modules and modules.db-mybatis-fast-sqlhelper" />
         <module name="db-jdbc-mybatis-sqlhelper" />
         <module name="webmvc-app-mvc-01" />
-        <module name="db-jdbc-mybatis-mapper-pagehelper" />
         <module name="db-jpa-mybatis-sqlhelper" />
         <module name="db-modules and modules.db-modules and modules.db-mybatis-plus-sqlhelper" />
         <module name="db-modules and modules.db-modules and modules.db-core" />
@@ -50,26 +44,23 @@
         <module name="db-mybatis-plus-pagehelper" />
         <module name="webmvc-app-mvc-jdbc-mybatis-01" />
         <module name="db-modules and modules.db-modules and modules.db-jdbc-mybatis-pagehelper" />
-        <module name="db-modules and modules.db-modules and modules.db-mybatis-mapper-sqlhelper" />
         <module name="hateoas-modules and modules.hateoas-core" />
         <module name="db-mybatis-mapper-sqlhelper" />
         <module name="webmvc-hateoas-core" />
         <module name="db-mybatis-mapper-pagehelper" />
         <module name="db-modules and modules.db-modules and modules.db-jdbc-sqlhelper" />
-        <module name="db-jdbc-mybatis-mapper-sqlhelper" />
         <module name="webmvc-app-mvc-jpa-01" />
         <module name="webflux-core" />
         <module name="webmvc-cloud-app-user-service-01" />
         <module name="db-modules and modules.db-modules and modules.db-jpa-mybatis-sqlhelper" />
         <module name="db-mybatis-base-pagehelper" />
         <module name="db-jdbc-sqlhelper" />
+        <module name="webmvc-hateoas-mybatis-mapper" />
         <module name="webmvc-security" />
-        <module name="db-jpa-mybatis-fast-pagehelper" />
+        <module name="db-modules and modules.db-modules and modules.db-mybatis-mapper-sqlhelper" />
         <module name="webmvc-app-mvc-jpa-mybatis-01" />
-        <module name="db-jdbc-mybatis-fast-pagehelper" />
         <module name="webmvc-hateoas-jdbc-mybatis" />
         <module name="db-jdbc-mybatis-pagehelper" />
-        <module name="db-jpa-mybatis-mapper-pagehelper" />
         <module name="webmvc-app-mvc-mybatis-mapper-01" />
         <module name="webmvc-db-jdbc" />
         <module name="webmvc-hateoas-security-modules" />
@@ -87,6 +78,14 @@
       <module name="app-project and modules.app-mvc and modules.app-mvc" target="1.8" />
       <module name="app-project and modules.app-mvc and modules.app-mvc-01" target="1.8" />
       <module name="app-project and modules.app-project" target="1.8" />
+      <module name="db-jdbc-mybatis-fast-pagehelper" target="1.8" />
+      <module name="db-jdbc-mybatis-fast-sqlhelper" target="1.8" />
+      <module name="db-jdbc-mybatis-mapper-pagehelper" target="1.8" />
+      <module name="db-jdbc-mybatis-mapper-sqlhelper" target="1.8" />
+      <module name="db-jpa-mybatis-fast-pagehelper" target="1.8" />
+      <module name="db-jpa-mybatis-fast-sqlhelper" target="1.8" />
+      <module name="db-jpa-mybatis-mapper-pagehelper" target="1.8" />
+      <module name="db-jpa-mybatis-mapper-sqlhelper" target="1.8" />
       <module name="db-modules and modules.db-modules" target="1.8" />
       <module name="db-modules and modules.db-modules and modules.db-core" target="1.8" />
       <module name="db-modules and modules.db-modules and modules.db-jdbc-mybatis-pagehelper" target="1.8" />
@@ -131,7 +130,7 @@
       <module name="app-project and modules.app-mvc and modules.app-mvc-01" options="-parameters" />
       <module name="app-project and modules.app-project" options="" />
       <module name="cloud-app-project" options="" />
-      <module name="cloud-modules" options="-parameters" />
+      <module name="cloud-modules" options="" />
       <module name="db-core" options="-parameters" />
       <module name="db-jdbc-mybatis-fast-pagehelper" options="-parameters" />
       <module name="db-jdbc-mybatis-fast-sqlhelper" options="-parameters" />
