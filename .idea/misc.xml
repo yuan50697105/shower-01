@@ -24,6 +24,7 @@
         <option value="$PROJECT_DIR$/db-modules/db-jpa-mybatis-mapper-sqlhelper/pom.xml" />
         <option value="$PROJECT_DIR$/db-modules/db-mybatis-fast-pagehelper/pom.xml" />
         <option value="$PROJECT_DIR$/db-modules/db-mybatis-fast-sqlhelper/pom.xml" />
+        <option value="$PROJECT_DIR$/webflux-app-projcet/webmvc-app-project-01/pom.xml" />
         <option value="$PROJECT_DIR$/webflux-modules-app-project/pom.xml" />
         <option value="$PROJECT_DIR$/webmvc-base-modules/webmvc-jdbc-mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/webmvc-base-modules/webmvc-jdbc/pom.xml" />
