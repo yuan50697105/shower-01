@@ -10,6 +10,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>webmvc-app-project-01</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>org.yuan.boot.mvc.db</groupId>
+            <artifactId>webmvc-db-mybatis</artifactId>
+        </dependency>
+    </dependencies>
 
 
 </project>
