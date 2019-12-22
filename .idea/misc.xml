@@ -10,11 +10,13 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/app-project/app-mvc/app-mvc-mybatis-plus-01/pom.xml" />
         <option value="$PROJECT_DIR$/webmvc-app-project/webmvc-app-project-01/pom.xml" />
+        <option value="$PROJECT_DIR$/webmvc-modules/webmvc-hateoas-db-modules/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/cloud-app-project/cloud-app-01/eureka-server-01/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-modules/cloud-parent/pom.xml" />
         <option value="$PROJECT_DIR$/db-modules/db-jdbc-mybatis-fast-pagehelper/pom.xml" />
         <option value="$PROJECT_DIR$/db-modules/db-jdbc-mybatis-fast-sqlhelper/pom.xml" />
         <option value="$PROJECT_DIR$/db-modules/db-jdbc-mybatis-mapper-pagehelper/pom.xml" />
@@ -27,17 +29,6 @@
         <option value="$PROJECT_DIR$/db-modules/db-mybatis-fast-sqlhelper/pom.xml" />
         <option value="$PROJECT_DIR$/webflux-app-projcet/webmvc-app-project-01/pom.xml" />
         <option value="$PROJECT_DIR$/webflux-modules-app-project/pom.xml" />
-        <option value="$PROJECT_DIR$/webmvc-app-project/webmvc-app-project-02/pom.xml" />
-        <option value="$PROJECT_DIR$/webmvc-app-project/webmvc-app-project-03/pom.xml" />
-        <option value="$PROJECT_DIR$/webmvc-app-project/webmvc-app-project-04/pom.xml" />
-        <option value="$PROJECT_DIR$/webmvc-app-project/webmvc-app-project-05/pom.xml" />
-        <option value="$PROJECT_DIR$/webmvc-app-project/webmvc-app-project-06/pom.xml" />
-        <option value="$PROJECT_DIR$/webmvc-app-project/webmvc-hateoas-app-project-01/pom.xml" />
-        <option value="$PROJECT_DIR$/webmvc-app-project/webmvc-hateoas-app-project-02/pom.xml" />
-        <option value="$PROJECT_DIR$/webmvc-app-project/webmvc-hateoas-app-project-03/pom.xml" />
-        <option value="$PROJECT_DIR$/webmvc-app-project/webmvc-hateoas-app-project-04/pom.xml" />
-        <option value="$PROJECT_DIR$/webmvc-app-project/webmvc-hateoas-app-project-05/pom.xml" />
-        <option value="$PROJECT_DIR$/webmvc-app-project/webmvc-hateoas-app-project-06/pom.xml" />
         <option value="$PROJECT_DIR$/webmvc-base-modules/webmvc-jdbc-mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/webmvc-base-modules/webmvc-jdbc/pom.xml" />
         <option value="$PROJECT_DIR$/webmvc-base-modules/webmvc-jpa/pom.xml" />
@@ -45,6 +36,11 @@
         <option value="$PROJECT_DIR$/webmvc-base-modules/webmvc-mybatis-plus/pom.xml" />
         <option value="$PROJECT_DIR$/webmvc-base-modules/webmvc-mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/webmvc-hateoas-db-mybatis-fast/pom.xml" />
+        <option value="$PROJECT_DIR$/webmvc-modules/webmvc-db-modules/webmvc-db-jpa-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/webmvc-modules/webmvc-db-modules/webmvc-db-mybatis-fast/pom.xml" />
+        <option value="$PROJECT_DIR$/webmvc-modules/webmvc-db-modules/webmvc-db-mybatis-mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/webmvc-modules/webmvc-db-modules/webmvc-db-mybatis-plus/pom.xml" />
+        <option value="$PROJECT_DIR$/webmvc-modules/webmvc-hateoas-db-modules/pom.xml" />
         <option value="$PROJECT_DIR$/webmvc-modules/webmvc-hateoas-modules/pom.xml" />
         <option value="$PROJECT_DIR$/webmvc-modules/webmvc-hateoas-modules/webmvc-hateoas-db-modules/webmvc-hateoas-db-parent/pom.xml" />
         <option value="$PROJECT_DIR$/webmvc-modules/webmvc-hateoas-modules/webmvc-hateoas-parent/pom.xml" />
