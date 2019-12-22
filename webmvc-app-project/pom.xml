@@ -40,9 +40,4 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-    <modules>
-
-        <module>webmvc-app-project-01</module>
-    </modules>
-
 </project>
