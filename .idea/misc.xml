@@ -27,7 +27,6 @@
         <option value="$PROJECT_DIR$/db-modules/db-mybatis-fast-sqlhelper/pom.xml" />
         <option value="$PROJECT_DIR$/webflux-app-projcet/webmvc-app-project-01/pom.xml" />
         <option value="$PROJECT_DIR$/webflux-modules-app-project/pom.xml" />
-        <option value="$PROJECT_DIR$/webmvc-app-project/webmvc-hateoas-app-project-01/pom.xml" />
         <option value="$PROJECT_DIR$/webmvc-app-project/webmvc-hateoas-app-project-02/pom.xml" />
         <option value="$PROJECT_DIR$/webmvc-app-project/webmvc-hateoas-app-project-03/pom.xml" />
         <option value="$PROJECT_DIR$/webmvc-app-project/webmvc-hateoas-app-project-04/pom.xml" />

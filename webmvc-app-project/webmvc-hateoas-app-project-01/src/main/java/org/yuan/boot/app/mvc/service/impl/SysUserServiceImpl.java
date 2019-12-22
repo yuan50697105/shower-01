@@ -12,7 +12,6 @@ import org.yuan.boot.app.mvc.pojo.converter.SysUserConverter;
 import org.yuan.boot.app.mvc.pojo.dto.SysUserCondition;
 import org.yuan.boot.app.mvc.pojo.vo.SysUserVo;
 import org.yuan.boot.app.mvc.service.SysUserService;
-import org.yuan.boot.db.service.impl.BaseServiceImpl;
 
 import java.util.Arrays;
 import java.util.Date;
@@ -20,8 +19,9 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class SysUserServiceImpl extends BaseServiceImpl<SysUser, SysUserMapper> implements SysUserService {
-
+public class SysUserServiceImpl implements SysUserService {
+    @Autowired
+    private SysUserMapper sysUserMapper;
     @SuppressWarnings("SpringJavaInjectionPointsAutowiringInspection")
     @Autowired
     private SysUserConverter sysUserConverter;
@@ -31,46 +31,46 @@ public class SysUserServiceImpl extends BaseServiceImpl<SysUser, SysUserMapper> 
     @Override
     @Transactional(rollbackFor = Exception.class)
     public int save(SysUser sysUser) {
-        return baseMapper().insertSelective(sysUser);
+        return sysUserMapper.insertSelective(sysUser);
     }
 
     @Override
     @Transactional(rollbackFor = Exception.class)
     public int update(SysUser sysUser) {
-        return baseMapper().updateByPrimaryKeySelective(sysUser);
+        return sysUserMapper.updateByPrimaryKeySelective(sysUser);
     }
 
     @Override
     @Transactional(rollbackFor = Exception.class)
     public int saveWithNull(SysUser sysUser) {
-        return baseMapper().insert(sysUser);
+        return sysUserMapper.insert(sysUser);
     }
 
     @Override
     @Transactional(rollbackFor = Exception.class)
     public int updateWithNull(SysUser sysUser) {
-        return baseMapper().updateByPrimaryKey(sysUser);
+        return sysUserMapper.updateByPrimaryKey(sysUser);
     }
 
     @Override
     public PageInfo<SysUser> selectPage(SysUserCondition condition) {
         PageHelper.startPage(condition.getPage(), condition.getSize());
-        return PageInfo.of(baseMapper().selectListByCondition(condition));
+        return PageInfo.of(sysUserMapper.selectListByCondition(condition));
     }
 
     @Override
     public List<SysUser> selectList(SysUserCondition condition) {
-        return baseMapper().selectListByCondition(condition);
+        return sysUserMapper.selectListByCondition(condition);
     }
 
     @Override
     public Optional<SysUser> selectOne(SysUser sysUser) {
-        return Optional.ofNullable(baseMapper().selectOne(sysUser));
+        return Optional.ofNullable(sysUserMapper.selectOne(sysUser));
     }
 
     @Override
     public Optional<SysUser> selectById(Long id) {
-        return Optional.ofNullable(baseMapper().selectByPrimaryKey(id));
+        return Optional.ofNullable(sysUserMapper.selectByPrimaryKey(id));
     }
 
     @Override
@@ -90,12 +90,12 @@ public class SysUserServiceImpl extends BaseServiceImpl<SysUser, SysUserMapper> 
     @Override
     @Transactional(rollbackFor = Exception.class)
     public void delete(Long id) {
-        baseMapper().deleteByPrimaryKey(id);
+        sysUserMapper.deleteByPrimaryKey(id);
     }
 
     @Override
     @Transactional(rollbackFor = Exception.class)
     public void delete(Long[] ids) {
-        Arrays.stream(ids).forEach(baseMapper()::deleteByPrimaryKey);
+        Arrays.stream(ids).forEach(sysUserMapper::deleteByPrimaryKey);
     }
 }
