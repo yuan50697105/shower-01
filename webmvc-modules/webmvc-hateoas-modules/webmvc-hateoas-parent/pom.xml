@@ -3,19 +3,13 @@
          xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>webmvc-modules</artifactId>
-        <groupId>org.yuan.boot.mvc</groupId>
+        <artifactId>webmvc-hateoas-modules</artifactId>
+        <groupId>org.yuan.boot.mvc.hateoas</groupId>
         <version>0.0.5-DEV</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>webmvc-security-modules</artifactId>
+    <artifactId>webmvc-hateoas-parent</artifactId>
     <packaging>pom</packaging>
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-security</artifactId>
-        </dependency>
-    </dependencies>
 
 </project>

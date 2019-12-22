@@ -12,36 +12,11 @@
     <artifactId>webmvc-db-modules</artifactId>
     <packaging>pom</packaging>
     <modules>
+        <module>webmvc-db-parent</module>
         <module>webmvc-db-jdbc</module>
         <module>webmvc-db-jpa</module>
         <module>webmvc-db-mybatis</module>
     </modules>
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.yuan.boot.db</groupId>
-                <artifactId>db-modules</artifactId>
-                <version>0.0.5-DEV</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-            <dependency>
-                <groupId>org.yuan.boot.mvc.db</groupId>
-                <artifactId>webmvc-db-jdbc</artifactId>
-                <version>0.0.5-DEV</version>
-            </dependency>
-            <dependency>
-                <groupId>org.yuan.boot.mvc.db</groupId>
-                <artifactId>webmvc-db-jpa</artifactId>
-                <version>0.0.5-DEV</version>
-            </dependency>
-            <dependency>
-                <groupId>org.yuan.boot.mvc.db</groupId>
-                <artifactId>webmvc-db-mybatis</artifactId>
-                <version>0.0.5-DEV</version>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
     <dependencies>
         <dependency>
             <groupId>org.yuan.boot.mvc</groupId>

@@ -12,6 +12,7 @@
         <module>webmvc-app-project</module>
         <module>cloud-app-project</module>
         <module>cloud-modules</module>
+        <module>modules-parent</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

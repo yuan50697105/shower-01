@@ -8,11 +8,11 @@
         <version>0.0.5-DEV</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
+    <groupId>org.yuan.boot.mvc.hateoas</groupId>
     <artifactId>webmvc-hateoas-modules</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>webmvc-hateoas-security-modules</module>
+        <module>webmvc-hateoas-parent</module>
     </modules>
     <dependencies>
         <dependency>

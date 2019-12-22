@@ -12,11 +12,12 @@
     <artifactId>webmvc-modules</artifactId>
     <packaging>pom</packaging>
     <modules>
+        <module>webmvc-parent</module>
         <module>webmvc-core</module>
-        <module>webmvc-hateoas-modules</module>
-        <module>webmvc-security-modules</module>
         <module>webmvc-db-modules</module>
+        <module>webmvc-hateoas-modules</module>
     </modules>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>

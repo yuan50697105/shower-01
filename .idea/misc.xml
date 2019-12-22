@@ -31,6 +31,8 @@
         <option value="$PROJECT_DIR$/webmvc-base-modules/webmvc-mybatis-mapper/pom.xml" />
         <option value="$PROJECT_DIR$/webmvc-base-modules/webmvc-mybatis-plus/pom.xml" />
         <option value="$PROJECT_DIR$/webmvc-base-modules/webmvc-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/webmvc-modules/webmvc-hateoas-modules/webmvc-hateoas-security-modules/pom.xml" />
+        <option value="$PROJECT_DIR$/webmvc-modules/webmvc-security-modules/pom.xml" />
       </set>
     </option>
   </component>
