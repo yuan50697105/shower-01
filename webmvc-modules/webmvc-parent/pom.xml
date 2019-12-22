@@ -19,6 +19,11 @@
                 <version>0.0.1-DEV</version>
             </dependency>
             <dependency>
+                <groupId>org.yuan.boot.mvc.hateoas</groupId>
+                <artifactId>webmvc-hateoas-core</artifactId>
+                <version>0.0.1-DEV</version>
+            </dependency>
+            <dependency>
                 <groupId>org.yuan.boot.mvc.db</groupId>
                 <artifactId>webmvc-db-parent</artifactId>
                 <version>0.0.1-DEV</version>
@@ -26,8 +31,8 @@
                 <scope>import</scope>
             </dependency>
             <dependency>
-                <groupId>org.yuan.boot.mvc.hateoas</groupId>
-                <artifactId>webmvc-hateoas-parent</artifactId>
+                <groupId>org.yuan.boot.mvc.hateoas.db</groupId>
+                <artifactId>webmvc-hateoas-db-parent</artifactId>
                 <version>0.0.1-DEV</version>
                 <type>pom</type>
                 <scope>import</scope>

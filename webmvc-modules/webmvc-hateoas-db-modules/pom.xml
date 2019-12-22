@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>webmvc-modules</artifactId>
+        <groupId>org.yuan.boot.mvc</groupId>
+        <version>0.0.1-DEV</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.yuan.boot.mvc.hateoas.db</groupId>
+    <artifactId>webmvc-hateoas-db-modules</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>webmvc-hateoas-db-parent</module>
+        <module>webmvc-hateoas-db-jdbc</module>
+        <module>webmvc-hateoas-db-jpa</module>
+        <module>webmvc-hateoas-db-mybatis</module>
+        <module>webmvc-hateoas-db-jpa-mybatis</module>
+        <module>webmvc-hateoas-db-jdbc-mybatis</module>
+        <module>webmvc-hateoas-db-mybatis-plus</module>
+        <module>webmvc-hateoas-db-mybatis-mapper</module>
+        <module>webmvc-hateoas-db-mybatis-fast</module>
+    </modules>
+    <!--    <dependencyManagement>-->
+    <!--        <dependencies>-->
+    <!--            <dependency>-->
+    <!--                <groupId>org.yuan.boot.mvc.db</groupId>-->
+    <!--                <artifactId>webmvc-db-parent</artifactId>-->
+    <!--                <version>0.0.1-DEV</version>-->
+    <!--                <type>pom</type>-->
+    <!--                <scope>import</scope>-->
+    <!--            </dependency>-->
+    <!--        </dependencies>-->
+    <!--    </dependencyManagement>-->
+    <dependencies>
+        <dependency>
+            <groupId>org.yuan.boot.mvc.hateoas</groupId>
+            <artifactId>webmvc-hateoas-core</artifactId>
+            <version>0.0.1-DEV</version>
+        </dependency>
+    </dependencies>
+</project>
