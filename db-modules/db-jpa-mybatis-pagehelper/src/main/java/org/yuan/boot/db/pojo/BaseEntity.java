@@ -20,4 +20,5 @@ public class BaseEntity<T> extends AbstractBaseEntity<T> {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
 }
