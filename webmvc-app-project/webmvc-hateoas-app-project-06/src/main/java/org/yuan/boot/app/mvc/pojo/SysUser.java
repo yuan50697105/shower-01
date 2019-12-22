@@ -5,11 +5,15 @@ import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
 import org.yuan.boot.db.pojo.BaseEntity;
 
+import javax.persistence.Entity;
+import javax.persistence.Table;
 import java.util.Date;
 
 @Data
 @EqualsAndHashCode(callSuper = true)
 @Accessors(chain = true)
+@Entity
+@Table(name = "sys_user")
 public class SysUser extends BaseEntity<SysUser> {
     /**
      * username
