@@ -9,11 +9,12 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>webmvc-hateoas-db-mybatis-plus</artifactId>
+    <artifactId>webmvc-hateoas-db-jdbc</artifactId>
     <dependencies>
         <dependency>
             <groupId>org.yuan.boot.mvc.db</groupId>
-            <artifactId>webmvc-db-mybatis-plus</artifactId>
+            <artifactId>webmvc-db-jdbc</artifactId>
+            <version>0.0.1-DEV</version>
         </dependency>
     </dependencies>
 

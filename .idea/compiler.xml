@@ -15,7 +15,6 @@
         <module name="webmvc-hateoas-app-project-04" />
         <module name="webmvc-hateoas-app-project-03" />
         <module name="webmvc-hateoas-app-project-02" />
-        <module name="webmvc-hateoas-app-project-01" />
         <module name="eureka-server-01" />
         <module name="webmvc-app-mvc-jdbc-01" />
         <module name="webmvc-app-project-06" />
@@ -148,6 +147,8 @@
       <module name="webmvc-hateoas-app-project-04" target="1.8" />
       <module name="webmvc-hateoas-app-project-05" target="1.8" />
       <module name="webmvc-hateoas-app-project-06" target="1.8" />
+      <module name="webmvc-hateoas-modules" target="1.8" />
+      <module name="webmvc-hateoas-parent" target="1.8" />
       <module name="webmvc-hateoas-security-modules" target="1.8" />
       <module name="webmvc-jdbc" target="1.8" />
       <module name="webmvc-jdbc-mybatis" target="1.8" />
@@ -266,6 +267,7 @@
       <module name="webmvc-hateoas-db-mybatis-fast" options="-parameters" />
       <module name="webmvc-hateoas-db-mybatis-mapper" options="-parameters" />
       <module name="webmvc-hateoas-db-mybatis-plus" options="-parameters" />
+      <module name="webmvc-hateoas-db-parent" options="" />
       <module name="webmvc-hateoas-jdbc" options="-parameters" />
       <module name="webmvc-hateoas-jdbc-mybatis" options="-parameters" />
       <module name="webmvc-hateoas-jpa" options="-parameters" />

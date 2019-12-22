@@ -40,6 +40,9 @@
         <option value="$PROJECT_DIR$/webmvc-base-modules/webmvc-mybatis-plus/pom.xml" />
         <option value="$PROJECT_DIR$/webmvc-base-modules/webmvc-mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/webmvc-hateoas-db-mybatis-fast/pom.xml" />
+        <option value="$PROJECT_DIR$/webmvc-modules/webmvc-hateoas-modules/pom.xml" />
+        <option value="$PROJECT_DIR$/webmvc-modules/webmvc-hateoas-modules/webmvc-hateoas-db-modules/webmvc-hateoas-db-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/webmvc-modules/webmvc-hateoas-modules/webmvc-hateoas-parent/pom.xml" />
         <option value="$PROJECT_DIR$/webmvc-modules/webmvc-hateoas-modules/webmvc-hateoas-security-modules/pom.xml" />
         <option value="$PROJECT_DIR$/webmvc-modules/webmvc-security-modules/pom.xml" />
       </set>

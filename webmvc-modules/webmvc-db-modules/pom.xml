@@ -28,6 +28,8 @@
                 <groupId>org.yuan.boot.db</groupId>
                 <artifactId>db-parent</artifactId>
                 <version>0.0.1-DEV</version>
+                <type>pom</type>
+                <scope>import</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
