@@ -13,6 +13,9 @@ public class PageCollectionResult<T> extends IterableResult<List<T>> {
     private long totalNumberOfRows;
     private long totalPages;
 
+    public PageCollectionResult(Integer code, String message) {
+        super(code, message);
+    }
 
     public PageCollectionResult(Integer code, String message, List<T> data, long page, long size, long totalNumberOfRows, long totalPages) {
         super(code, message, data);

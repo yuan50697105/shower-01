@@ -5,16 +5,23 @@
     <parent>
         <artifactId>webmvc-modules</artifactId>
         <groupId>org.yuan.boot.mvc</groupId>
-        <version>0.0.5-DEV</version>
+        <version>0.0.1-DEV</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
+    <groupId>org.yuan.boot.mvc.hateoas</groupId>
     <artifactId>webmvc-hateoas-modules</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>webmvc-hateoas-security-modules</module>
+        <module>webmvc-hateoas-parent</module>
+        <module>webmvc-hateoas-core</module>
+        <module>webmvc-hateoas-db-modules</module>
     </modules>
     <dependencies>
+        <dependency>
+            <groupId>org.yuan.boot.mvc</groupId>
+            <artifactId>webmvc-core</artifactId>
+            <version>0.0.1-DEV</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-hateoas</artifactId>

@@ -12,6 +12,7 @@
         <module name="app-project and modules.app-mvc and modules.app-mvc-01" />
         <module name="db-modules and modules.db-modules and modules.db-mybatis-base-sqlhelper" />
         <module name="webmvc-app-mvc-jdbc-01" />
+        <module name="webmvc-hateoas-db-jdbc-mybatis" />
         <module name="db-modules and modules.db-modules and modules.db-jpa-sqlhelper" />
         <module name="mvc-modules and modules.mvc-modules and modules.mvc-core" />
         <module name="webmvc-hateoas-jdbc" />
@@ -21,9 +22,9 @@
         <module name="webmvc-cloud-app-eureka-server-01" />
         <module name="db-modules and modules.db-modules and modules.db-mybatis-mapper-pagehelper" />
         <module name="app-project and modules.app-hateoas and modules.app-hateoas-01" />
+        <module name="mvc-security-jdbc-sqlhelper" />
         <module name="db-mybatis-base-sqlhelper" />
         <module name="webmvc-cloud-app-goods-service-01" />
-        <module name="webmvc-app-mvc-mybatis-mapper-01" />
         <module name="webmvc-core" />
         <module name="db-modules and modules.db-modules and modules.db-mybatis-base-pagehelper" />
         <module name="webmvc-hateoas-jpa" />
@@ -33,6 +34,7 @@
         <module name="webmvc-hateoas-mybatis-mapper" />
         <module name="webmvc-app-mvc-01" />
         <module name="db-modules and modules.db-modules and modules.db-jdbc-mybatis-sqlhelper" />
+        <module name="webmvc-hateoas-db-mybatis" />
         <module name="db-jpa-mybatis-sqlhelper" />
         <module name="db-modules and modules.db-modules and modules.db-mybatis-plus-sqlhelper" />
         <module name="db-modules and modules.db-modules and modules.db-core" />
@@ -40,6 +42,8 @@
         <module name="webmvc-db-mybatis" />
         <module name="webmvc-hateoas-mybatis-plus" />
         <module name="db-jpa-sqlhelper" />
+        <module name="webmvc-db-mybatis-plus" />
+        <module name="webmvc-hateoas-db-mybatis-mapper" />
         <module name="webmvc-app-mvc-jpa-mybatis-01" />
         <module name="webmvc-app-mvc-mybatis-plus-01" />
         <module name="db-mybatis-plus-pagehelper" />
@@ -51,24 +55,32 @@
         <module name="db-mybatis-mapper-sqlhelper" />
         <module name="webmvc-hateoas-security" />
         <module name="webmvc-hateoas-core" />
+        <module name="webmvc-hateoas-db-mybatis-fast" />
         <module name="db-mybatis-mapper-pagehelper" />
         <module name="db-modules and modules.db-modules and modules.db-jdbc-sqlhelper" />
+        <module name="webmvc-db-jpa-mybatis" />
+        <module name="webmvc-hateoas-db-jdbc" />
         <module name="webmvc-app-mvc-jpa-01" />
         <module name="webflux-core" />
         <module name="webmvc-cloud-app-user-service-01" />
         <module name="db-mybatis-fast-pagehelper" />
         <module name="db-mybatis-base-pagehelper" />
         <module name="db-jdbc-sqlhelper" />
+        <module name="webmvc-db-mybatis-mapper" />
         <module name="webmvc-security" />
         <module name="hateoas-security-modules and modules.hateoas-security" />
+        <module name="webmvc-hateoas-db-jpa" />
         <module name="webmvc-hateoas-jdbc-mybatis" />
         <module name="db-jdbc-mybatis-pagehelper" />
         <module name="webmvc-hateoas-jpa-mybatis" />
-        <module name="mvc-security-jdbc-sqlhelper" />
+        <module name="webmvc-app-mvc-mybatis-mapper-01" />
+        <module name="webmvc-hateoas-db-jpa-mybatis" />
+        <module name="webmvc-hateoas-db-mybatis-plus" />
         <module name="webmvc-db-jdbc" />
-        <module name="webmvc-hateoas-security-modules" />
         <module name="db-jdbc-mybatis-sqlhelper" />
         <module name="webmvc-db-jpa" />
+        <module name="webmvc-db-jdbc-mybatis" />
+        <module name="webmvc-db-mybatis-fast" />
         <module name="db-jpa-mybatis-pagehelper" />
         <module name="db-mybatis-fast-sqlhelper" />
         <module name="db-modules and modules.db-modules and modules.db-mybatis-fast-pagehelper" />
@@ -118,12 +130,14 @@
       <module name="mvc-security" target="1.8" />
       <module name="webflux-modules-app-project" target="1.8" />
       <module name="webmvc-cloud-app-project" target="1.8" />
+      <module name="webmvc-hateoas-security-modules" target="1.8" />
       <module name="webmvc-jdbc" target="1.8" />
       <module name="webmvc-jdbc-mybatis" target="1.8" />
       <module name="webmvc-jpa" target="1.8" />
       <module name="webmvc-mybatis" target="1.8" />
       <module name="webmvc-mybatis-mapper" target="1.8" />
       <module name="webmvc-mybatis-plus" target="1.8" />
+      <module name="webmvc-security-modules" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -202,10 +216,25 @@
       <module name="webmvc-cloud-app-user-service-01" options="-parameters" />
       <module name="webmvc-core" options="-parameters" />
       <module name="webmvc-db-jdbc" options="-parameters" />
+      <module name="webmvc-db-jdbc-mybatis" options="-parameters" />
       <module name="webmvc-db-jpa" options="-parameters" />
+      <module name="webmvc-db-jpa-mybatis" options="-parameters" />
       <module name="webmvc-db-modules" options="" />
       <module name="webmvc-db-mybatis" options="-parameters" />
+      <module name="webmvc-db-mybatis-fast" options="-parameters" />
+      <module name="webmvc-db-mybatis-mapper" options="-parameters" />
+      <module name="webmvc-db-mybatis-plus" options="-parameters" />
+      <module name="webmvc-db-parent" options="" />
       <module name="webmvc-hateoas-core" options="-parameters" />
+      <module name="webmvc-hateoas-db-jdbc" options="-parameters" />
+      <module name="webmvc-hateoas-db-jdbc-mybatis" options="-parameters" />
+      <module name="webmvc-hateoas-db-jpa" options="-parameters" />
+      <module name="webmvc-hateoas-db-jpa-mybatis" options="-parameters" />
+      <module name="webmvc-hateoas-db-modules" options="" />
+      <module name="webmvc-hateoas-db-mybatis" options="-parameters" />
+      <module name="webmvc-hateoas-db-mybatis-fast" options="-parameters" />
+      <module name="webmvc-hateoas-db-mybatis-mapper" options="-parameters" />
+      <module name="webmvc-hateoas-db-mybatis-plus" options="-parameters" />
       <module name="webmvc-hateoas-jdbc" options="-parameters" />
       <module name="webmvc-hateoas-jdbc-mybatis" options="-parameters" />
       <module name="webmvc-hateoas-jpa" options="-parameters" />
@@ -214,8 +243,9 @@
       <module name="webmvc-hateoas-mybatis" options="-parameters" />
       <module name="webmvc-hateoas-mybatis-mapper" options="-parameters" />
       <module name="webmvc-hateoas-mybatis-plus" options="-parameters" />
+      <module name="webmvc-hateoas-parent" options="" />
       <module name="webmvc-hateoas-security" options="-parameters" />
-      <module name="webmvc-hateoas-security-modules" options="-parameters" />
+      <module name="webmvc-hateoas-security-modules" options="" />
       <module name="webmvc-jdbc" options="-parameters" />
       <module name="webmvc-jdbc-mybatis" options="-parameters" />
       <module name="webmvc-jpa" options="-parameters" />
@@ -223,6 +253,7 @@
       <module name="webmvc-mybatis" options="-parameters" />
       <module name="webmvc-mybatis-mapper" options="-parameters" />
       <module name="webmvc-mybatis-plus" options="-parameters" />
+      <module name="webmvc-parent" options="" />
       <module name="webmvc-security" options="-parameters" />
       <module name="webmvc-security-modules" options="" />
     </option>

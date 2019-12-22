@@ -12,6 +12,7 @@
         <module>webmvc-app-project</module>
         <module>cloud-app-project</module>
         <module>cloud-modules</module>
+        <module>modules-parent</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -21,7 +22,7 @@
     </parent>
     <groupId>org.yuan.boot</groupId>
     <artifactId>learning-demo-01</artifactId>
-    <version>0.0.5-DEV</version>
+    <version>0.0.1-DEV</version>
     <name>learning-demo-01</name>
     <description>Demo project for Spring Boot</description>
 
