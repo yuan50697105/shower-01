@@ -48,6 +48,7 @@
     </build>
     <modules>
 
+        <module>cloud-app-project-01</module>
     </modules>
 
 
