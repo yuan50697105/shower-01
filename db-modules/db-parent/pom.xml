@@ -3,32 +3,14 @@
          xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>learning-demo-01</artifactId>
-        <groupId>org.yuan.boot</groupId>
+        <artifactId>db-modules</artifactId>
+        <groupId>org.yuan.boot.db</groupId>
         <version>0.0.5-DEV</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.yuan.boot.db</groupId>
-    <artifactId>db-modules</artifactId>
+
+    <artifactId>db-parent</artifactId>
     <packaging>pom</packaging>
-    <modules>
-        <module>db-core</module>
-        <module>db-jdbc-sqlhelper</module>
-        <module>db-jdbc-mybatis-pagehelper</module>
-        <module>db-jdbc-mybatis-sqlhelper</module>
-        <module>db-jpa-sqlhelper</module>
-        <module>db-jpa-mybatis-pagehelper</module>
-        <module>db-jpa-mybatis-sqlhelper</module>
-        <module>db-mybatis-base-pagehelper</module>
-        <module>db-mybatis-base-sqlhelper</module>
-        <module>db-mybatis-mapper-pagehelper</module>
-        <module>db-mybatis-mapper-sqlhelper</module>
-        <module>db-mybatis-plus-pagehelper</module>
-        <module>db-mybatis-plus-sqlhelper</module>
-        <module>db-mybatis-fast-pagehelper</module>
-        <module>db-mybatis-fast-sqlhelper</module>
-        <module>db-parent</module>
-    </modules>
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -108,15 +90,5 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <skip>true</skip>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
+
 </project>

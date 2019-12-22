@@ -16,7 +16,17 @@
         <module>webmvc-db-jdbc</module>
         <module>webmvc-db-jpa</module>
         <module>webmvc-db-mybatis</module>
+        <module>webmvc-db-jdbc-mybatis</module>
     </modules>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.yuan.boot.db</groupId>
+                <artifactId>db-parent</artifactId>
+                <version>0.0.5-DEV</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
     <dependencies>
         <dependency>
             <groupId>org.yuan.boot.mvc</groupId>
