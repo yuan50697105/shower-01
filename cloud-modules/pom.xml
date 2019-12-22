@@ -15,6 +15,17 @@
     <modules>
         <module>cloud-parent</module>
     </modules>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.yuan.boot</groupId>
+                <artifactId>modules-parent</artifactId>
+                <version>0.0.1-DEV</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
     <build>
         <plugins>
             <plugin>

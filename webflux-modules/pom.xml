@@ -14,7 +14,17 @@
     <packaging>pom</packaging>
     <modules>
         <module>webflux-core</module>
+        <module>webflux-parent</module>
+        <module>webflux-hateoas-core</module>
+        <module>webflux-db-modules</module>
+        <module>webflux-hateoas-db-modules</module>
     </modules>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-webflux</artifactId>
+        </dependency>
+    </dependencies>
     <build>
         <plugins>
             <plugin>

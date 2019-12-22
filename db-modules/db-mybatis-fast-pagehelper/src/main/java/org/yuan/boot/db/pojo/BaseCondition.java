@@ -14,5 +14,5 @@ public class BaseCondition extends AbstractBaseCondition {
     public BaseCondition(int page, int size) {
         super(page, size);
     }
-    
+
 }

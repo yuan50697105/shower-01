@@ -11,6 +11,17 @@
     <groupId>org.yuan.boot.app.cloud</groupId>
     <artifactId>cloud-app-project</artifactId>
     <packaging>pom</packaging>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.yuan.boot.cloud</groupId>
+                <artifactId>cloud-parent</artifactId>
+                <version>0.0.1-DEV</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
