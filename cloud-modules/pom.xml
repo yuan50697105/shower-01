@@ -12,5 +12,18 @@
     <groupId>org.yuan.boot.cloud</groupId>
     <artifactId>cloud-modules</artifactId>
     <packaging>pom</packaging>
-
+    <modules>
+        <module>cloud-parent</module>
+    </modules>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <skip>true</skip>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
