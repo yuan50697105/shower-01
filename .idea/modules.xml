@@ -49,6 +49,8 @@
       <module fileurl="file://$PROJECT_DIR$/webmvc-hateoas-security-modules/hateoas-security-modules and modules.hateoas-security-modules.iml" filepath="$PROJECT_DIR$/webmvc-hateoas-security-modules/hateoas-security-modules and modules.hateoas-security-modules.iml" />
       <module fileurl="file://$PROJECT_DIR$/webmvc-modules/webmvc-core/mvc-modules and modules.mvc-modules and modules.mvc-core.iml" filepath="$PROJECT_DIR$/webmvc-modules/webmvc-core/mvc-modules and modules.mvc-modules and modules.mvc-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/webmvc-modules/mvc-modules and modules.mvc-modules and modules.mvc-modules.iml" filepath="$PROJECT_DIR$/webmvc-modules/mvc-modules and modules.mvc-modules and modules.mvc-modules.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webmvc-modules/webmvc-hateoas-modules/webmvc-hateoas-modules.iml" filepath="$PROJECT_DIR$/webmvc-modules/webmvc-hateoas-modules/webmvc-hateoas-modules.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webmvc-modules/webmvc-hateoas-modules/webmvc-hateoas-parent/webmvc-hateoas-parent.iml" filepath="$PROJECT_DIR$/webmvc-modules/webmvc-hateoas-modules/webmvc-hateoas-parent/webmvc-hateoas-parent.iml" />
     </modules>
   </component>
 </project>
