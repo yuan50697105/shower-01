@@ -14,8 +14,9 @@
     <modules>
         <module>webmvc-parent</module>
         <module>webmvc-core</module>
+        <module>webmvc-hateoas-core</module>
         <module>webmvc-db-modules</module>
-        <module>webmvc-hateoas-modules</module>
+        <module>webmvc-hateoas-db-modules</module>
     </modules>
 
     <dependencies>
