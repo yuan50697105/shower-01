@@ -5,7 +5,7 @@
     <parent>
         <artifactId>webmvc-modules</artifactId>
         <groupId>org.yuan.boot.mvc</groupId>
-        <version>0.0.1-DEV</version>
+        <version>0.0.1-APP01</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.yuan.boot.mvc.hateoas.db</groupId>
@@ -37,7 +37,7 @@
         <dependency>
             <groupId>org.yuan.boot.mvc.hateoas</groupId>
             <artifactId>webmvc-hateoas-core</artifactId>
-            <version>0.0.1-DEV</version>
+            <version>0.0.1-APP01</version>
         </dependency>
     </dependencies>
 </project>

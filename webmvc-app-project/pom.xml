@@ -5,7 +5,7 @@
     <parent>
         <artifactId>learning-demo-01</artifactId>
         <groupId>org.yuan.boot</groupId>
-        <version>0.0.1-DEV</version>
+        <version>0.0.1-APP01</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.yuan.boot.app.mvc</groupId>
@@ -34,11 +34,25 @@
             <dependency>
                 <groupId>org.yuan.boot.mvc</groupId>
                 <artifactId>webmvc-parent</artifactId>
-                <version>0.0.1-DEV</version>
+                <version>0.0.1-APP01</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
+    <modules>
+        <module>webmvc-app-project-01</module>
+        <module>webmvc-app-project-02</module>
+        <module>webmvc-app-project-03</module>
+        <module>webmvc-app-project-04</module>
+        <module>webmvc-app-project-05</module>
+        <module>webmvc-app-project-06</module>
+        <module>webmvc-hateoas-app-project-01</module>
+        <module>webmvc-hateoas-app-project-02</module>
+        <module>webmvc-hateoas-app-project-03</module>
+        <module>webmvc-hateoas-app-project-04</module>
+        <module>webmvc-hateoas-app-project-05</module>
+        <module>webmvc-hateoas-app-project-06</module>
+    </modules>
 
 </project>

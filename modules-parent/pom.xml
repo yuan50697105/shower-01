@@ -5,7 +5,7 @@
     <parent>
         <artifactId>learning-demo-01</artifactId>
         <groupId>org.yuan.boot</groupId>
-        <version>0.0.1-DEV</version>
+        <version>0.0.1-APP01</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -16,14 +16,14 @@
             <dependency>
                 <groupId>org.yuan.boot.mvc</groupId>
                 <artifactId>webmvc-parent</artifactId>
-                <version>0.0.1-DEV</version>
+                <version>0.0.1-APP01</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
             <dependency>
                 <groupId>org.yuan.boot.utils</groupId>
                 <artifactId>utils-modules</artifactId>
-                <version>0.0.1-DEV</version>
+                <version>0.0.1-APP01</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
