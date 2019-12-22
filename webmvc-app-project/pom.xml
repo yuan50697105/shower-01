@@ -42,6 +42,9 @@
     </dependencyManagement>
     <modules>
         <module>webmvc-app-project-01</module>
+        <module>webmvc-app-project-02</module>
+        <module>webmvc-app-project-03</module>
+        <module>webmvc-app-project-04</module>
     </modules>
 
 </project>
