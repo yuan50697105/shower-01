@@ -22,11 +22,15 @@
                 <groupId>org.yuan.boot.mvc.db</groupId>
                 <artifactId>webmvc-db-parent</artifactId>
                 <version>0.0.1-DEV</version>
+                <type>pom</type>
+                <scope>import</scope>
             </dependency>
             <dependency>
-                <groupId>org.yuan.boot.mvc.db</groupId>
+                <groupId>org.yuan.boot.mvc.hateoas</groupId>
                 <artifactId>webmvc-hateoas-parent</artifactId>
-                <version>0.0.5-DEV</version>
+                <version>0.0.1-DEV</version>
+                <type>pom</type>
+                <scope>import</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
