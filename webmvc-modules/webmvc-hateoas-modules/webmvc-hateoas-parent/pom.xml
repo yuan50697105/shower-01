@@ -5,11 +5,24 @@
     <parent>
         <artifactId>webmvc-hateoas-modules</artifactId>
         <groupId>org.yuan.boot.mvc.hateoas</groupId>
-        <version>0.0.5-DEV</version>
+        <version>0.0.1-DEV</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>webmvc-hateoas-parent</artifactId>
     <packaging>pom</packaging>
-
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.yuan.mvc.hateoas</groupId>
+                <artifactId>webmvc-hateoas-core</artifactId>
+                <version>0.0.1-DEV</version>
+            </dependency>
+            <dependency>
+                <groupId>org.yuan.mvc.hateoas.db</groupId>
+                <artifactId>webmvc-hateoas-db-parent</artifactId>
+                <version>0.0.1-DEV</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 </project>

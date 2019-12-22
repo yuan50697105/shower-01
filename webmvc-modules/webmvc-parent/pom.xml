@@ -5,7 +5,7 @@
     <parent>
         <artifactId>webmvc-modules</artifactId>
         <groupId>org.yuan.boot.mvc</groupId>
-        <version>0.0.5-DEV</version>
+        <version>0.0.1-DEV</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -16,12 +16,12 @@
             <dependency>
                 <groupId>org.yuan.boot.mvc</groupId>
                 <artifactId>webmvc-core</artifactId>
-                <version>0.0.5-DEV</version>
+                <version>0.0.1-DEV</version>
             </dependency>
             <dependency>
                 <groupId>org.yuan.boot.mvc.db</groupId>
                 <artifactId>webmvc-db-parent</artifactId>
-                <version>0.0.5-DEV</version>
+                <version>0.0.1-DEV</version>
             </dependency>
             <dependency>
                 <groupId>org.yuan.boot.mvc.db</groupId>
