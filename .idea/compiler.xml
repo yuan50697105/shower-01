@@ -39,6 +39,7 @@
         <module name="db-modules and modules.db-modules and modules.db-jdbc-mybatis-sqlhelper" />
         <module name="webmvc-hateoas-mybatis-plus" />
         <module name="webmvc-hateoas-security" />
+        <module name="db-mybatis-fast-pagehelper" />
         <module name="mvc-security-jdbc-sqlhelper" />
         <module name="webmvc-app-mvc-mybatis-plus-01" />
         <module name="db-mybatis-plus-pagehelper" />
@@ -62,6 +63,7 @@
         <module name="webmvc-hateoas-jdbc-mybatis" />
         <module name="db-jdbc-mybatis-pagehelper" />
         <module name="webmvc-app-mvc-mybatis-mapper-01" />
+        <module name="db-mybatis-fast-sqlhelper" />
         <module name="webmvc-db-jdbc" />
         <module name="webmvc-hateoas-security-modules" />
         <module name="db-jpa-sqlhelper" />
@@ -102,6 +104,8 @@
       <module name="db-modules and modules.db-modules and modules.db-mybatis-mapper-sqlhelper" target="1.8" />
       <module name="db-modules and modules.db-modules and modules.db-mybatis-plus" target="1.8" />
       <module name="db-modules and modules.db-modules and modules.db-mybatis-plus-sqlhelper" target="1.8" />
+      <module name="db-mybatis-fast-pagehelper" target="1.8" />
+      <module name="db-mybatis-fast-sqlhelper" target="1.8" />
       <module name="eureka-server-01" target="1.8" />
       <module name="hateoas-modules and modules.hateoas-core" target="1.8" />
       <module name="hateoas-modules and modules.hateoas-modules" target="1.8" />
@@ -164,6 +168,8 @@
       <module name="db-modules and modules.db-modules and modules.db-mybatis-plus-sqlhelper" options="-parameters" />
       <module name="db-mybatis-base-pagehelper" options="-parameters" />
       <module name="db-mybatis-base-sqlhelper" options="-parameters" />
+      <module name="db-mybatis-fast-pagehelper" options="-parameters" />
+      <module name="db-mybatis-fast-sqlhelper" options="-parameters" />
       <module name="db-mybatis-mapper-pagehelper" options="-parameters" />
       <module name="db-mybatis-mapper-sqlhelper" options="-parameters" />
       <module name="db-mybatis-plus-pagehelper" options="-parameters" />

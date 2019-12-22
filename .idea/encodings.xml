@@ -15,6 +15,7 @@
     <file url="file://$PROJECT_DIR$/db-modules/db-mybatis-base-pagehelper/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/db-modules/db-mybatis-base-sqlhelper/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/db-modules/db-mybatis-base-sqlhelper/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/db-modules/db-mybatis-fast-pagehelper/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/db-modules/db-mybatis-mapper-pagehelper/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/db-modules/db-mybatis-mapper-pagehelper/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/db-modules/db-mybatis-mapper-sqlhelper/src/main/java" charset="UTF-8" />

@@ -25,6 +25,7 @@
         <module>db-mybatis-mapper-sqlhelper</module>
         <module>db-mybatis-plus-pagehelper</module>
         <module>db-mybatis-plus-sqlhelper</module>
+        <module>db-mybatis-fast-pagehelper</module>
     </modules>
     <build>
         <plugins>
