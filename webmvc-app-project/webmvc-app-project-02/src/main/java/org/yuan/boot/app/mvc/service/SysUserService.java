@@ -30,7 +30,7 @@ public interface SysUserService extends BaseService<SysUser> {
 
     void updateFromVo(SysUserVo sysUserVo);
 
-    void delete(Long id);
+    int delete(Long id);
 
     void delete(Long[] ids);
 }

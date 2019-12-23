@@ -78,16 +78,6 @@
                 <artifactId>db-mybatis-plus-sqlhelper</artifactId>
                 <version>0.0.1-DEV</version>
             </dependency>
-            <dependency>
-                <groupId>org.yuan.boot.db</groupId>
-                <artifactId>db-mybatis-fast-pagehelper</artifactId>
-                <version>0.0.1-DEV</version>
-            </dependency>
-            <dependency>
-                <groupId>org.yuan.boot.db</groupId>
-                <artifactId>db-mybatis-fast-sqlhelper</artifactId>
-                <version>0.0.1-DEV</version>
-            </dependency>
         </dependencies>
     </dependencyManagement>
 

@@ -18,7 +18,6 @@
         <module>webmvc-db-mybatis</module>
         <module>webmvc-db-jdbc-mybatis</module>
         <module>webmvc-db-jpa-mybatis</module>
-        <module>webmvc-db-mybatis-fast</module>
         <module>webmvc-db-mybatis-mapper</module>
         <module>webmvc-db-mybatis-plus</module>
     </modules>

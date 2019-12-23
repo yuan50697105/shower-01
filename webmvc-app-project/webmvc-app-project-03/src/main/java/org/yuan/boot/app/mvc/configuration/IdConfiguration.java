@@ -11,4 +11,5 @@ public class IdConfiguration {
     public Snowflake snowflake() {
         return IdUtil.createSnowflake(1, 1);
     }
+
 }

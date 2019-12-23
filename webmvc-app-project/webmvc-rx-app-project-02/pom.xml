@@ -18,7 +18,7 @@
         </dependency>
         <dependency>
             <groupId>org.yuan.boot.mvc.db</groupId>
-            <artifactId>webmvc-db-mybatis-fast</artifactId>
+            <artifactId>webmvc-db-mybatis-mapper</artifactId>
         </dependency>
         <dependency>
             <groupId>mysql</groupId>

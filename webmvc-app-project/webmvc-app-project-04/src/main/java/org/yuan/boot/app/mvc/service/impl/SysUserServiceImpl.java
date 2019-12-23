@@ -11,6 +11,7 @@ import org.yuan.boot.app.mvc.pojo.SysUser;
 import org.yuan.boot.app.mvc.pojo.condition.SysUserCondition;
 import org.yuan.boot.app.mvc.pojo.converter.SysUserConverter;
 import org.yuan.boot.app.mvc.pojo.vo.SysUserVo;
+import org.yuan.boot.app.mvc.repository.SysUserRepository;
 import org.yuan.boot.app.mvc.service.SysUserService;
 import org.yuan.boot.db.service.impl.BaseServiceImpl;
 
@@ -20,7 +21,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class SysUserServiceImpl extends BaseServiceImpl<SysUser, SysUserMapper> implements SysUserService {
+public class SysUserServiceImpl extends BaseServiceImpl<SysUser, SysUserRepository, SysUserMapper> implements SysUserService {
     @Autowired
     private SysUserMapper sysUserMapper;
     @SuppressWarnings("SpringJavaInjectionPointsAutowiringInspection")
@@ -29,28 +30,10 @@ public class SysUserServiceImpl extends BaseServiceImpl<SysUser, SysUserMapper> 
     @Autowired
     private Snowflake snowflake;
 
-    @Override
-    @Transactional(rollbackFor = Exception.class)
-    public boolean save(SysUser sysUser) {
-        return retBool(sysUserMapper.insertSelective(sysUser));
-    }
 
     @Override
-    @Transactional(rollbackFor = Exception.class)
-    public int update(SysUser sysUser) {
-        return sysUserMapper.updateByPrimaryKeySelective(sysUser);
-    }
-
-    @Override
-    @Transactional(rollbackFor = Exception.class)
-    public int saveWithNull(SysUser sysUser) {
-        return sysUserMapper.insert(sysUser);
-    }
-
-    @Override
-    @Transactional(rollbackFor = Exception.class)
-    public int updateWithNull(SysUser sysUser) {
-        return sysUserMapper.updateByPrimaryKey(sysUser);
+    public void saveWithNull(SysUser sysUser) {
+        baseMapper().insert(sysUser);
     }
 
     @Override
@@ -69,10 +52,6 @@ public class SysUserServiceImpl extends BaseServiceImpl<SysUser, SysUserMapper> 
         return Optional.ofNullable(sysUserMapper.selectOne(sysUser));
     }
 
-    @Override
-    public Optional<SysUser> selectById(Long id) {
-        return Optional.ofNullable(sysUserMapper.selectByPrimaryKey(id));
-    }
 
     @Override
     public void saveFormVo(SysUserVo sysUserVo) {
@@ -88,11 +67,6 @@ public class SysUserServiceImpl extends BaseServiceImpl<SysUser, SysUserMapper> 
         update(sysUser);
     }
 
-    @Override
-    @Transactional(rollbackFor = Exception.class)
-    public void delete(Long id) {
-        sysUserMapper.deleteByPrimaryKey(id);
-    }
 
     @Override
     @Transactional(rollbackFor = Exception.class)

@@ -90,8 +90,8 @@ public class SysUserServiceImpl extends BaseServiceImpl<SysUser, SysUserMapper> 
 
     @Override
     @Transactional(rollbackFor = Exception.class)
-    public void delete(Long id) {
-        sysUserMapper.deleteByPrimaryKey(id);
+    public int delete(Long id) {
+        return sysUserMapper.deleteByPrimaryKey(id);
     }
 
     @Override

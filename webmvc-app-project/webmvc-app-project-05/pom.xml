@@ -13,7 +13,7 @@
     <dependencies>
         <dependency>
             <groupId>org.yuan.boot.mvc.db</groupId>
-            <artifactId>webmvc-db-jdbc-mybatis</artifactId>
+            <artifactId>webmvc-db-jpa-mybatis</artifactId>
         </dependency>
         <dependency>
             <groupId>mysql</groupId>

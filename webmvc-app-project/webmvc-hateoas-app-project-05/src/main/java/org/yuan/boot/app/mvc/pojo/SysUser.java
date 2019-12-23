@@ -3,15 +3,17 @@ package org.yuan.boot.app.mvc.pojo;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
-import org.springframework.data.relational.core.mapping.Table;
 import org.yuan.boot.db.pojo.BaseEntity;
 
+import javax.persistence.Entity;
+import javax.persistence.Table;
 import java.util.Date;
 
 @Data
 @EqualsAndHashCode(callSuper = true)
 @Accessors(chain = true)
-@Table("sys_user")
+@Entity
+@Table(name = "sys_user")
 public class SysUser extends BaseEntity<SysUser> {
     /**
      * username

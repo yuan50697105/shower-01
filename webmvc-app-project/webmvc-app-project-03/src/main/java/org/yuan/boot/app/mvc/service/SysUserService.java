@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Optional;
 
 public interface SysUserService extends BaseService<SysUser> {
-    int save(SysUser sysUser);
+    boolean save(SysUser sysUser);
 
     int update(SysUser sysUser);
 
@@ -30,7 +30,7 @@ public interface SysUserService extends BaseService<SysUser> {
 
     void updateFromVo(SysUserVo sysUserVo);
 
-    int delete(Long id);
+    void delete(Long id);
 
     void delete(Long[] ids);
 }

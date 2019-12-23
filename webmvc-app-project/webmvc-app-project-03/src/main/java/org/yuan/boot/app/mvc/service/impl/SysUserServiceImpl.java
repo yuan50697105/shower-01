@@ -31,8 +31,8 @@ public class SysUserServiceImpl extends BaseServiceImpl<SysUser, SysUserMapper> 
 
     @Override
     @Transactional(rollbackFor = Exception.class)
-    public int save(SysUser sysUser) {
-        return sysUserMapper.insertSelective(sysUser);
+    public boolean save(SysUser sysUser) {
+        return retBool(sysUserMapper.insertSelective(sysUser));
     }
 
     @Override
@@ -90,8 +90,8 @@ public class SysUserServiceImpl extends BaseServiceImpl<SysUser, SysUserMapper> 
 
     @Override
     @Transactional(rollbackFor = Exception.class)
-    public int delete(Long id) {
-        return sysUserMapper.deleteByPrimaryKey(id);
+    public void delete(Long id) {
+        sysUserMapper.deleteByPrimaryKey(id);
     }
 
     @Override

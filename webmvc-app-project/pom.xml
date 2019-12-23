@@ -46,25 +46,21 @@
         <module>webmvc-app-project-03</module>
         <module>webmvc-app-project-04</module>
         <module>webmvc-app-project-05</module>
-        <module>webmvc-app-project-06</module>
         <module>webmvc-hateoas-app-project-01</module>
         <module>webmvc-hateoas-app-project-02</module>
         <module>webmvc-hateoas-app-project-03</module>
         <module>webmvc-hateoas-app-project-04</module>
         <module>webmvc-hateoas-app-project-05</module>
-        <module>webmvc-hateoas-app-project-06</module>
         <module>webmvc-rx-app-project-01</module>
         <module>webmvc-rx-app-project-02</module>
         <module>webmvc-rx-app-project-03</module>
         <module>webmvc-rx-app-project-04</module>
         <module>webmvc-rx-app-project-05</module>
-        <module>webmvc-rx-app-project-06</module>
         <module>webmvc-rx-hateoas-app-project-01</module>
         <module>webmvc-rx-hateoas-app-project-02</module>
         <module>webmvc-rx-hateoas-app-project-03</module>
         <module>webmvc-rx-hateoas-app-project-04</module>
         <module>webmvc-rx-hateoas-app-project-05</module>
-        <module>webmvc-rx-hateoas-app-project-06</module>
     </modules>
 
 </project>

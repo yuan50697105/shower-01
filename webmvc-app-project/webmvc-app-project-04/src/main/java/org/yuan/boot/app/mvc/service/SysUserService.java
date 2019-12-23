@@ -10,13 +10,8 @@ import java.util.List;
 import java.util.Optional;
 
 public interface SysUserService extends BaseService<SysUser> {
-    boolean save(SysUser sysUser);
 
-    int update(SysUser sysUser);
-
-    int saveWithNull(SysUser sysUser);
-
-    int updateWithNull(SysUser sysUser);
+    void saveWithNull(SysUser sysUser);
 
     PageInfo<SysUser> selectPage(SysUserCondition condition);
 
@@ -24,13 +19,9 @@ public interface SysUserService extends BaseService<SysUser> {
 
     Optional<SysUser> selectOne(SysUser sysUser);
 
-    Optional<SysUser> selectById(Long id);
-
     void saveFormVo(SysUserVo sysUserVo);
 
     void updateFromVo(SysUserVo sysUserVo);
-
-    void delete(Long id);
 
     void delete(Long[] ids);
 }
