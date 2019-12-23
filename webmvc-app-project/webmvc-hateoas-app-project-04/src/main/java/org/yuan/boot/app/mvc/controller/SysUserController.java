@@ -9,9 +9,8 @@ import org.yuan.boot.app.mvc.pojo.SysUser;
 import org.yuan.boot.app.mvc.pojo.condition.SysUserCondition;
 import org.yuan.boot.app.mvc.pojo.vo.SysUserVo;
 import org.yuan.boot.app.mvc.service.SysUserService;
-import org.yuan.boot.hateoas.pojo.ResultModel;
 import org.yuan.boot.mvc.controller.ResultController;
-import org.yuan.boot.mvc.hateoas.db.PageResultModel;
+import org.yuan.boot.mvc.db.pojo.PageResult;
 import org.yuan.boot.mvc.pojo.DataResult;
 import org.yuan.boot.mvc.pojo.Result;
 
@@ -25,9 +24,9 @@ public class SysUserController extends ResultController {
     private SysUserService sysUserService;
 
     @GetMapping("data")
-    public ResultModel data(SysUserCondition condition) {
+    public Result data(SysUserCondition condition) {
         PageInfo<SysUser> pageInfo = sysUserService.selectPage(condition);
-        return new PageResultModel<>(pageInfo);
+        return new PageResult<>(pageInfo);
     }
 
     @GetMapping("list")
