@@ -9,7 +9,7 @@ import org.yuan.boot.db.mapper.BaseMapper;
 import java.util.List;
 
 @Mapper
-public interface SysModuleMapper extends BaseMapper {
+public interface SysModuleMapper extends BaseMapper<SysModule> {
     long countByExample(SysModuleExample example);
 
     int deleteByExample(SysModuleExample example);
