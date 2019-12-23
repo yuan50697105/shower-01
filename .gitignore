@@ -7,7 +7,7 @@
 /*.ipr
 /*.iws
 /*.project
-/**/.project
+/**/.proj
 /out/
 /**/test/
 /.settings/
