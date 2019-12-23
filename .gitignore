@@ -6,5 +6,7 @@
 /*.iml
 /*.ipr
 /*.iws
+/*.project
+/**/.project
 /out/
 /**/test/
