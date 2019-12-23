@@ -114,7 +114,7 @@
                 <artifactId>findbugs-maven-plugin</artifactId>
                 <version>3.0.5</version>
                 <configuration>
-                    <skip>true</skip>
+<!--                    <skip>true</skip>-->
                     <!-- 设置分析工作的等级，可以为Min、Default和Max -->
                     <effort>Max</effort>
                     <!-- Low、Medium和High (Low最严格) High只扫描严重错误。建议用Medium-->
@@ -181,7 +181,7 @@
                 <artifactId>versions-maven-plugin</artifactId>
                 <executions>
                     <execution>
-                        <phase>post-clean</phase>
+                        <phase>pre-clean</phase>
                         <goals>
                             <goal>use-latest-versions</goal>
                             <goal>set</goal>
