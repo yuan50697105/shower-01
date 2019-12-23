@@ -114,7 +114,7 @@
                 <artifactId>findbugs-maven-plugin</artifactId>
                 <version>3.0.5</version>
                 <configuration>
-<!--                    <skip>true</skip>-->
+                    <skip>true</skip>
                     <!-- 设置分析工作的等级，可以为Min、Default和Max -->
                     <effort>Max</effort>
                     <!-- Low、Medium和High (Low最严格) High只扫描严重错误。建议用Medium-->
@@ -179,19 +179,19 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>versions-maven-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <phase>compile</phase>
-                        <goals>
-                            <goal>use-latest-versions</goal>
-<!--                            <goal>set</goal>-->
-                            <goal>commit</goal>
-                        </goals>
-                        <configuration>
-<!--                            <newVersion>0.0.2-DEV</newVersion>-->
-                        </configuration>
-                    </execution>
-                </executions>
+<!--                <executions>-->
+<!--                    <execution>-->
+<!--                        <phase>compile</phase>-->
+<!--                        <goals>-->
+<!--                            <goal>use-latest-versions</goal>-->
+<!--&lt;!&ndash;                            <goal>set</goal>&ndash;&gt;-->
+<!--                            <goal>commit</goal>-->
+<!--                        </goals>-->
+<!--                        <configuration>-->
+<!--&lt;!&ndash;                            <newVersion>0.0.2-DEV</newVersion>&ndash;&gt;-->
+<!--                        </configuration>-->
+<!--                    </execution>-->
+<!--                </executions>-->
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
