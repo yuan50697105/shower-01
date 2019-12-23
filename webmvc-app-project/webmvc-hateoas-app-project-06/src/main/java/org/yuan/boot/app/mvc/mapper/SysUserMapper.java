@@ -3,7 +3,7 @@ package org.yuan.boot.app.mvc.mapper;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.yuan.boot.app.mvc.pojo.SysUser;
-import org.yuan.boot.app.mvc.pojo.dto.SysUserCondition;
+import org.yuan.boot.app.mvc.pojo.condition.SysUserCondition;
 import org.yuan.boot.app.mvc.pojo.example.SysUserExample;
 import org.yuan.boot.db.mapper.BaseMapper;
 

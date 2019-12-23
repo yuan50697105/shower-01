@@ -1,4 +1,4 @@
-package org.yuan.boot.app.mvc.pojo.dto;
+package org.yuan.boot.app.mvc.pojo.condition;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;

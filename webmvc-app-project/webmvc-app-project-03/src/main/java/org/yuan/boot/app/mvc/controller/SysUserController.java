@@ -6,7 +6,7 @@ import org.springframework.validation.BindingResult;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 import org.yuan.boot.app.mvc.pojo.SysUser;
-import org.yuan.boot.app.mvc.pojo.dto.SysUserCondition;
+import org.yuan.boot.app.mvc.pojo.condition.SysUserCondition;
 import org.yuan.boot.app.mvc.pojo.vo.SysUserVo;
 import org.yuan.boot.app.mvc.service.SysUserService;
 import org.yuan.boot.mvc.controller.ResultController;

@@ -1,4 +1,4 @@
-package org.yuan.boot.app.mvc.pojo.dto;
+package org.yuan.boot.app.mvc.pojo.condition;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -10,15 +10,18 @@ import java.util.List;
 @EqualsAndHashCode(callSuper = true)
 @Data
 @Accessors(chain = true)
-public class SysRoleCondition extends BaseCondition {
+public class SysUserCondition extends BaseCondition {
     private Long id;
     private List<Long> ids;
     private String name;
+    private String username;
+    private String realName;
+    private String nickName;
 
-    public SysRoleCondition() {
+    public SysUserCondition() {
     }
 
-    public SysRoleCondition(int page, int size) {
+    public SysUserCondition(int page, int size) {
         super(page, size);
     }
 }

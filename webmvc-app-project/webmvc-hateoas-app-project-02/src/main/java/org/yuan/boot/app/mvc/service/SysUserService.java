@@ -2,7 +2,7 @@ package org.yuan.boot.app.mvc.service;
 
 import com.github.pagehelper.PageInfo;
 import org.yuan.boot.app.mvc.pojo.SysUser;
-import org.yuan.boot.app.mvc.pojo.dto.SysUserCondition;
+import org.yuan.boot.app.mvc.pojo.condition.SysUserCondition;
 import org.yuan.boot.app.mvc.pojo.vo.SysUserVo;
 
 import java.util.List;
