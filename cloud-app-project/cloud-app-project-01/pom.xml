@@ -5,7 +5,7 @@
     <parent>
         <artifactId>cloud-app-project</artifactId>
         <groupId>org.yuan.boot.app.cloud</groupId>
-        <version>0.0.2-DEV</version>
+        <version>0.0.1-DEV</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
