@@ -6,5 +6,11 @@
 /*.iml
 /*.ipr
 /*.iws
+/*.project
+/**/.proj
 /out/
 /**/test/
+/.settings/
+/**/.settings/
+/.classpath
+/**/.classpath
