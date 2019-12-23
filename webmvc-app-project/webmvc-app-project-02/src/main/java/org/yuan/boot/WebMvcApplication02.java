@@ -4,8 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class WebMvcHateoasApplication04 {
+public class WebMvcApplication02 {
     public static void main(String[] args) {
-        SpringApplication.run(WebMvcHateoasApplication04.class, args);
+        SpringApplication.run(WebMvcApplication02.class, args);
     }
 }

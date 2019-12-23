@@ -17,10 +17,6 @@ public interface SysUserMapper extends BaseMapper<SysUser> {
 
     int deleteByPrimaryKey(Long id);
 
-    int insert(SysUser record);
-
-    int insertSelective(SysUser record);
-
     List<SysUser> selectByExample(SysUserExample example);
 
     SysUser selectByPrimaryKey(Long id);
@@ -29,15 +25,10 @@ public interface SysUserMapper extends BaseMapper<SysUser> {
 
     int updateByExample(@Param("record") SysUser record, @Param("example") SysUserExample example);
 
-    int updateByPrimaryKeySelective(SysUser record);
-
-    int updateByPrimaryKey(SysUser record);
-
     Long countByUsername(@Param("username") String username);
 
     List<SysUser> selectListByCondition(@Param("condition") SysUserCondition condition);
 
     List<SysUser> selectList(@Param("sysUser") SysUser sysUser);
 
-    SysUser selectOne(@Param("sysUser") SysUser sysUser);
 }
