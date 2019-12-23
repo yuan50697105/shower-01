@@ -181,14 +181,14 @@
                 <artifactId>versions-maven-plugin</artifactId>
                 <executions>
                     <execution>
-                        <phase>pre-clean</phase>
+                        <phase>compile</phase>
                         <goals>
                             <goal>use-latest-versions</goal>
-                            <goal>set</goal>
+<!--                            <goal>set</goal>-->
                             <goal>commit</goal>
                         </goals>
                         <configuration>
-                            <newVersion>0.0.2-DEV</newVersion>
+<!--                            <newVersion>0.0.2-DEV</newVersion>-->
                         </configuration>
                     </execution>
                 </executions>
