@@ -97,18 +97,6 @@
             order by ${orderByClause}
         </if>
     </select>
-    <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
-        <!--@mbg.generated-->
-        select
-        <include refid="Base_Column_List"/>
-        from sys_user
-        where id = #{id,jdbcType=BIGINT}
-    </select>
-    <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
-        <!--@mbg.generated-->
-        delete from sys_user
-        where id = #{id,jdbcType=BIGINT}
-    </delete>
     <delete id="deleteByExample" parameterType="org.yuan.boot.app.mvc.pojo.example.SysUserExample">
         <!--@mbg.generated-->
         delete from sys_user
