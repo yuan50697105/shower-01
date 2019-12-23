@@ -183,7 +183,7 @@
                     <execution>
                         <phase>compile</phase>
                         <goals>
-                            <goal>use-next-releases</goal>
+                            <goal>use-latest-versions</goal>
                             <goal>set</goal>
                             <goal>commit</goal>
                         </goals>
