@@ -5,11 +5,11 @@ import com.github.pagehelper.PageInfo;
 import com.jn.sqlhelper.dialect.pagination.PagingResult;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import org.yuan.boot.mvc.pojo.PageCollectionResult;
+import org.yuan.boot.mvc.pojo.PageIterableResult;
 
 @EqualsAndHashCode(callSuper = true)
 @Data
-public class PageResult<T> extends PageCollectionResult<T> {
+public class PageResult<T> extends PageIterableResult<T> {
 
 
     public PageResult(PageInfo<T> pageInfo) {

@@ -6,11 +6,11 @@ import com.jn.sqlhelper.dialect.pagination.PagingResult;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import org.springframework.data.domain.Page;
-import org.yuan.boot.mvc.pojo.PageCollectionResult;
+import org.yuan.boot.mvc.pojo.PageIterableResult;
 
 @EqualsAndHashCode(callSuper = true)
 @Data
-public class PageResult<T> extends PageCollectionResult<T> {
+public class PageResult<T> extends PageIterableResult<T> {
 
 
     public PageResult(Page<T> page) {
