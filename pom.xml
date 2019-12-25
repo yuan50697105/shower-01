@@ -17,14 +17,14 @@
     </modules>
     <repositories>
         <repository>
-            <id>central</id>
-            <name>Maven Central</name>
-            <url>http://repo1.maven.org/maven2/</url>
-        </repository>
-        <repository>
             <id>aliyun</id>
             <name>aliyun</name>
             <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+        </repository>
+        <repository>
+            <id>central</id>
+            <name>Maven Central</name>
+            <url>http://repo1.maven.org/maven2/</url>
         </repository>
     </repositories>
     <parent>
