@@ -30,11 +30,6 @@
             </dependency>
             <dependency>
                 <groupId>org.yuan.boot.mvc.hateoas.db</groupId>
-                <artifactId>webmvc-hateoas-db-mybatis-fast</artifactId>
-                <version>0.0.1-DEV</version>
-            </dependency>
-            <dependency>
-                <groupId>org.yuan.boot.mvc.hateoas.db</groupId>
                 <artifactId>webmvc-hateoas-db-jdbc-mybatis</artifactId>
                 <version>0.0.1-DEV</version>
             </dependency>

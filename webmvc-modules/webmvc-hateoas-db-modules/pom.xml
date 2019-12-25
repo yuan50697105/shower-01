@@ -20,7 +20,6 @@
         <module>webmvc-hateoas-db-jdbc-mybatis</module>
         <module>webmvc-hateoas-db-mybatis-plus</module>
         <module>webmvc-hateoas-db-mybatis-mapper</module>
-        <module>webmvc-hateoas-db-mybatis-fast</module>
     </modules>
     <!--    <dependencyManagement>-->
     <!--        <dependencies>-->

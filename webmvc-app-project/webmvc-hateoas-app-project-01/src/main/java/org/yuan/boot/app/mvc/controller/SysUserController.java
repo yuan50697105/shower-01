@@ -9,9 +9,9 @@ import org.yuan.boot.app.mvc.pojo.SysUser;
 import org.yuan.boot.app.mvc.pojo.condition.SysUserCondition;
 import org.yuan.boot.app.mvc.pojo.vo.SysUserVo;
 import org.yuan.boot.app.mvc.service.SysUserService;
-import org.yuan.boot.hateoas.pojo.ResultModel;
+import org.yuan.boot.webmvc.hateoas.pojo.ResultModel;
 import org.yuan.boot.mvc.controller.ResultController;
-import org.yuan.boot.mvc.hateoas.db.PageResultModel;
+import org.yuan.boot.mvc.hateoas.db.pojo.PageResultModel;
 import org.yuan.boot.mvc.pojo.DataResult;
 import org.yuan.boot.mvc.pojo.Result;
 
