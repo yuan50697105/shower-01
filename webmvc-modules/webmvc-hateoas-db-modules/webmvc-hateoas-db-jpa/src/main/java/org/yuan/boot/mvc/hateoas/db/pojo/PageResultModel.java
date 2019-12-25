@@ -5,11 +5,11 @@ import com.jn.sqlhelper.dialect.pagination.PagingResult;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import org.springframework.data.domain.Page;
-import org.yuan.boot.webmvc.hateoas.pojo.PageCollectionResultModel;
+import org.yuan.boot.webmvc.hateoas.pojo.PageIterableResultModel;
 
 @EqualsAndHashCode(callSuper = true)
 @Data
-public class PageResultModel<T> extends PageCollectionResultModel<T> {
+public class PageResultModel<T> extends PageIterableResultModel<T> {
     public PageResultModel(Page<T> page) {
         super(page.getContent(), page.getPageable().getPageNumber() + 1, page.getPageable().getPageSize(), page.getTotalElements(), page.getTotalPages());
     }

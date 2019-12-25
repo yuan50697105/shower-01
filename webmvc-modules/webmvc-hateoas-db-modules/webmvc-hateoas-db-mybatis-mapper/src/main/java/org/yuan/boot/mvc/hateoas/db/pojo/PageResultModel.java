@@ -5,11 +5,11 @@ import com.github.pagehelper.PageInfo;
 import com.jn.sqlhelper.dialect.pagination.PagingResult;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import org.yuan.boot.webmvc.hateoas.pojo.PageCollectionResultModel;
+import org.yuan.boot.webmvc.hateoas.pojo.PageIterableResultModel;
 
 @EqualsAndHashCode(callSuper = true)
 @Data
-public class PageResultModel<T> extends PageCollectionResultModel<T> {
+public class PageResultModel<T> extends PageIterableResultModel<T> {
 
     public PageResultModel(PageInfo<T> pageInfo) {
         super(pageInfo.getList(), pageInfo.getPageNum(), pageInfo.getSize(), pageInfo.getTotal(), pageInfo.getPages());

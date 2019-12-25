@@ -7,17 +7,17 @@ import java.util.List;
 
 @EqualsAndHashCode(callSuper = true)
 @Data
-public class PageCollectionResultModel<T> extends IterableResultModel<List<T>> {
+public class PageIterableResultModel<T> extends IterableResultModel<T> {
     private long page;
     private long size;
     private long totalNumberOfRows;
     private long totalPages;
 
-    public PageCollectionResultModel(Integer code, String message) {
+    public PageIterableResultModel(Integer code, String message) {
         super(code, message);
     }
 
-    public PageCollectionResultModel(Integer code, String message, List<T> data, long page, long size, long totalNumberOfRows, long totalPages) {
+    public PageIterableResultModel(Integer code, String message, Iterable<T> data, long page, long size, long totalNumberOfRows, long totalPages) {
         super(code, message, data);
         this.page = page;
         this.size = size;
@@ -25,7 +25,7 @@ public class PageCollectionResultModel<T> extends IterableResultModel<List<T>> {
         this.totalPages = totalPages;
     }
 
-    public PageCollectionResultModel(List<T> data, long page, long size, long totalNumberOfRows, long totalPages) {
+    public PageIterableResultModel(Iterable<T> data, long page, long size, long totalNumberOfRows, long totalPages) {
         super(data);
         this.page = page;
         this.size = size;
