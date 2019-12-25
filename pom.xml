@@ -108,7 +108,7 @@
                 <configuration>
                     <executable>true</executable>
                     <classifier>exec</classifier>
-                    <outputDirectory>${out.path}\app</outputDirectory>
+<!--                    <outputDirectory>${out.path}\app</outputDirectory>-->
                 </configuration>
             </plugin>
 <!--            <plugin>-->
