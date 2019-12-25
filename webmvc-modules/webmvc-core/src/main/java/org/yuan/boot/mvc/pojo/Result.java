@@ -7,7 +7,6 @@ import lombok.Data;
 import java.io.Serializable;
 
 @Data
-@JsonInclude(JsonInclude.Include.NON_NULL)
 public class Result implements Serializable {
     public static final String OK_MESSAGE = "操作成功";
     public static final String ERROR_MESSAGE = "操作失败";
