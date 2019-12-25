@@ -15,6 +15,18 @@
         <module>modules-parent</module>
         <module>utils-modules</module>
     </modules>
+    <repositories>
+        <repository>
+            <id>central</id>
+            <name>Maven Central</name>
+            <url>http://repo1.maven.org/maven2/</url>
+        </repository>
+        <repository>
+            <id>aliyun</id>
+            <name>aliyun</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+        </repository>
+    </repositories>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -103,15 +115,20 @@
     <build>
         <plugins>
             <plugin>
+                <groupId>com.rimerosolutions.maven.plugins</groupId>
+                <artifactId>wrapper-maven-plugin</artifactId>
+                <version>0.0.4</version>
+            </plugin>
+            <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <executable>true</executable>
                     <classifier>exec</classifier>
-<!--                    <outputDirectory>${out.path}\app</outputDirectory>-->
+                    <!--                    <outputDirectory>${out.path}\app</outputDirectory>-->
                 </configuration>
             </plugin>
-<!--            <plugin>-->
+            <!--            <plugin>-->
             <!--                <groupId>org.codehaus.mojo</groupId>-->
             <!--                <artifactId>findbugs-maven-plugin</artifactId>-->
             <!--                <version>3.0.5</version>-->
@@ -181,19 +198,19 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>versions-maven-plugin</artifactId>
-<!--                <executions>-->
-<!--                    <execution>-->
-<!--                        <phase>compile</phase>-->
-<!--                        <goals>-->
-<!--                            <goal>use-latest-versions</goal>-->
-<!--&lt;!&ndash;                            <goal>set</goal>&ndash;&gt;-->
-<!--                            <goal>commit</goal>-->
-<!--                        </goals>-->
-<!--                        <configuration>-->
-<!--&lt;!&ndash;                            <newVersion>0.0.2-DEV</newVersion>&ndash;&gt;-->
-<!--                        </configuration>-->
-<!--                    </execution>-->
-<!--                </executions>-->
+                <!--                <executions>-->
+                <!--                    <execution>-->
+                <!--                        <phase>compile</phase>-->
+                <!--                        <goals>-->
+                <!--                            <goal>use-latest-versions</goal>-->
+                <!--&lt;!&ndash;                            <goal>set</goal>&ndash;&gt;-->
+                <!--                            <goal>commit</goal>-->
+                <!--                        </goals>-->
+                <!--                        <configuration>-->
+                <!--&lt;!&ndash;                            <newVersion>0.0.2-DEV</newVersion>&ndash;&gt;-->
+                <!--                        </configuration>-->
+                <!--                    </execution>-->
+                <!--                </executions>-->
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
