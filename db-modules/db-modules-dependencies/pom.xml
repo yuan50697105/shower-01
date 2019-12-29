@@ -38,6 +38,11 @@
                 <artifactId>db-mybatis-plus</artifactId>
                 <version>0.0.1-DEV</version>
             </dependency>
+            <dependency>
+                <groupId>org.yuan.boot.db</groupId>
+                <artifactId>db-jpa-mybatis</artifactId>
+                <version>0.0.1-DEV</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>

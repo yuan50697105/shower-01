@@ -19,6 +19,7 @@
         <module>db-mybatis-mapper</module>
         <module>db-mybatis-mapper-plus</module>
         <module>db-mybatis-plus</module>
+        <module>db-jpa-mybatis</module>
     </modules>
 
 </project>
