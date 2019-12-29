@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>db-jpa-mybatis</artifactId>
+    <artifactId>db-jpa-mybatis-base</artifactId>
     <dependencies>
         <dependency>
             <groupId>org.yuan.boot.db</groupId>

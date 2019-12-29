@@ -60,7 +60,7 @@
             </dependency>
             <dependency>
                 <groupId>org.yuan.boot.db</groupId>
-                <artifactId>db-jpa-mybatis</artifactId>
+                <artifactId>db-jpa-mybatis-base</artifactId>
                 <version>0.0.1-DEV</version>
             </dependency>
         </dependencies>
