@@ -35,12 +35,27 @@
             </dependency>
             <dependency>
                 <groupId>org.yuan.boot.db</groupId>
+                <artifactId>db-mybatis-mapper-sqlhelper</artifactId>
+                <version>0.0.1-DEV</version>
+            </dependency>
+            <dependency>
+                <groupId>org.yuan.boot.db</groupId>
                 <artifactId>db-mybatis-mapper-plus</artifactId>
                 <version>0.0.1-DEV</version>
             </dependency>
             <dependency>
                 <groupId>org.yuan.boot.db</groupId>
+                <artifactId>db-mybatis-mapper-plus-sqlhelper</artifactId>
+                <version>0.0.1-DEV</version>
+            </dependency>
+            <dependency>
+                <groupId>org.yuan.boot.db</groupId>
                 <artifactId>db-mybatis-plus</artifactId>
+                <version>0.0.1-DEV</version>
+            </dependency>
+            <dependency>
+                <groupId>org.yuan.boot.db</groupId>
+                <artifactId>db-mybatis-plus-sqlhelper</artifactId>
                 <version>0.0.1-DEV</version>
             </dependency>
             <dependency>
