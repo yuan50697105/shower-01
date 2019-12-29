@@ -15,6 +15,7 @@
     <modules>
         <module>db-modules-dependencies</module>
         <module>db-core</module>
+        <module>db-mybatis-base</module>
     </modules>
 
 </project>
