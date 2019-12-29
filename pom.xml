@@ -4,16 +4,6 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <modules>
-        <module>db-modules</module>
-        <module>db-reactive-modules</module>
-        <module>webmvc-modules</module>
-        <module>webflux-modules</module>
-        <module>webflux-app-projcet</module>
-        <module>webmvc-app-project</module>
-        <module>cloud-app-project</module>
-        <module>cloud-modules</module>
-        <module>modules-parent</module>
-        <module>utils-modules</module>
     </modules>
     <repositories>
         <repository>
