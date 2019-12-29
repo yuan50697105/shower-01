@@ -26,19 +26,19 @@ public class CoreEntity<T> {
     }
 
     public T copyFromIgnoreNull(T t) {
-        return copyFromByOptions(t, CopyOptions.create().ignoreNullValue().setIgnoreProperties("id"));
+        return copyFromByOptions(t, CopyOptions.create().ignoreNullValue());
     }
 
     public T copyFromIgnoreNull(Map<?, ?> map) {
-        return copyFromByOptions(map, CopyOptions.create().ignoreNullValue().setIgnoreProperties("id"));
+        return copyFromByOptions(map, CopyOptions.create().ignoreNullValue());
     }
 
     public T copyFrom(T t) {
-        return copyFromByOptions(t, CopyOptions.create().ignoreNullValue().setIgnoreProperties("id"));
+        return copyFromByOptions(t, CopyOptions.create());
     }
 
     public T copyFrom(Map<?, ?> map) {
-        return copyFromByOptions(map, CopyOptions.create().ignoreNullValue().setIgnoreProperties("id"));
+        return copyFromByOptions(map, CopyOptions.create());
     }
 
 }

@@ -17,6 +17,7 @@
         <module>db-core</module>
         <module>db-mybatis-base</module>
         <module>db-mybatis-mapper</module>
+        <module>db-mybatis-mapper-plus</module>
         <module>db-mybatis-plus</module>
     </modules>
 
