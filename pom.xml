@@ -8,7 +8,7 @@
         <module>webmvc-modules</module>
         <module>webflux-modules</module>
         <module>utils-modules</module>
-
+        <module>webmvc-app-project</module>
     </modules>
     <repositories>
         <repository>

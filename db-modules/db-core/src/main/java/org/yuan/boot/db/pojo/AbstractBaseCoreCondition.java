@@ -9,14 +9,14 @@ import lombok.Data;
  * @create: 2019-12-29 13:17
  */
 @Data
-public class CoreCondition {
+public abstract class AbstractBaseCoreCondition {
     private int page = 1;
     private int size = 20;
 
-    public CoreCondition() {
+    public AbstractBaseCoreCondition() {
     }
 
-    public CoreCondition(int page, int size) {
+    public AbstractBaseCoreCondition(int page, int size) {
         this.page = page;
         this.size = size;
     }

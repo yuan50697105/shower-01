@@ -24,6 +24,13 @@
         <module>db-mybatis-plus-sqlhelper</module>
         <module>db-mybatis-mapper-plus-sqlhelper</module>
         <module>db-jpa-mybatis-base</module>
+        <module>db-jpa-mybatis-base-sqlhelper</module>
+        <module>db-jpa-mybatis-mapper</module>
+        <module>db-jpa-mybatis-mapper-sqlhelper</module>
+        <module>db-jpa-mybatis-plus</module>
+        <module>db-jpa-mybatis-plus-sqlhelper</module>
+        <module>db-jpa-mybatis-mapper-plus</module>
+        <module>db-jpa-mybatis-mapper-plus-sqlhelper</module>
     </modules>
 
 </project>

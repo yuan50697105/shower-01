@@ -63,6 +63,41 @@
                 <artifactId>db-jpa-mybatis-base</artifactId>
                 <version>0.0.1-DEV</version>
             </dependency>
+            <dependency>
+                <groupId>org.yuan.boot.db</groupId>
+                <artifactId>db-jpa-mybatis-base-sqlhelper</artifactId>
+                <version>0.0.1-DEV</version>
+            </dependency>
+            <dependency>
+                <groupId>org.yuan.boot.db</groupId>
+                <artifactId>db-jpa-mybatis-mapper</artifactId>
+                <version>0.0.1-DEV</version>
+            </dependency>
+            <dependency>
+                <groupId>org.yuan.boot.db</groupId>
+                <artifactId>db-jpa-mybatis-mapper-sqlhelper</artifactId>
+                <version>0.0.1-DEV</version>
+            </dependency>
+            <dependency>
+                <groupId>org.yuan.boot.db</groupId>
+                <artifactId>db-jpa-mybatis-plus</artifactId>
+                <version>0.0.1-DEV</version>
+            </dependency>
+            <dependency>
+                <groupId>org.yuan.boot.db</groupId>
+                <artifactId>db-jpa-mybatis-plus-sqlhelper</artifactId>
+                <version>0.0.1-DEV</version>
+            </dependency>
+            <dependency>
+                <groupId>org.yuan.boot.db</groupId>
+                <artifactId>db-jpa-mybatis-mapper-plus</artifactId>
+                <version>0.0.1-DEV</version>
+            </dependency>
+            <dependency>
+                <groupId>org.yuan.boot.db</groupId>
+                <artifactId>db-jpa-mybatis-mapper-plus-sqlhelper</artifactId>
+                <version>0.0.1-DEV</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>
