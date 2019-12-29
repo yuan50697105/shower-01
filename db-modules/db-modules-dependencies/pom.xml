@@ -25,6 +25,11 @@
             </dependency>
             <dependency>
                 <groupId>org.yuan.boot.db</groupId>
+                <artifactId>db-mybatis-base-sqlhelper</artifactId>
+                <version>0.0.1-DEV</version>
+            </dependency>
+            <dependency>
+                <groupId>org.yuan.boot.db</groupId>
                 <artifactId>db-mybatis-mapper</artifactId>
                 <version>0.0.1-DEV</version>
             </dependency>
