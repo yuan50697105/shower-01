@@ -1,4 +1,4 @@
-REM echo off
+@echo off
 call mvnw clean package 
 call mkdir %USERPROFILE%\desktop\maven 
 call mkdir %USERPROFILE%\desktop\maven\exe 
