@@ -48,20 +48,20 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-            <dependency>
-                <groupId>ai.ylyue</groupId>
-                <artifactId>yue-library-dependencies</artifactId>
-                <version>Greenwich.SR2.1</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-            <dependency>
-                <groupId>com.alipay.sofa</groupId>
-                <artifactId>sofaboot-dependencies</artifactId>
-                <version>3.2.1</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
+<!--            <dependency>-->
+<!--                <groupId>ai.ylyue</groupId>-->
+<!--                <artifactId>yue-library-dependencies</artifactId>-->
+<!--                <version>Greenwich.SR2.1</version>-->
+<!--                <type>pom</type>-->
+<!--                <scope>import</scope>-->
+<!--            </dependency>-->
+<!--            <dependency>-->
+<!--                <groupId>com.alipay.sofa</groupId>-->
+<!--                <artifactId>sofaboot-dependencies</artifactId>-->
+<!--                <version>3.2.1</version>-->
+<!--                <type>pom</type>-->
+<!--                <scope>import</scope>-->
+<!--            </dependency>-->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
