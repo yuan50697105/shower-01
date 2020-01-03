@@ -15,7 +15,6 @@
     <modules>
         <module>webmvc-modules-dependencies</module>
         <module>webmvc-core</module>
-        <module>webmvc-hateoas-core</module>
     </modules>
 
 </project>

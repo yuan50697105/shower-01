@@ -18,11 +18,6 @@
                 <artifactId>webmvc-core</artifactId>
                 <version>0.0.1-DEV</version>
             </dependency>
-            <dependency>
-                <groupId>org.yuan.boot.webmvc.hateoas</groupId>
-                <artifactId>webmvc-hateoas-core</artifactId>
-                <version>0.0.1-DEV</version>
-            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>
