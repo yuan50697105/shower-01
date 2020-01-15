@@ -15,3 +15,5 @@
 /.classpath
 /**/.classpath
 /**/.project
+.factorypath
+*.class

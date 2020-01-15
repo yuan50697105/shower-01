@@ -1,0 +1,1 @@
+call mvnw versions:use-latest-versions versions:commit
