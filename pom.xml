@@ -142,7 +142,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <executable>true</executable>
-                    <classifier>exec</classifier>
+                    <classifier>${maven.build.timestamp}-exec</classifier>
                     <!-- <outputDirectory>${out.path}\app</outputDirectory> -->
                 </configuration>
             </plugin>
