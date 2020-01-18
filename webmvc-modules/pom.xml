@@ -16,13 +16,19 @@
         <module>webmvc-modules-dependencies</module>
         <module>webmvc-core</module>
     </modules>
-<plugin>
+    <build>
+    <plugins>
+        <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
+                    <skip>true</skip>
                     <executable>false</executable>
                     <classifier>${maven.build.timestamp}-exec</classifier>
                     <!-- <outputDirectory>${out.path}\app</outputDirectory> -->
                 </configuration>
             </plugin>
+            </plugins>
+    </build>
+
 </project>
