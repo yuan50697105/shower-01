@@ -32,5 +32,13 @@
         <module>db-jpa-mybatis-mapper-plus</module>
         <module>db-jpa-mybatis-mapper-plus-sqlhelper</module>
     </modules>
-
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <executable>false</executable>
+                    <classifier>${maven.build.timestamp}-exec</classifier>
+                    <!-- <outputDirectory>${out.path}\app</outputDirectory> -->
+                </configuration>
+            </plugin>
 </project>
