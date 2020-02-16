@@ -1,3 +1,4 @@
 @echo off
-call mvnw clean versions:update-parent versions:use-latest-versions versions:commit clean
-call mvnw clean
+call mvn versions:update-parent versions:commit
+call mvn versions:use-latest-versions 
+call mvn clean
